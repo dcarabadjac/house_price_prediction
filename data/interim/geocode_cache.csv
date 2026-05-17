@@ -1,656 +1,1957 @@
-address,latitude,longitude
-" Bd. Cuza Vodă 5, Кишинёв, Moldova",46.9763638,28.8561457
-" Ialoveni  100, Кишинёв, Moldova",47.0032983,28.7774077
-" bd. Alba Iulia  128, Кишинёв, Moldova",47.0417892,28.7628124
-" bd. Mircea cel Bătrân 41, Кишинёв, Moldova",47.0580803,28.8907679
-" bd. Traian 1, Кишинёв, Moldova",46.9820923,28.8524577
-" str. Durlești 10, Кишинёв, Moldova",47.0220111,28.7934118
-" str. Ialoveni  136, Дурлешты, Moldova",47.0038563,28.7718893
-" str. Matei Basarab  1/1, Кишинёв, Moldova",47.0571713,28.8606928
-"- -, Ставчены, Moldova",47.0957801,28.8683681
-"31 August 1989 64, Кишинёв, Moldova",47.019234,28.8350261
-"Alba Iulia ., Кишинёв, Moldova",47.0417892,28.7628124
-"Alba Iulia 77/6, Кишинёв, Moldova",47.0378617,28.7659426
-"Albișoara 16, Кишинёв, Moldova",47.0191912,28.855231
-"Albișoara 84/4, Кишинёв, Moldova",47.0355723,28.8286212
-"Alecu Russo 9/7, Кишинёв, Moldova",47.0452585,28.8648285
-"Alexandru Cosmescu  5, Кишинёв, Moldova",47.0063234,28.8297848
-"Andrei Doga -, Кишинёв, Moldova",47.0349692,28.853476
-"Bacioii noi ., Кишинёв, Moldova",46.9530589,28.925203
-"Bulevardul Dacia 24, Кишинёв, Moldova",46.9861977,28.8560683
-"Bulevardul Mircea cel Bătrân 26/6, Кишинёв, Moldova",47.0490957,28.8939778
-"Bulevardul Mircea cel Bătrân 43A, Кишинёв, Moldova",47.0592965,28.8905906
-"Bulevardul Moscova 28, Кишинёв, Moldova",47.0587933,28.8683983
-"Bulevardul Moscova 3/3, Кишинёв, Moldova",47.0469106,28.8596186
-"Bulevardul Traian 23/1, Кишинёв, Moldova",46.9775823,28.8457844
-"Burebista 40/2, Кишинёв, Moldova",46.9861531,28.8820566
-"Băcioii Noi 14, Кишинёв, Moldova",46.9594311,28.9193582
-"Băcioii Noi 14/c, Кишинёв, Moldova",46.9540603,28.9210132
-"Calea Ieșilor 5, Кишинёв, Moldova",47.0377119,28.8097426
-"Calea Mosilor 4, Кишинёв, Moldova",47.0255028,28.8611059
-"Calea Moșilor 1, Кишинёв, Moldova",47.0243757,28.8613387
-"Calea Orheiului 111/8, Кишинёв, Moldova",47.0561796,28.8512829
-"Carierei 5C, Кишинёв, Moldova",47.03792,28.846689
-"Cartusa 95, Дурлешты, Moldova",47.0155463,28.7460115
-"Cartușa 95/2, Дурлешты, Moldova",47.0150957,28.7472968
-"Cartușa 99/3, Дурлешты, Moldova",47.0142993,28.7498013
-"Constantin Stere 16, Кишинёв, Moldova",47.025289,28.8165111
-"Constantin Vârnav 20, Кишинёв, Moldova",46.9921568,28.8359726
-"Costiujeni 15/2, Кишинёв, Moldova",46.9757074,28.8336393
-"Dacia ., Кишинёв, Moldova",47.0047605,28.8419936
-"Dacia 1/3, Кишинёв, Moldova",46.9927387,28.8490905
-"Dacia 73, Кишинёв, Moldova",46.9436343,28.9250868
-"Dacia 77, Кишинёв, Moldova",46.9421339,28.9273079
-"Diminetii ., Кишинёв, Moldova",47.0024789,28.8647052
-"Dimineții 22, Кишинёв, Moldova",47.00349,28.8656429
-"Drumul Viilor 38/1, Кишинёв, Moldova",47.0030144,28.8060332
-"Durlesti Nicolae Dimo, Кишинёв, Moldova",47.0071404,28.7641587
-"Durlești 8, Дурлешты, Moldova",47.0320749,28.776068
-"Florarii 4, Кишинёв, Moldova",47.0288782,28.8687685
-"Florilor  ., Кишинёв, Moldova",47.0580102,28.8609941
-"Grenoble 134/4, Кишинёв, Moldova",46.968168,28.8509597
-"Grenoble 163/1, Кишинёв, Moldova",46.9837005,28.8361388
-"Grenoble 209, Кишинёв, Moldova",46.9751222,28.8479365
-"Grătiești  10, Ставчены, Moldova",47.0890881,28.8687505
-"Hora 1, Кишинёв, Moldova",46.9826502,28.84041
-"Ialoveni 136, Кишинёв, Moldova",47.0038563,28.7718893
-"Iazului  38, Кишинёв, Moldova",47.0624684,28.844226
-"Io 13, Кишинёв, Moldova",47.0292175,28.8381301
-"Ion Nistor 2, Кишинёв, Moldova",47.0081435,28.8333203
-"Ion Pelivan 34/1, Кишинёв, Moldova",47.0259521,28.7842559
-"Kiev 16/1, Кишинёв, Moldova",47.0433243,28.8613655
-"Liviu Deleanu 5V, Кишинёв, Moldova",47.043793,28.7696687
-"Liviu Rebreanu 129/A, Кишинёв, Moldova",47.0007303,28.8960177
-"Maria Drăgan 38, Кишинёв, Moldova",46.9659264,28.9404527
-"Mihail Sadoveanu 22/3, Кишинёв, Moldova",47.0464666,28.8863496
-"Minsk 45, Кишинёв, Moldova",46.9978996,28.8627944
-"Mircea cel Bătrân 13/2, Кишинёв, Moldova",47.0480165,28.8888234
-"Miron Costin 2, Кишинёв, Moldova",47.0502055,28.8581367
-"Moscova  --, Кишинёв, Moldova",47.0541357,28.8651138
-"Muncești 812, Кишинёв, Moldova",46.9356311,28.9519629
-"Muncești 94, Кишинёв, Moldova",47.0054424,28.8668156
-"NICOLAE TITULESCU  ., Кишинёв, Moldova",46.9922121,28.869601
-"Nicolae Costin 61/3, Кишинёв, Moldova",47.0406529,28.7743558
-"Nicolae Milescu Spătarul 57/A, Кишинёв, Moldova",47.0627149,28.8970156
-"Nicolae Testemițanu 21/2, Кишинёв, Moldova",46.9961469,28.8351043
-"Petru Zadnipru 16/2, Кишинёв, Moldova",47.0423447,28.895478
-"Pietrarilor 10, Кишинёв, Moldova",47.0032074,28.8029591
-"Regina Elisabeta 2, Дурлешты, Moldova",47.005941,28.7610164
-"Regina Elisabeta 4, Дурлешты, Moldova",47.0050744,28.7619193
-"Renasterii Nationale  35, Кишинёв, Moldova",47.0442616,28.8497609
-"Sarmizegetusa 37/4, Кишинёв, Moldova",46.9873905,28.8766481
-"Sarmizegetusa 53C, Кишинёв, Moldova",46.9830655,28.8801274
-"Stradela Lipcani 5, Кишинёв, Moldova",47.0317998,28.7808526
-"Stradela Studenților 6, Кишинёв, Moldova",47.0645199,28.8482053
-"Teilor 9/3, Кишинёв, Moldova",46.9842136,28.8492233
-"Tudor Vladimirescu 1/3, Кишинёв, Moldova",47.0319159,28.8622556
-"Tudor Vladimirescu 8, Кишинёв, Moldova",47.0340746,28.862966
-"Unirii 20/2, Ставчены, Moldova",47.0953561,28.8701269
-"Valea crucii 4, Кишинёв, Moldova",46.9751597,28.8664908
-"Vasile Alecsandri -, Кишинёв, Moldova",47.0256799,28.8285027
-"Vasile Lupu  ., Кишинёв, Moldova",47.0217654,28.7983867
-"bd. Cuza Voda 5/1, Кишинёв, Moldova",46.98604,28.8684265
-"bd. Cuza Vodă -, Кишинёв, Moldova",46.9780516,28.8545209
-"bd. Cuza Vodă 18/1, Кишинёв, Moldova",46.9820009,28.8580098
-"bd. Cuza Vodă 19/2, Кишинёв, Moldova",46.9791989,28.8586696
-"bd. Dacia -, Кишинёв, Moldova",46.9784264,28.8684513
-"bd. Dacia ---, Кишинёв, Moldova",46.9784264,28.8684513
-"bd. Dacia ., Кишинёв, Moldova",46.9784264,28.8684513
-"bd. Dacia 38/4, Кишинёв, Moldova",46.9799982,28.8623552
-"bd. Dacia 44, Кишинёв, Moldova",46.9774478,28.8683591
-"bd. Dacia 47, Кишинёв, Moldova",46.9794562,28.8681725
-"bd. Dacia 56, Кишинёв, Moldova",46.9659249,28.8660104
-"bd. Dacia 60/5, Кишинёв, Moldova",46.9429121,28.9228055
-"bd. Dacia 62, Кишинёв, Moldova",46.9422183,28.9250266
-"bd. Dacia 75, Кишинёв, Moldova",46.9428926,28.9266032
-"bd. Decebal 3, Кишинёв, Moldova",47.0076207,28.8604471
-"bd. Decebal 59, Кишинёв, Moldova",47.0004734,28.8606485
-"bd. Decebal 99/A, Кишинёв, Moldova",46.9917315,28.8604853
-"bd. Iuri Gagarin ., Кишинёв, Moldova",47.0115435,28.8577235
-"bd. Iuri Gagarin 1, Кишинёв, Moldova",47.011229,28.8585697
-"bd. Mircea cel Batran -, Кишинёв, Moldova",47.0386246,28.8900374
-"bd. Mircea cel Batran ., Кишинёв, Moldova",47.0505525,28.8901978
-"bd. Mircea cel Batran 27/3, Кишинёв, Moldova",47.0527679,28.8867529
-"bd. Mircea cel Batran 4/1, Кишинёв, Moldova",47.0396369,28.8914313
-"bd. Mircea cel Batran 40, Кишинёв, Moldova",47.056872,28.8923187
-"bd. Mircea cel Batran 41/A, Кишинёв, Moldova",47.057588,28.890629
-"bd. Mircea cel Batran 42/2, Кишинёв, Moldova",47.0577318,28.8923187
-"bd. Mircea cel Bătrân ., Кишинёв, Moldova",47.0386246,28.8900374
-"bd. Mircea cel Bătrân 0, Кишинёв, Moldova",47.0386246,28.8900374
-"bd. Mircea cel Bătrân 14, Кишинёв, Moldova",47.0451808,28.8914616
-"bd. Mircea cel Bătrân 15, Кишинёв, Moldova",47.0468052,28.8878226
-"bd. Mircea cel Bătrân 22/1, Кишинёв, Moldova",47.0477989,28.8929785
-"bd. Mircea cel Bătrân 26/6, Кишинёв, Moldova",47.0490957,28.8939778
-"bd. Mircea cel Bătrân 27, Кишинёв, Moldova",47.052704,28.8886428
-"bd. Mircea cel Bătrân 28/1, Кишинёв, Moldova",47.0501034,28.8921608
-"bd. Mircea cel Bătrân 34/5, Кишинёв, Moldova",47.0542415,28.8933596
-"bd. Mircea cel Bătrân 35/E, Кишинёв, Moldova",47.0549832,28.8888797
-"bd. Mircea cel Bătrân 39, Кишинёв, Moldova",47.0558209,28.8902283
-"bd. Mircea cel Bătrân 40, Кишинёв, Moldova",47.056872,28.8923187
-"bd. Mircea cel Bătrân 41, Кишинёв, Moldova",47.0580803,28.8907679
-"bd. Mircea cel Bătrân 41/A, Кишинёв, Moldova",47.057588,28.890629
-"bd. Mircea cel Bătrân 41/B, Кишинёв, Moldova",47.0570113,28.88906
-"bd. Mircea cel Bătrân 42, Кишинёв, Moldova",47.0571594,28.8927118
-"bd. Mircea cel Bătrân 43/C, Кишинёв, Moldova",47.0588103,28.8908506
-"bd. Mircea cel Bătrân 46, Кишинёв, Moldova",47.0585796,28.8924288
-"bd. Mircea cel Bătrân 47, Кишинёв, Moldova",47.061167,28.8911566
-"bd. Moscova ., Кишинёв, Moldova",47.0453706,28.8618508
-"bd. Moscova 11, Кишинёв, Moldova",47.0513766,28.8631964
-"bd. Moscova 17/1, Кишинёв, Moldova",47.0551193,28.8642726
-"bd. Moscova 2, Кишинёв, Moldova",47.0452172,28.8621619
-"bd. Moscova 20, Кишинёв, Moldova",47.0568696,28.8667886
-"bd. Moscova 26, Кишинёв, Moldova",47.0584421,28.8680567
-"bd. Moscova 3, Кишинёв, Moldova",47.0483361,28.8603004
-"bd. Moscova 7/1, Кишинёв, Moldova",47.0483382,28.861611
-"bd. Moscova 9/1, Кишинёв, Moldova",47.0491476,28.8626009
-"bd. Renasterii Nationale 0, Кишинёв, Moldova",47.0421346,28.8534645
-"bd. Renasterii Nationale 33, Кишинёв, Moldova",47.0443482,28.8493203
-"bd. Renașterii Naționale ., Кишинёв, Moldova",47.0421346,28.8534645
-"bd. Renașterii Naționale 0, Кишинёв, Moldova",47.0414511,28.8537254
-"bd. Renașterii Naționale 10, Кишинёв, Moldova",47.0359311,28.850247
-"bd. Renașterii Naționale 11, Кишинёв, Moldova",47.0383287,28.8521354
-"bd. Renașterii Naționale 14, Кишинёв, Moldova",47.0377189,28.8526754
-"bd. Stefan cel Mare si Sfint 132, Кишинёв, Moldova",47.0219861,28.8367
-"bd. Stefan cel Mare si Sfint 141/1, Кишинёв, Moldova",47.0312177,28.8214937
-"bd. Stefan cel Mare si Sfint 171/3, Кишинёв, Moldova",47.0352614,28.8125018
-"bd. Traian 1/2, Кишинёв, Moldova",46.9843908,28.8575008
-"bd. Traian 21/4, Кишинёв, Moldova",46.9782538,28.8478209
-"bd. Ştefan cel Mare şi Sfânt 169, Кишинёв, Moldova",47.0354815,28.815044
-"bd. Ştefan cel Mare şi Sfânt 171/3, Кишинёв, Moldova",47.0352614,28.8125018
-"bd. Ştefan cel Mare şi Sfânt 64, Кишинёв, Moldova",47.0183326,28.8422148
-"dacia 77, Кишинёв, Moldova",46.9421339,28.9273079
-"ioana radu  27, Кишинёв, Moldova",47.0255969,28.7955264
-"sos. Hincesti ., Кишинёв, Moldova",46.9976732,28.8067094
-"sos. Hincesti 140/1, Кишинёв, Moldova",46.9980787,28.8078475
-"sos. Hincesti 142, Кишинёв, Moldova",46.9980787,28.8078475
-"sos. Muncești ., Кишинёв, Moldova",46.9305013,28.9602752
-"str-la Andrei Doga 13/7, Кишинёв, Moldova",47.0353867,28.8521648
-"str-la Nicolae Dimo 1, Дурлешты, Moldova",47.0150638,28.7530468
-"str-la Studenților 18, Кишинёв, Moldova",47.067136,28.8464754
-"str. 31 August 1989 36, Кишинёв, Moldova",47.0145473,28.8417527
-"str. Academician Natalia Gheorghiu 30, Кишинёв, Moldova",46.9979262,28.8375562
-"str. Academician Sergiu Radautanu ., Кишинёв, Moldova",47.0673434,28.8744096
-"str. Academician Sergiu Radautanu 3, Кишинёв, Moldova",47.0617032,28.871774
-"str. Academician Sergiu Rădăuțanu 7, Кишинёв, Moldova",47.0620501,28.8726189
-"str. Academiei 17, Кишинёв, Moldova",47.0045109,28.8114759
-"str. Academiei 6/2, Кишинёв, Moldova",47.0003509,28.8190941
-"str. Aerodromului 11, Кишинёв, Moldova",47.0370299,28.8566886
-"str. Albisoara ., Кишинёв, Moldova",47.0245534,28.8534885
-"str. Albisoara 18, Кишинёв, Moldova",47.0201405,28.8553013
-"str. Albisoara 82, Кишинёв, Moldova",47.0379476,28.830484
-"str. Albișoara 16, Кишинёв, Moldova",47.0191912,28.855231
-"str. Albișoara 70, Кишинёв, Moldova",47.0379382,28.8386612
-"str. Albișoara 76/6, Кишинёв, Moldova",47.0374344,28.8325074
-"str. Albișoara 78/6, Кишинёв, Moldova",47.0400639,28.8344217
-"str. Alecu Russo 3/2, Кишинёв, Moldova",47.046063,28.8646899
-"str. Alecu Russo 4, Кишинёв, Moldova",47.0397381,28.8872801
-"str. Alecu Russo 61, Кишинёв, Moldova",47.038006,28.8866598
-"str. Alessandro Bernardazzi 68a, Кишинёв, Moldova",47.01705,28.8267631
-"str. Alexandr Pușkin 49, Кишинёв, Moldova",47.0299475,28.8447384
-"str. Alexandr Pușkin 53., Кишинёв, Moldova",47.017842,28.8256449
-"str. Alexandru Cosmescu *, Кишинёв, Moldova",47.0034765,28.8283889
-"str. Alexandru Lăpușneanu 5, Кишинёв, Moldova",47.0315285,28.8171955
-"str. Alexandru Marinescu 19/1, Кишинёв, Moldova",47.0305822,28.7818589
-"str. Alexandru cel Bun 108, Кишинёв, Moldova",47.0293865,28.8346001
-"str. Alexandru cel Bun 5, Дурлешты, Moldova",47.018404,28.7644599
-"str. Alexei Șciusev 2, Кишинёв, Moldova",47.026129,28.8177967
-"str. Anatol Corobceanu 1/B, Кишинёв, Moldova",47.0275553,28.8243018
-"str. Andrei Doga 23, Кишинёв, Moldova",47.0352635,28.8553003
-"str. Andrei Doga 45/1, Кишинёв, Moldova",47.0333688,28.8667259
-"str. Armenească;str. Armeneasca 110/1, Кишинёв, Moldova",47.0242064,28.8461766
-"str. Atelierilor 21, Дурлешты, Moldova",47.0181056,28.7435568
-"str. Atelierilor 23, Дурлешты, Moldova",47.0182004,28.7437358
-"str. Avram Iancu 32, Кишинёв, Moldova",47.0207288,28.850124
-"str. Belgrad 19/3, Кишинёв, Moldova",46.9872023,28.8658895
-"str. Bisericii 1, Дурлешты, Moldova",47.0172336,28.7864285
-"str. Bisericii 1, Кишинёв, Moldova",47.0190955,28.7898647
-"str. Bogdan Petriceicu Hașdeu 20, Кишинёв, Moldova",47.0365513,28.8379175
-"str. Bogdan Voievod -, Кишинёв, Moldova",47.043275,28.8551726
-"str. Bogdan Voievod 1, Кишинёв, Moldova",47.0431985,28.8572878
-"str. București 26, Кишинёв, Moldova",47.0140126,28.83991
-"str. Buiucani 4, Кишинёв, Moldova",47.0240747,28.8083341
-"str. Burebista 114/2, Кишинёв, Moldova",46.9797294,28.8745372
-"str. Burebista 25, Кишинёв, Moldova",47.0310499,28.7697398
-"str. Burebista 40/2, Кишинёв, Moldova",46.9861531,28.8820566
-"str. Băcioii Noi 14, Кишинёв, Moldova",46.9594145,28.9195205
-"str. Băcioii Noi 14., Кишинёв, Moldova",46.9540919,28.9227797
-"str. Băcioii Noi 14/5, Кишинёв, Moldova",46.954918,28.9212222
-"str. Băcioii Noi 14/B, Кишинёв, Moldova",46.9542346,28.9217536
-"str. Băcioii Noi 14/C., Кишинёв, Moldova",46.9540603,28.9210132
-"str. Calea Ieșilor 23, Кишинёв, Moldova",47.0409064,28.7972083
-"str. Calea Ieșilor 5, Кишинёв, Moldova",47.0377119,28.8097426
-"str. Calea Ieșilor 6, Кишинёв, Moldova",47.0433126,28.7934948
-"str. Calea Ieșilor 63/6, Кишинёв, Moldova",47.0445787,28.7810498
-"str. Calea Mosilor  4, Кишинёв, Moldova",47.0255028,28.8611059
-"str. Calea Mosilor ., Кишинёв, Moldova",47.02645,28.8596229
-"str. Calea Mosilor 4, Кишинёв, Moldova",47.0255028,28.8611059
-"str. Calea Moșilor ., Кишинёв, Moldova",47.0270923,28.8588729
-"str. Calea Moșilor 4, Кишинёв, Moldova",47.0255028,28.8611059
-"str. Calea Orheiului 105/2, Кишинёв, Moldova",47.0547134,28.8487022
-"str. Calea Orheiului 28/1, Кишинёв, Moldova",47.0444662,28.8483832
-"str. Cartuşa 101, Дурлешты, Moldova",47.0142885,28.7506628
-"str. Cartuşa 95/1, Дурлешты, Moldova",47.014742,28.7485238
-"str. Cartuşa 95/3, Дурлешты, Moldova",47.0155738,28.7461215
-"str. Cartuşa 95/4, Дурлешты, Moldova",47.0149402,28.746555
-"str. Cartuşa 95/5, Дурлешты, Moldova",47.0153322,28.7456173
-"str. Cartuşa 99, Дурлешты, Moldova",47.0139346,28.7490451
-"str. Cartuşa 99/5, Дурлешты, Moldova",47.0138247,28.7495967
-"str. Cartuşa 99/6, Дурлешты, Moldova",47.0139346,28.7490451
-"str. Cartuşa 99/7, Дурлешты, Moldova",47.0140792,28.7486956
-"str. Cartușa 95, Дурлешты, Moldova",47.0153322,28.7456173
-"str. Cetatea Alba 97, Кишинёв, Moldova",46.9921306,28.8771229
-"str. Cetatea Albă 11, Кишинёв, Moldova",47.0043562,28.8649229
-"str. Cetatea Albă 141, Кишинёв, Moldova",46.9887463,28.8820184
-"str. Cetatea Chilia 62, Кишинёв, Moldova",46.9905223,28.872495
-"str. Ceucari ., Кишинёв, Moldova",47.0536009,28.8508345
-"str. Ceucari 1/1, Кишинёв, Moldova",47.0574931,28.8477125
-"str. Ceucari 11/1, Кишинёв, Moldova",47.0671618,28.8429777
-"str. Ceucari 14, Кишинёв, Moldova",47.0676835,28.8433663
-"str. Ceucari 2/4, Кишинёв, Moldova",47.0576143,28.8493424
-"str. Ciocârliei 17, Кишинёв, Moldova",47.0056915,28.8053251
-"str. Circului 40, Кишинёв, Moldova",47.0395345,28.8479151
-"str. Codrilor 19, Дурлешты, Moldova",47.0194045,28.7549296
-"str. Codrilor 22/1, Дурлешты, Moldova",47.019496,28.7526843
-"str. Cojocarilor 25, Кишинёв, Moldova",47.0257679,28.8461135
-"str. Colina Puskin ., Кишинёв, Moldova",47.032624,28.8371785
-"str. Constantin Brâncuşi 146a., Кишинёв, Moldova",46.9880139,28.8661055
-"str. Constantin Brâncuşi 148, Кишинёв, Moldova",46.9875475,28.8663907
-"str. Constantin Stere 16, Кишинёв, Moldova",47.025289,28.8165111
-"str. Constantin Vârnav 20, Кишинёв, Moldova",46.9921568,28.8359726
-"str. Constantin Vârnav 20/1, Кишинёв, Moldova",46.9924389,28.8361733
-"str. Cornesti 17, Кишинёв, Moldova",47.0359517,28.8513692
-"str. Cornului 9/3, Кишинёв, Moldova",47.0189341,28.7966283
-"str. Costiujeni 74, Кишинёв, Moldova",46.9630578,28.8341304
-"str. Costiujeni 8/2, Кишинёв, Moldova",46.9786165,28.8355285
-"str. Cucorilor 82, Кишинёв, Moldova",47.0634276,28.8405855
-"str. Căușeni 3, Кишинёв, Moldova",46.9964578,28.8739633
-"str. Danubius 59, Кишинёв, Moldova",46.9868435,28.8779065
-"str. Dimineții 1., Кишинёв, Moldova",47.002754,28.8647512
-"str. Dimineții 10, Кишинёв, Moldova",47.004006,28.8668806
-"str. Dimineții 14, Кишинёв, Moldova",47.0040752,28.8664599
-"str. Dimineții 20, Кишинёв, Moldova",47.0036713,28.8661002
-"str. Dimineții 20/1, Кишинёв, Moldova",47.0036931,28.8659291
-"str. Dimineții 22, Кишинёв, Moldova",47.00349,28.8656429
-"str. Dimineții 45, Кишинёв, Moldova",47.0026789,28.8651837
-"str. Dimineții 6, Кишинёв, Moldova",47.0043672,28.866914
-"str. Doina și Ion Aldea-Teodorovici 17, Кишинёв, Moldova",47.0313327,28.792676
-"str. Doina și Ion Aldea-Teodorovici 8, Кишинёв, Moldova",47.0296333,28.7945708
-"str. Drumul Viilor 38/1, Кишинёв, Moldova",47.0030144,28.8060332
-"str. Durlesti ., Дурлешты, Moldova",47.0446369,28.7457465
-"str. Durlesti 10/A, Дурлешты, Moldova",47.0435011,28.7488146
-"str. Durlesti 10/B, Дурлешты, Moldova",47.0434084,28.7483791
-"str. Durleşti 10/B, Кишинёв, Moldova",47.0434084,28.7483791
-"str. Durleşti 10/D, Кишинёв, Moldova",47.0438068,28.7488814
-"str. Durleşti 10/F, Кишинёв, Moldova",47.0441969,28.7486751
-"str. Durleşti 12/B, Кишинёв, Moldova",47.044454,28.7480442
-"str. Durlești ., Кишинёв, Moldova",47.0220111,28.7934118
-"str. Durlești 8, Дурлешты, Moldova",47.0446369,28.7457465
-"str. Eremei Stratan 2a, Дурлешты, Moldova",47.0182826,28.7867239
-"str. Eugen Coca 19, Кишинёв, Moldova",47.0280039,28.807931
-"str. Fierarilor 30, Бубуечь, Moldova",46.9986721,28.934188
-"str. Fiodor Tolbuhin ., Кишинёв, Moldova",47.0600964,28.7952289
-"str. Florilor ., Кишинёв, Moldova",47.0535963,28.8577884
-"str. Florilor 28/2, Кишинёв, Moldova",47.0581416,28.8607649
-"str. Florării 4, Кишинёв, Moldova",47.0288782,28.8687685
-"str. Galați 31, Кишинёв, Moldova",46.9910303,28.8057903
-"str. Ghenadie Iablocikin 2/2, Кишинёв, Moldova",47.0391194,28.8086341
-"str. Gheorghe Asachi 4, Кишинёв, Moldova",47.0061948,28.8256229
-"str. Gheorghe Asachi 44, Кишинёв, Moldova",47.002389,28.822684
-"str. Gheorghe Asachi 49b, Кишинёв, Moldova",46.999896,28.8219201
-"str. Gheorghe Asachi 71/7, Кишинёв, Moldova",46.9946281,28.8231763
-"str. Gheorghe Cașu 2/8, Кишинёв, Moldova",47.0024678,28.8369217
-"str. Gheorghe Madan --, Кишинёв, Moldova",47.0533205,28.8463046
-"str. Gheorghe Madan 2, Кишинёв, Moldova",47.0492147,28.847715
-"str. Gheorghe Madan 46/3, Кишинёв, Moldova",47.0557981,28.8475071
-"str. Gheorghe Madan 50/3, Кишинёв, Moldova",47.0586395,28.8455096
-"str. Gheorghe Madan 85/6, Кишинёв, Moldova",47.0591667,28.8408266
-"str. Gheorghe Madan 87/2, Кишинёв, Moldova",47.0600999,28.842947
-"str. Gheorghe Madan 87/5, Кишинёв, Moldova",47.0597563,28.841084
-"str. Ghica Vodă 5, Кишинёв, Moldova",46.9757031,28.8581079
-"str. Ghioceilor 29, Кишинёв, Moldova",47.0188778,28.7944449
-"str. Ginta Latina ., Кишинёв, Moldova",47.0378533,28.8939741
-"str. Ginta Latina 8, Кишинёв, Moldova",47.0327257,28.8816362
-"str. Ginta Latină ., Кишинёв, Moldova",47.0345965,28.8850245
-"str. Ginta Latină 1/1, Кишинёв, Moldova",47.0347143,28.881433
-"str. Ginta Latină 16, Кишинёв, Moldova",47.0352184,28.888489
-"str. Ginta Latină 5, Кишинёв, Moldova",47.034175,28.8821829
-"str. Ginta Latină 8, Кишинёв, Moldova",47.0327257,28.8816362
-"str. Gradinilor -, Кишинёв, Moldova",47.0244143,28.8530538
-"str. Grenoble -, Кишинёв, Moldova",46.9721193,28.8512015
-"str. Grenoble 108, Кишинёв, Moldova",46.9890388,28.8252012
-"str. Grenoble 11, Кишинёв, Moldova",46.9912805,28.822481
-"str. Grenoble 110, Кишинёв, Moldova",46.9889386,28.8272627
-"str. Grenoble 120, Кишинёв, Moldova",46.9834497,28.8347064
-"str. Grenoble 128/2, Кишинёв, Moldova",46.9798626,28.8373785
-"str. Grenoble 130/3, Кишинёв, Moldova",46.9790091,28.8373875
-"str. Grenoble 134/3, Кишинёв, Moldova",46.9736166,28.8477059
-"str. Grenoble 134/4, Кишинёв, Moldova",46.968168,28.8509597
-"str. Grenoble 161/4, Кишинёв, Moldova",46.9850651,28.8373338
-"str. Grenoble 209, Кишинёв, Moldova",46.9751222,28.8479365
-"str. Grenoble 257, Кишинёв, Moldova",46.9732217,28.8500713
-"str. Grenoble 259/13, Кишинёв, Moldova",46.9740329,28.8506336
-"str. Grenoble 259/9, Кишинёв, Moldova",46.9736822,28.8517408
-"str. Grigore Alexandrescu  15, Кишинёв, Moldova",47.0203316,28.8086171
-"str. Grigore Alexandrescu 3/A, Кишинёв, Moldova",47.0212283,28.8057046
-"str. Grădina Botanică 14/1, Кишинёв, Moldova",46.9793234,28.8793066
-"str. Grădina Botanică 18/1, Кишинёв, Moldova",46.977355,28.8786586
-"str. Grădina Botanică 20/1, Кишинёв, Moldova",46.9774423,28.8763938
-"str. Hristo Botev 27, Кишинёв, Moldova",46.986901,28.8452908
-"str. Hristo Botev 6, Кишинёв, Moldova",46.9881356,28.8444556
-"str. Ialoveni -, Кишинёв, Moldova",46.9997385,28.7815788
-"str. Ialoveni ., Кишинёв, Moldova",47.0003077,28.7794375
-"str. Ialoveni 0, Дурлешты, Moldova",47.0037853,28.7715007
-"str. Ialoveni 100/2, Кишинёв, Moldova",47.0039073,28.778249
-"str. Ialoveni 100/3, Кишинёв, Moldova",47.0035382,28.7782952
-"str. Ialoveni 100a, Кишинёв, Moldova",47.002683,28.776643
-"str. Ialoveni 102, Кишинёв, Moldova",47.0027204,28.7750151
-"str. Ialoveni 106, Кишинёв, Moldova",47.0042366,28.7772276
-"str. Ialoveni 134, Кишинёв, Moldova",47.0035211,28.7734542
-"str. Ialoveni 136, Кишинёв, Moldova",47.0038563,28.7718893
-"str. Ialoveni 98/1, Кишинёв, Moldova",47.0013294,28.7781318
-"str. Iazului 38, Кишинёв, Moldova",47.0624684,28.844226
-"str. Igor Vieru ---, Кишинёв, Moldova",47.0513762,28.8942793
-"str. Igor Vieru 8, Кишинёв, Moldova",47.0500652,28.8876628
-"str. Independenței 12/1, Кишинёв, Moldova",46.9827203,28.8465925
-"str. Independenței 24/2, Кишинёв, Moldova",46.9784363,28.851386
-"str. Independenței 8, Кишинёв, Moldova",46.9841739,28.8453931
-"str. Independenței 9/1, Кишинёв, Moldova",46.9797509,28.8544284
-"str. Ioan Voda Viteazul 11, Кишинёв, Moldova",46.9818492,28.8425433
-"str. Ioana Radu 27, Кишинёв, Moldova",47.0259091,28.796159
-"str. Ioana Radu 27/2, Кишинёв, Moldova",47.0267873,28.7984491
-"str. Ioana Radu 27/6, Кишинёв, Moldova",47.0255545,28.7993489
-"str. Ioana Radu 27/7, Кишинёв, Moldova",47.0250258,28.8001764
-"str. Ion Buzdugan -, Кишинёв, Moldova",47.0378784,28.7635064
-"str. Ion Buzdugan --, Кишинёв, Moldova",47.0378784,28.7635064
-"str. Ion Buzdugan ., Кишинёв, Moldova",47.0378784,28.7635064
-"str. Ion Buzdugan 0, Кишинёв, Moldova",47.0378784,28.7635064
-"str. Ion Buzdugan 1, Кишинёв, Moldova",47.0377787,28.7632446
-"str. Ion Buzdugan 11, Кишинёв, Moldova",47.0393568,28.7594802
-"str. Ion Buzdugan 13, Кишинёв, Moldova",47.0386476,28.7597872
-"str. Ion Dumeniuc 4, Кишинёв, Moldova",47.1049536,28.8325971
-"str. Ion Dumeniuc 6, Кишинёв, Moldova",47.1049348,28.8328393
-"str. Ion Inculeț 105/2, Кишинёв, Moldova",47.0054152,28.8349134
-"str. Ion Luca Caragiale 24, Кишинёв, Moldova",47.0314697,28.7856643
-"str. Ion Nistor 2, Кишинёв, Moldova",47.0081435,28.8333203
-"str. Ion Pelivan 15, Кишинёв, Moldova",47.0298628,28.7898465
-"str. Ion Pelivan 34/1, Кишинёв, Moldova",47.0259521,28.7842559
-"str. Ismail 28, Кишинёв, Moldova",47.0118633,28.8401606
-"str. Ismail 88, Кишинёв, Moldova",47.017985,28.8498266
-"str. Ismail 98/2, Кишинёв, Moldova",47.0189976,28.8526518
-"str. Iurie Babei ., Кишинёв, Moldova",46.9854541,28.8955387
-"str. Iurie Babei 2, Кишинёв, Moldova",46.9850486,28.8950842
-"str. Ivan Zaikin 51, Кишинёв, Moldova",47.0368053,28.832879
-"str. Ivan Zaikin 60, Кишинёв, Moldova",47.0376841,28.8345829
-"str. Izmail 28, Кишинёв, Moldova",47.0222044,28.8573089
-"str. Izmail 88, Кишинёв, Moldova",47.0222044,28.8573089
-"str. Ișnovăț 11, Кишинёв, Moldova",47.0098655,28.8886847
-"str. Jubiliara ., Кишинёв, Moldova",46.9778087,28.8338819
-"str. Jubiliară  -, Кишинёв, Moldova",46.9778087,28.8338819
-"str. Kiev 6/1, Кишинёв, Moldova",47.0402154,28.8602606
-"str. Lech Kaczynski 6/1, Кишинёв, Moldova",47.0020497,28.8094957
-"str. Lev Tolstoi 13 13, Кишинёв, Moldova",47.0110618,28.8405992
-"str. Lev Tolstoi 24/1, Кишинёв, Moldova",47.0108141,28.8421841
-"str. Lev Tolstoi 24/1., Кишинёв, Moldova",47.0108141,28.8421841
-"str. Lev Tolstoi 74, Кишинёв, Moldova",47.0155286,28.8489971
-"str. Liuba Dumitriu 5, Кишинёв, Moldova",47.005284,28.8653036
-"str. Livezilor 3, Ставчены, Moldova",47.0902511,28.8647715
-"str. Liviu Deleanu 10/11, Кишинёв, Moldova",47.0475233,28.7706199
-"str. Liviu Deleanu 3/3, Кишинёв, Moldova",47.0428126,28.7685831
-"str. Liviu Deleanu 5/6, Кишинёв, Moldova",47.0433159,28.7686984
-"str. Liviu Deleanu 7/3, Кишинёв, Moldova",47.0454101,28.7687769
-"str. Liviu Rebreanu 11, Кишинёв, Moldova",47.0087909,28.8854919
-"str. Magda Isanos 15, Кишинёв, Moldova",47.0535865,28.8469335
-"str. Maria Drăgan ., Кишинёв, Moldova",47.0256188,28.8835082
-"str. Maria Drăgan 14/2, Кишинёв, Moldova",47.024933,28.8824112
-"str. Maria Drăgan 2, Кишинёв, Moldova",47.0299086,28.8835048
-"str. Maria Drăgan 30/1, Кишинёв, Moldova",47.0194049,28.8822748
-"str. Maria Drăgan 38/2, Кишинёв, Moldova",47.0175615,28.8805754
-"str. Matei Basarab 1/1, Кишинёв, Moldova",47.0571713,28.8606928
-"str. Matei Basarab 1/3, Кишинёв, Moldova",47.0566082,28.860377
-"str. Matei Basarab 5/1, Кишинёв, Moldova",47.0552672,28.8670063
-"str. Matei Basarab 7/5, Кишинёв, Moldova",47.056069,28.8713592
-"str. Matei Basarab 9/2, Кишинёв, Moldova",47.0555491,28.8718181
-"str. Melestiu 1/2, Кишинёв, Moldova",47.0068067,28.854059
-"str. Mihai Eminescu 41/1, Кишинёв, Moldova",47.0206885,28.8343823
-"str. Mihai Eminescu 63, Кишинёв, Moldova",47.0245642,28.8403783
-"str. Mihai Eminescu 70, Кишинёв, Moldova",47.0239683,28.8403041
-"str. Mihail Kogălniceanu 52, Кишинёв, Moldova",47.0183078,28.8278442
-"str. Mihail Kogălniceanu 81/4, Кишинёв, Moldova",47.0215106,28.8207225
-"str. Mihail Odatiuc 36, Дурлешты, Moldova",47.0065254,28.7601795
-"str. Mihail Odatiuc 36, Кишинёв, Moldova",47.0065254,28.7601795
-"str. Mihail Odatiuc 57, Дурлешты, Moldova",47.0069885,28.7611239
-"str. Mihail Sadoveanu 0, Кишинёв, Moldova",47.0587603,28.8867965
-"str. Mihail Sadoveanu 11/2, Кишинёв, Moldova",47.0456415,28.881931
-"str. Mihail Sadoveanu 17, Кишинёв, Moldova",47.0464973,28.8826563
-"str. Milano -, Кишинёв, Moldova",47.0403595,28.7892006
-"str. Minsk 26/2, Кишинёв, Moldova",46.9987027,28.8609258
-"str. Minsk 45, Кишинёв, Moldova",46.9978996,28.8627944
-"str. Miorița 10, Кишинёв, Moldova",46.9968076,28.8088531
-"str. Mircea Eliade 22, Кишинёв, Moldova",47.0077038,28.8362432
-"str. Mircea cel Batran --, Кишинёв, Moldova",46.9077256,28.9581283
-"str. Mircesti 8/1, Кишинёв, Moldova",47.055213,28.8218931
-"str. Miron Costin ., Кишинёв, Moldova",47.0489373,28.866914
-"str. Miron Costin 1/1, Кишинёв, Moldova",47.0510666,28.8574228
-"str. Miron Costin 14, Кишинёв, Moldova",47.0486603,28.864885
-"str. Miron Costin 19/4, Кишинёв, Moldova",47.051149,28.8712878
-"str. Miron Costin 20, Кишинёв, Moldova",47.0482935,28.8669764
-"str. Moara Roșie 5, Кишинёв, Moldova",47.034466,28.8381671
-"str. Movileni 26, Кишинёв, Moldova",47.0030776,28.8929606
-"str. Muncesti  ., Кишинёв, Moldova",46.9155169,28.8341681
-"str. Muncesti ., Кишинёв, Moldova",46.9111381,28.9596888
-"str. Mălina Mică 70/2, Кишинёв, Moldova",46.9956219,28.827545
-"str. Nicolae Costin 61, Кишинёв, Moldova",47.0398824,28.7769404
-"str. Nicolae Costin 62, Кишинёв, Moldova",47.044317,28.7708008
-"str. Nicolae Costin 63/2, Кишинёв, Moldova",47.0400422,28.7730821
-"str. Nicolae Costin 65/3, Кишинёв, Moldova",47.0416416,28.7705364
-"str. Nicolae Dimo ., Дурлешты, Moldova",47.0162235,28.7476527
-"str. Nicolae Dimo ., Кишинёв, Moldova",47.0409034,28.8640632
-"str. Nicolae Dimo 11/2, Кишинёв, Moldova",47.0405855,28.8664798
-"str. Nicolae Dimo 11/3, Кишинёв, Moldova",47.0407886,28.865895
-"str. Nicolae Dimo 13/1, Кишинёв, Moldova",47.0414108,28.8675999
-"str. Nicolae Dimo 13/4, Кишинёв, Moldova",47.0417612,28.8657988
-"str. Nicolae Dimo 2, Дурлешты, Moldova",47.0131317,28.7554996
-"str. Nicolae Dimo 24, Дурлешты, Moldova",47.0138525,28.7521502
-"str. Nicolae Dimo 24/B, Дурлешты, Moldova",47.0132735,28.7519437
-"str. Nicolae Dimo 24/a, Дурлешты, Moldova",47.0132668,28.7511952
-"str. Nicolae Dimo 24a, Дурлешты, Moldova",47.0132668,28.7511952
-"str. Nicolae Dimo 29/3, Кишинёв, Moldova",47.057681,28.8718578
-"str. Nicolae Dimo 36, Дурлешты, Moldova",47.0115012,28.7594592
-"str. Nicolae Dimo 8, Дурлешты, Moldova",47.0136864,28.7545516
-"str. Nicolae Dimo 88, Дурлешты, Moldova",47.0070822,28.7635245
-"str. Nicolae Milescu Spatarul ., Кишинёв, Moldova",47.0683481,28.8974532
-"str. Nicolae Milescu Spatarul 57, Кишинёв, Moldova",47.061931,28.8971101
-"str. Nicolae Milescu Spatarul 63, Кишинёв, Moldova",47.0636676,28.8970205
-"str. Nicolae Milescu Spatarul 9/2, Кишинёв, Moldova",47.0464969,28.8956363
-"str. Nicolae Milescu Spătarul -, Кишинёв, Moldova",47.0539771,28.8977364
-"str. Nicolae Milescu Spătarul 1, Кишинёв, Moldova",47.05255,28.8966357
-"str. Nicolae Milescu Spătarul 1/2, Кишинёв, Moldova",47.0398269,28.8964712
-"str. Nicolae Milescu Spătarul 27, Кишинёв, Moldova",47.0552899,28.8973179
-"str. Nicolae Milescu Spătarul 27/1, Кишинёв, Moldova",47.0555642,28.8973097
-"str. Nicolae Milescu Spătarul 3, Кишинёв, Moldova",47.0454994,28.8957531
-"str. Nicolae Milescu Spătarul 9/4, Кишинёв, Moldova",47.0465337,28.8974448
-"str. Nicolae Sulac 14, Кишинёв, Moldova",47.0608803,28.8961249
-"str. Nicolae Testemitanu -, Кишинёв, Moldova",46.9941715,28.8311759
-"str. Nicolae Testemitanu ., Дурлешты, Moldova",47.0189063,28.7505467
-"str. Nicolae Testemitanu ., Кишинёв, Moldova",46.9985465,28.8356087
-"str. Nicolae Testemitanu 23/1, Кишинёв, Moldova",46.9957628,28.8346672
-"str. Nicolae Testemitanu 3, Кишинёв, Moldova",47.0050764,28.8373139
-"str. Nicolae Testemitanu 3/3, Кишинёв, Moldova",47.00091,28.8389865
-"str. Nicolae Testemitanu 61, Дурлешты, Moldova",47.0197216,28.7441731
-"str. Nicolae Testemitanu; ., Кишинёв, Moldova",46.9960544,28.8385766
-"str. Nicolae Testemițanu 12a, Кишинёв, Moldova",47.0035094,28.8376427
-"str. Nicolae Testemițanu 19, Кишинёв, Moldova",46.9970875,28.834828
-"str. Nicolae Testemițanu 21/1, Кишинёв, Moldova",46.9963221,28.8347948
-"str. Nicolae Testemițanu 3/10, Кишинёв, Moldova",46.9993744,28.839567
-"str. Nicolae Testemițanu 3/18, Кишинёв, Moldova",47.0007703,28.8377083
-"str. Nicolae Testemițanu 3/3, Кишинёв, Moldova",47.00091,28.8389865
-"str. Nicolae Testemițanu 3/6, Кишинёв, Moldova",47.0002216,28.8395251
-"str. Nicolae Testemițanu 3/7, Кишинёв, Moldova",47.0000916,28.8399385
-"str. Nicolae Titulescu 20, Кишинёв, Moldova",46.9942956,28.8671448
-"str. Nicolae Titulescu 47/3, Кишинёв, Moldova",46.9939046,28.8694531
-"str. Nicolae Titulescu 53/2, Кишинёв, Moldova",46.9918384,28.8712125
-"str. Nicolai Costin 44/4, Кишинёв, Moldova",47.0362326,28.7880176
-"str. Nikolai Zelinski 12, Кишинёв, Moldova",46.9927753,28.8615461
-"str. Nikolai Zelinski 12/3, Кишинёв, Moldova",46.993568,28.8608239
-"str. Nikolai Zelinski 35, Кишинёв, Moldova",46.992863,28.8500599
-"str. Nikolai Zelinski 4, Кишинёв, Moldova",46.9938268,28.8661593
-"str. Nikolai Zelinski 5/6, Кишинёв, Moldova",46.9909624,28.8680976
-"str. Onisifor Ghibu 2, Кишинёв, Moldova",47.038038,28.7780547
-"str. Onisifor Ghibu 3, Кишинёв, Moldova",47.0373612,28.778558
-"str. Pandurilor 42, Кишинёв, Moldova",46.9977704,28.8675014
-"str. Pandurilor 68, Кишинёв, Moldova",46.9962369,28.8636227
-"str. Paris 34/4, Кишинёв, Moldova",47.0313545,28.7809995
-"str. Paris 47, Кишинёв, Moldova",47.0305127,28.7811068
-"str. Pavel Boțu ., Кишинёв, Moldova",47.0063584,28.8348681
-"str. Petru Zadnipru 19/1, Кишинёв, Moldova",47.044071,28.8948627
-"str. Petru Zadnipru 4/1, Кишинёв, Moldova",47.0425228,28.8857856
-"str. Petru Zadnipru 4/2, Кишинёв, Moldova",47.0436363,28.8862409
-"str. Petru Zadnipru 7/4, Кишинёв, Moldova",47.0460274,28.8878382
-"str. Pietrariei 56, Кишинёв, Moldova",47.0400128,28.8555595
-"str. Pietrarilor 16/1, Кишинёв, Moldova",47.0047527,28.8034902
-"str. Postei --, Кишинёв, Moldova",47.045536,28.8478323
-"str. Poștei 2, Кишинёв, Moldova",47.0457058,28.847542
-"str. Regina Elisabeta *, Дурлешты, Moldova",47.0054813,28.7621415
-"str. Salcâmilor 22, Кишинёв, Moldova",46.9785419,28.8967439
-"str. Sarmizegetusa ., Кишинёв, Moldova",46.9816437,28.8803862
-"str. Sarmizegetusa 23, Кишинёв, Moldova",46.9905969,28.8702738
-"str. Sarmizegetusa 37/3, Кишинёв, Moldova",46.9867781,28.8761752
-"str. Sarmizegetusa 53A, Кишинёв, Moldova",46.9828187,28.8792046
-"str. Schinoasa-Vale 12/59, Кишинёв, Moldova",46.9886658,28.8108054
-"str. Schinoasa-Vale 1a, Кишинёв, Moldova",46.9895375,28.81125
-"str. Schinoasa-Vale 3, Кишинёв, Moldova",46.988838,28.810077
-"str. Serghei Lazo 46, Кишинёв, Moldova",47.0304957,28.8270196
-"str. Sfintul Gheorghe 29, Кишинёв, Moldova",47.022081,28.8498618
-"str. Sfânta Vineri 16, Кишинёв, Moldova",46.9964163,28.7806175
-"str. Socoleni 2A, Кишинёв, Moldova",47.0623684,28.8483916
-"str. Socoleni 9, Кишинёв, Moldova",47.0612734,28.8446492
-"str. Spartacus 36, Кишинёв, Moldova",47.0422238,28.8543314
-"str. Suceava 110, Кишинёв, Moldova",47.0316684,28.7893797
-"str. Suceava 118, Кишинёв, Moldova",47.0324995,28.7877162
-"str. Sucevita ., Кишинёв, Moldova",47.0326913,28.7780187
-"str. Sucevița 22/1, Кишинёв, Moldova",47.0348868,28.7799378
-"str. Sucevița 31, Кишинёв, Moldova",47.0325286,28.7790868
-"str. Tecuci ., Кишинёв, Moldova",47.0099344,28.8532169
-"str. Trandafirilor 19, Бубуечь, Moldova",46.9801429,28.9454627
-"str. Trandafirilor 31/5, Кишинёв, Moldova",46.9969944,28.8493911
-"str. Trandafirilor 37/2, Кишинёв, Moldova",46.9952297,28.847472
-"str. Transnistria 22, Кишинёв, Moldova",47.0112614,28.8934655
-"str. Tudor Strișcă 19/2, Кишинёв, Moldova",46.9867518,28.835695
-"str. Tudor Strișcă 19/6, Кишинёв, Moldova",46.9871948,28.836262
-"str. Tudor Strișcă 8/7, Кишинёв, Moldova",46.9873456,28.8408937
-"str. Tudor Vladimirescu ., Дурлешты, Moldova",47.0386004,28.7559683
-"str. Tudor Vladimirescu ., Кишинёв, Moldova",47.0256436,28.7785909
-"str. Tudor Vladimirescu 1, Кишинёв, Moldova",47.0349384,28.8617741
-"str. Tudor Vladimirescu 1/10, Кишинёв, Moldova",47.0300756,28.8614152
-"str. Tudor Vladimirescu 1/4, Кишинёв, Moldova",47.0315691,28.8616475
-"str. Tudor Vladimirescu 10/1, Кишинёв, Moldova",47.0347318,28.862413
-"str. Tudor Vladimirescu 18, Кишинёв, Moldova",47.0367788,28.8613445
-"str. Tudor Vladimirescu 1a, Кишинёв, Moldova",47.026051,28.8651524
-"str. Tudor Vladimirescu 5, Дурлешты, Moldova",47.0245505,28.7826502
-"str. Tudor Vladimirescu 71, Дурлешты, Moldova",47.0288166,28.7701561
-"str. Tudor Vladimirescu 75/1, Дурлешты, Moldova",47.0300827,28.7691613
-"str. Tudor Vladimirescu 8, Кишинёв, Moldova",47.0340746,28.862966
-"str. Unirii 20, Ставчены, Moldova",47.0953681,28.8686253
-"str. Vadul lui Voda ., Кишинёв, Moldova",47.0244476,28.8673554
-"str. Vadul lui Voda 30, Кишинёв, Moldova",47.026681,28.871584
-"str. Vadul lui Vodă 30, Кишинёв, Moldova",47.026681,28.871584
-"str. Valea Crucii 24, Кишинёв, Moldova",46.973042,28.8536784
-"str. Valea Trandafirilor 6/1., Кишинёв, Moldova",47.0086037,28.8484122
-"str. Valea Trandafirilor 6/2, Кишинёв, Moldova",47.0082833,28.8468204
-"str. Vasile Alecsandri 11, Кишинёв, Moldova",47.0084759,28.8271332
-"str. Vasile Alecsandri 27, Кишинёв, Moldova",47.0107432,28.8276943
-"str. Vasile Cheltuială 9/2, Кишинёв, Moldova",47.0111174,28.8178555
-"str. Vasile Lupu  ., Кишинёв, Moldova",47.0222153,28.8090383
-"str. Vasile Lupu -, Кишинёв, Moldova",47.0222153,28.8090383
-"str. Vasile Lupu 28, Кишинёв, Moldova",47.0221197,28.8008688
-"str. Vasile Lupu 28/C, Кишинёв, Moldova",47.0230215,28.7992403
-"str. Vasile Lupu 28/E, Кишинёв, Moldova",47.0232903,28.8000753
-"str. Vasile Lupu 28a, Кишинёв, Moldova",47.0225368,28.7991623
-"str. Vasile Lupu 33, Кишинёв, Moldova",47.0217634,28.8054739
-"str. Vasile Lupu 42s, Кишинёв, Moldova",47.0238519,28.7956267
-"str. Vasile Vărzaru 5/2, Кишинёв, Moldova",47.0284921,28.8815182
-"str. Vissarion Belinski ., Кишинёв, Moldova",47.0329391,28.7982747
-"str. Voluntarilor -, Кишинёв, Moldova",47.0120008,28.8876685
-"str. Voluntarilor 10, Кишинёв, Moldova",47.0076556,28.891605
-"str. Zidarilor ., Бубуечь, Moldova",46.9977205,28.9359285
-"str. Ştefan Vodă 11a, Дурлешты, Moldova",47.0253277,28.7716228
-"str. Ştefan Vodă 15a, Дурлешты, Moldova",47.0252665,28.7706833
-"str. Ștefan Neaga 67, Кишинёв, Moldova",47.033554,28.80205
-"str.Durlești 20/D 20, Дурлешты, Moldova",47.0446369,28.7457465
-"str.Ghica Vodă 5 5, Кишинёв, Moldova",46.9752902,28.8573532
-"str.Mircea cel Batran --, Кишинёв, Moldova",47.0901116,29.0707003
-"str.Testemitanu  —, Кишинёв, Moldova",47.0042184,28.836723
-"strada Bisericii 19, Кишинёв, Moldova",47.0161988,28.7908212
-"zaikin 51, Кишинёв, Moldova",47.0368053,28.832879
-"şos. Munceşti ., Кишинёв, Moldova",46.933959,28.9558292
-"şos. Munceşti 105, Кишинёв, Moldova",47.0011806,28.8712538
-"şos. Munceşti 166, Кишинёв, Moldova",47.001852,28.8695932
-"şos. Munceşti 326, Кишинёв, Moldova",46.9913252,28.8825127
-"şos. Munceşti 404, Кишинёв, Moldova",46.9814633,28.8974018
-"şos. Munceşti 788, Кишинёв, Moldova",46.9414127,28.9366207
-"şos. Munceşti 806/2, Кишинёв, Moldova",46.9364163,28.9496795
-"şos. Munceşti 90, Кишинёв, Moldova",47.0056609,28.8661085
-"şos. Munceşti 94, Кишинёв, Moldova",47.0054424,28.8668156
-"șos. Balcani 2, Кишинёв, Moldova",47.0587178,28.7812028
-"șos. Balcani 4/1, Кишинёв, Moldova",47.0446956,28.7643966
-"șos. Hâncești *, Кишинёв, Moldova",46.9967639,28.8027341
-"șos. Hâncești -, Кишинёв, Moldova",46.9967639,28.8027341
-"șos. Hâncești ., Кишинёв, Moldova",46.9967639,28.8027341
-"șos. Hâncești 142, Кишинёв, Moldova",46.9930088,28.785891
-"șos. Hâncești 22a, Кишинёв, Moldova",47.0060386,28.8226485
-"Каля Ешилор  61/2, Кишинёв, Moldova",47.0460065,28.7811749
-"бул. Траян 1/2, Кишинёв, Moldova",46.9843908,28.8575008
-"бул. Траян 23/1, Кишинёв, Moldova",46.9775823,28.8457844
-"пр-т Дачия 59, Кишинёв, Moldova",46.9679423,28.888174
-"ул. Албишоара 82/1, Кишинёв, Moldova",47.0385459,28.8314246
-"ул. Албишоара 82/8, Кишинёв, Moldova",47.0385015,28.8300618
-"ул. Алеку Руссо 3/2, Кишинёв, Moldova",47.0432047,28.8677406
-"ул. Ателиерилор 1, Дурлешты, Moldova",47.0154007,28.7433501
-"ул. Буковина ., Кишинёв, Moldova",47.068088,28.8879997
-"ул. Букурешть ., Кишинёв, Moldova",47.0188858,28.8326511
-"ул. Василе Лупу 28, Кишинёв, Moldova",47.0221197,28.8008688
-"ул. Василе Лупу 28a, Кишинёв, Moldova",47.0225368,28.7991623
-"ул. Владимир Короленко 59/1, Кишинёв, Moldova",46.9956691,28.8266127
-"ул. Георге Кашу ., Кишинёв, Moldova",47.002709,28.8314248
-"ул. Георге Мадан 87/3, Кишинёв, Moldova",47.0600014,28.8423159
-"ул. Гика Водэ 5, Кишинёв, Moldova",46.9757031,28.8581079
-"ул. Гренобле ., Кишинёв, Moldova",46.9790038,28.8441651
-"ул. Гренобле 120/3, Кишинёв, Moldova",46.9830718,28.8329769
-"ул. Гренобле 205/2, Кишинёв, Moldova",46.9763539,28.8477002
-"ул. Грэдина Ботаникэ 20/1, Кишинёв, Moldova",46.9774423,28.8763938
-"ул. Грэдинилор 25, Кишинёв, Moldova",47.0797601,28.7404893
-"ул. Дойна 150/2, Кишинёв, Moldova",47.0645883,28.837258
-"ул. Друмул Виилор 38/1, Кишинёв, Moldova",47.0030144,28.8060332
-"ул. Индепенденцей ., Кишинёв, Moldova",46.9809871,28.8552591
-"ул. Иоана Раду -, Кишинёв, Moldova",47.0260816,28.7943604
-"ул. Ион Буздуган 11, Кишинёв, Moldova",47.0378784,28.7635064
-"ул. Каля Ешилор 5, Кишинёв, Moldova",47.0438398,28.7948292
-"ул. Каля Ешилор 6, Кишинёв, Moldova",47.0433126,28.7934948
-"ул. Каля Мошилор 4, Кишинёв, Moldova",47.0255028,28.8611059
-"ул. Каля Орхеюлуй 113/1, Кишинёв, Moldova",47.0568698,28.8506053
-"ул. Картуша 95, Дурлешты, Moldova",47.0153322,28.7456173
-"ул. Картуша 95/5, Дурлешты, Moldova",47.0153322,28.7456173
-"ул. Картуша 99/3, Дурлешты, Moldova",47.0172367,28.7518093
-"ул. Корнулуй 23, Кишинёв, Moldova",47.020273,28.7949966
-"ул. Ливиу Деляну 10/13, Кишинёв, Moldova",47.0468716,28.7709132
-"ул. Ливиу Деляну 10/3, Кишинёв, Moldova",47.0474389,28.7694841
-"ул. Минск 26/2, Кишинёв, Moldova",46.9987027,28.8609258
-"ул. Николае Тестемицану 19, Кишинёв, Moldova",46.9969768,28.8373602
-"ул. Николае Тестемицану 3/1, Кишинёв, Moldova",47.0043303,28.8378653
-"ул. Николае Тестемицану 3/3, Кишинёв, Moldova",46.9985465,28.8356087
-"ул. Николае Тестемицану 3/9, Кишинёв, Moldova",46.9994746,28.8399678
-"ул. Николае Титулеску 53/2, Кишинёв, Moldova",46.9918384,28.8712125
-"ул. Пандурилор ., Кишинёв, Moldova",46.9994261,28.8726266
-"ул. Пандурилор 68, Кишинёв, Moldova",46.9962369,28.8636227
-"ул. Петру Заднипру 18/1, Кишинёв, Moldova",47.0423368,28.8963209
-"ул. Поштей 92, Кишинёв, Moldova",47.0463405,28.8344004
-"ул. Спрынченоая 3/L, Кишинёв, Moldova",46.9998233,28.811659
-"ул. Сфатул Цэрий 59, Кишинёв, Moldova",47.0302119,28.8290205
-"ул. Трандафирилор ., Кишинёв, Moldova",46.9986343,28.8516217
-"ул. Трандафирилор 13/2, Кишинёв, Moldova",46.9974667,28.8545132
-"ул. Тудор Владимиреску 1, Кишинёв, Moldova",47.0349384,28.8617741
-"ул. Тудор Владимиреску 1/8, Кишинёв, Moldova",47.0303927,28.863067
-"ул. Чеукарь 84, Кишинёв, Moldova",47.0657566,28.8440221
-"ул. Чиркулуй 61, Кишинёв, Moldova",47.0400193,28.8468398
-"ул. Штефан Няга 67, Кишинёв, Moldova",47.033554,28.80205
-"ул. Язулуй 38, Кишинёв, Moldova",47.0624684,28.844226
+address,latitude,longitude,status
+" Alba Iulia  113, Кишинёв, Moldova",47.0422024,28.7597503,found
+" Alba Iulia  77/7, Кишинёв, Moldova",47.0383556,28.7674316,found
+" Bd. Cuza Vodă 5, Кишинёв, Moldova",46.9763638,28.8561457,found
+" Bd. Cuza Vodă 8, Кишинёв, Moldova",46.9859238,28.8655184,found
+" Ialoveni  100, Кишинёв, Moldova",47.0032983,28.7774077,found
+" Mircea cel Batrin 17, Кишинёв, Moldova",47.0736027,28.7064472,found
+" Nicolae Costin 52, Кишинёв, Moldova",47.0430386,28.7714462,found
+" Nicolae Dimo 2, Дурлешты, Moldova",47.0050782,28.7646256,found
+" Nicolae Dimo 24, Дурлешты, Moldova",47.0138525,28.7521502,found
+" Nicolae Dimo 24/2, Дурлешты, Moldova",47.013269,28.7527852,found
+" Nicolae Testemițanu 23/1, Кишинёв, Moldova",46.9957628,28.8346672,found
+" Regina Elisabeta -, Дурлешты, Moldova",47.0054813,28.7621415,found
+" bd. Alba Iulia  1, Кишинёв, Moldova",46.8398137,28.5757867,found
+" bd. Alba Iulia  128, Кишинёв, Moldova",47.0417892,28.7628124,found
+" bd. Dacia  1, Кишинёв, Moldova",46.9856637,28.8604411,found
+" bd. Dacia  159, Кишинёв, Moldova",46.9809842,28.8650354,found
+" bd. Dacia  58, Кишинёв, Moldova",46.9576797,28.8947004,found
+" bd. Mircea cel Bătrân  43, Кишинёв, Moldova",47.0592962,28.8901406,found
+" bd. Mircea cel Bătrân 15, Кишинёв, Moldova",47.0468052,28.8878226,found
+" bd. Mircea cel Bătrân 28/1, Кишинёв, Moldova",47.0501034,28.8921608,found
+" bd. Mircea cel Bătrân 3, Кишинёв, Moldova",47.0541636,28.886666,found
+" bd. Mircea cel Bătrân 34/5, Кишинёв, Moldova",47.0542415,28.8933596,found
+" bd. Mircea cel Bătrân 41, Кишинёв, Moldova",47.0580803,28.8907679,found
+" bd. Moscova 11, Кишинёв, Moldova",47.0513766,28.8631964,found
+" bd. Moscova 20, Кишинёв, Moldova",47.0568696,28.8667886,found
+" bd. Traian 1, Кишинёв, Moldova",46.9820923,28.8524577,found
+" str. Bisericii 10, Кишинёв, Moldova",47.0196456,28.7889227,found
+" str. Bisericii 19, Кишинёв, Moldova",47.0161988,28.7908212,found
+" str. Durlești 10, Кишинёв, Moldova",47.0220111,28.7934118,found
+" str. Gheorghe Asachi  27, Кишинёв, Moldova",47.0011042,28.8222486,found
+" str. Grenoble  134/2, Кишинёв, Moldova",46.9736647,28.8484399,found
+" str. Ialoveni  136, Дурлешты, Moldova",47.0038563,28.7718893,found
+" str. Ialoveni  136, Кишинёв, Moldova",47.0038563,28.7718893,found
+" str. Ialoveni 136, Дурлешты, Moldova",47.0038563,28.7718893,found
+" str. Independenței 14/1, Кишинёв, Moldova",46.9830335,28.8480534,found
+" str. Matei Basarab  1/1, Кишинёв, Moldova",47.0571713,28.8606928,found
+" str. Nicolae Testemițanu 3, Кишинёв, Moldova",47.0011476,28.8417886,found
+" str. Nicolae Titulescu  53/2, Кишинёв, Moldova",46.9918384,28.8712125,found
+" str. Valea Trandafirilor 20, Кишинёв, Moldova",47.0074709,28.846911,found
+" șos. Muncești 788, Кишинёв, Moldova",46.9414127,28.9366207,found
+"- -, Ставчены, Moldova",47.0957801,28.8683681,found
+"1-й пер. Чокырлией 5/1, Кишинёв, Moldova",47.0090767,28.8068089,found
+"31 August 1989 64, Кишинёв, Moldova",47.019234,28.8350261,found
+"Academiei ., Кишинёв, Moldova",46.9722066,28.8964745,found
+"Aeroport  3, Кишинёв, Moldova",46.9388767,28.9263573,found
+"Alba Iulia **, Кишинёв, Moldova",47.0279847,28.7909161,found
+"Alba Iulia ., Кишинёв, Moldova",47.0417892,28.7628124,found
+"Alba Iulia 113, Кишинёв, Moldova",47.0422024,28.7597503,found
+"Alba Iulia 77/6, Кишинёв, Moldova",47.0378617,28.7659426,found
+"Alba Iulia 87, Кишинёв, Moldova",47.0404775,28.7643713,found
+"Alba Iulia 93, Кишинёв, Moldova",47.0406031,28.7619297,found
+"Alba-Iulia 202, Кишинёв, Moldova",47.0411317,28.7653855,found
+"Alba-Iulia 75/22, Кишинёв, Moldova",47.0373565,28.7672227,found
+"Alba-Iulia 77/2, Кишинёв, Moldova",47.0392502,28.7664729,found
+"Alba-Iulia 8/1, Кишинёв, Moldova",47.0289655,28.7915224,found
+"Albisoara 76, Кишинёв, Moldova",47.0392882,28.8362143,found
+"Albișoara 16, Кишинёв, Moldova",47.0191912,28.855231,found
+"Albișoara 18, Кишинёв, Moldova",47.0201405,28.8553013,found
+"Albișoara 68/2, Кишинёв, Moldova",47.037179,28.8386684,found
+"Albișoara 70/1, Кишинёв, Moldova",47.0379624,28.8382819,found
+"Albișoara 82/2, Кишинёв, Moldova",47.038346,28.831112,found
+"Albișoara 82/4, Кишинёв, Moldova",47.0379476,28.830484,found
+"Albișoara 84/4, Кишинёв, Moldova",47.0355723,28.8286212,found
+"Alecu Russo 3/2, Кишинёв, Moldova",47.046063,28.8646899,found
+"Alecu Russo 9/7, Кишинёв, Moldova",47.0452585,28.8648285,found
+"Alessandro Bernardazzi 79, Кишинёв, Moldova",47.0160824,28.8268234,found
+"Alexandr Pușkin  47, Кишинёв, Moldova",47.0302243,28.8432801,found
+"Alexandr Pușkin  53, Кишинёв, Moldova",47.017842,28.8256449,found
+"Alexandru Cosmescu  5, Кишинёв, Moldova",47.0063234,28.8297848,found
+"Alexandru cel Bun 108, Кишинёв, Moldova",47.0293864,28.8346001,found
+"Andrei Doga -, Кишинёв, Moldova",47.0349692,28.853476,found
+"Andrei Doga 28/5, Кишинёв, Moldova",47.0322137,28.8582352,found
+"Andrei Doga 31, Кишинёв, Moldova",47.0347618,28.8594778,found
+"Andrei Doga 32/7, Кишинёв, Moldova",47.0309757,28.8597072,found
+"Andrei Saharov  3, Кишинёв, Moldova",47.0378573,28.8653289,found
+"Avram Iancu ., Кишинёв, Moldova",47.0207329,28.8506488,found
+"Avram Iancu 32, Кишинёв, Moldova",47.0207288,28.850124,found
+"Bacioii Noi  ., Кишинёв, Moldova",46.9530589,28.925203,found
+"Bacioii noi ., Кишинёв, Moldova",46.9530589,28.925203,found
+"Bariera Orhei 5/1, Кишинёв, Moldova",47.0468967,28.8460317,found
+"Bd. Mircea cel Batran ***, Кишинёв, Moldova",47.0519253,28.8903106,found
+"Bd. Ștefan cel Mare și Sfânt 171/3, Кишинёв, Moldova",47.0352614,28.8125018,found
+"Belgrad ., Кишинёв, Moldova",46.9863409,28.8639567,found
+"Belgrad 17, Кишинёв, Moldova",46.9881915,28.864699,found
+"Belgrad 21, Кишинёв, Moldova",46.9865007,28.8648113,found
+"Bucovina 1/E, Кишинёв, Moldova",47.0661339,28.8958861,found
+"Bucovinei 2, Кишинёв, Moldova",47.0667266,28.8680248,found
+"Bucuresti 15, Кишинёв, Moldova",47.0146155,28.8382359,found
+"Bulevardul Cuza Vodă 15/2, Кишинёв, Moldova",46.9803345,28.8607783,found
+"Bulevardul Cuza Vodă 19/8, Кишинёв, Moldova",46.9776366,28.8593521,found
+"Bulevardul Dacia 24, Кишинёв, Moldova",46.9861977,28.8560683,found
+"Bulevardul Dacia 30/1, Кишинёв, Moldova",46.9833924,28.8602546,found
+"Bulevardul Dacia 38, Кишинёв, Moldova",46.9805211,28.8641003,found
+"Bulevardul Dacia 38/8, Кишинёв, Moldova",46.9786664,28.8646485,found
+"Bulevardul Decebal 139/5, Кишинёв, Moldova",46.9873791,28.8587536,found
+"Bulevardul Decebal 78, Кишинёв, Moldova",46.9912697,28.8568142,found
+"Bulevardul Europei --, Кишинёв, Moldova",47.0263187,28.8292483,found
+"Bulevardul Mircea cel Bătrân 22/5, Кишинёв, Moldova",47.047926,28.8917452,found
+"Bulevardul Mircea cel Bătrân 25, Кишинёв, Moldova",47.0538645,28.8895246,found
+"Bulevardul Mircea cel Bătrân 26/6, Кишинёв, Moldova",47.0490957,28.8939778,found
+"Bulevardul Mircea cel Bătrân 31/2, Кишинёв, Moldova",47.055747,28.8872648,found
+"Bulevardul Mircea cel Bătrân 31/7, Кишинёв, Moldova",47.0555694,28.8883934,found
+"Bulevardul Mircea cel Bătrân 41A, Кишинёв, Moldova",47.057588,28.890629,found
+"Bulevardul Mircea cel Bătrân 43A, Кишинёв, Moldova",47.0592965,28.8905906,found
+"Bulevardul Mircea cel Bătrân 8/1, Кишинёв, Moldova",47.0408558,28.891254,found
+"Bulevardul Moscova 11, Кишинёв, Moldova",47.0513766,28.8631964,found
+"Bulevardul Moscova 20/4, Кишинёв, Moldova",47.0562576,28.8682098,found
+"Bulevardul Moscova 28, Кишинёв, Moldova",47.0587933,28.8683983,found
+"Bulevardul Moscova 3/3, Кишинёв, Moldova",47.0469106,28.8596186,found
+"Bulevardul Renașterii Naționale 6, Кишинёв, Moldova",47.0355817,28.8496086,found
+"Bulevardul Traian 16/2, Кишинёв, Moldova",46.9799488,28.845459,found
+"Bulevardul Traian 23/1, Кишинёв, Moldova",46.9775823,28.8457844,found
+"Bulevardul Ștefan cel Mare și Sfânt 6, Кишинёв, Moldova",47.0153847,28.847022,found
+"Burebista  25, Кишинёв, Moldova",47.0310499,28.7697398,found
+"Burebista ., Кишинёв, Moldova",46.9800195,28.8735084,found
+"Burebista 114/2, Кишинёв, Moldova",46.9797294,28.8745372,found
+"Burebista 18, Дурлешты, Moldova",47.0314991,28.7701155,found
+"Burebista 40/2, Кишинёв, Moldova",46.9861531,28.8820566,found
+"Băcioii Noi 14, Кишинёв, Moldova",46.9594311,28.9193582,found
+"Băcioii Noi 14/c, Кишинёв, Moldova",46.9540603,28.9210132,found
+"Calea Basarabiei 1, Криково, Moldova",47.1255696,28.8642118,found
+"Calea Iesilor -6, Кишинёв, Moldova",47.038751,28.8075666,found
+"Calea Iesilor 6, Кишинёв, Moldova",47.0386472,28.8080494,found
+"Calea Ieșilor 5, Кишинёв, Moldova",47.0377119,28.8097426,found
+"Calea Ieșilor 61/2, Кишинёв, Moldova",47.0460065,28.7811749,found
+"Calea Ieșilor 6C, Кишинёв, Moldova",47.0393396,28.8073301,found
+"Calea Mosilor 4, Кишинёв, Moldova",47.0255028,28.8611059,found
+"Calea Moșilor 1, Кишинёв, Moldova",47.0243757,28.8613387,found
+"Calea Orheiului 111/8, Кишинёв, Moldova",47.0561796,28.8512829,found
+"Calea Orheiului 113/1, Кишинёв, Moldova",47.0568698,28.8506053,found
+"Carierei 5C, Кишинёв, Moldova",47.03792,28.846689,found
+"Cartierul Cluj ., Кишинёв, Moldova",47.0742038,28.8388244,found
+"Cartusa 95, Дурлешты, Moldova",47.0155463,28.7460115,found
+"Cartusa 95/5, Дурлешты, Moldova",47.0153322,28.7456173,found
+"Cartusa 95/6, Дурлешты, Moldova",47.0145108,28.7476178,found
+"Cartusa 99/10, Дурлешты, Moldova",47.013558,28.7488824,found
+"Cartusa 99/7, Дурлешты, Moldova",47.0140792,28.7486956,found
+"Cartușa **, Дурлешты, Moldova",47.0161032,28.7476819,found
+"Cartușa ., Дурлешты, Moldova",47.0161032,28.7476819,found
+"Cartușa 44, Дурлешты, Moldova",47.0164013,28.7468943,found
+"Cartușa 95/2, Дурлешты, Moldova",47.0150957,28.7472968,found
+"Cartușa 95/5, Дурлешты, Moldova",47.0153322,28.7456173,found
+"Cartușa 95/7, Дурлешты, Moldova",47.0141514,28.7474431,found
+"Cartușa 99/3, Дурлешты, Moldova",47.0142993,28.7498013,found
+"Cartușa 99/7, Дурлешты, Moldova",47.0140792,28.7486956,found
+"Cetatea Albă 141, Кишинёв, Moldova",46.9887463,28.8820184,found
+"Cetatea Chilia 43, Кишинёв, Moldova",46.9917066,28.872284,found
+"Ceucari 1, Кишинёв, Moldova",47.061541,28.8539482,found
+"Ceucari 1/1, Кишинёв, Moldova",47.0574931,28.8477125,found
+"Ceucari 1\1, Кишинёв, Moldova",47.0574931,28.8477125,found
+"Ceucari 2, Кишинёв, Moldova",47.0623932,28.8461502,found
+"Chimiștilor 13, Дурлешты, Moldova",47.0253307,28.7736444,found
+"Chisinaului 62, Криково, Moldova",47.1208658,28.8668183,found
+"Codrilor 22/1, Дурлешты, Moldova",47.0228491,28.7471723,found
+"Constantin Stamati 2/1, Ставчены, Moldova",47.0950111,28.8696074,found
+"Constantin Stere 16, Кишинёв, Moldova",47.025289,28.8165111,found
+"Constantin Vârnav 20, Кишинёв, Moldova",46.9921568,28.8359726,found
+"Cornești 7, Кишинёв, Moldova",47.0355402,28.8523618,found
+"Costiujeni 15/2, Кишинёв, Moldova",46.9757074,28.8336393,found
+"Costiujeni 6, Кишинёв, Moldova",46.975047,28.8343577,found
+"Costiujeni 8/3, Кишинёв, Moldova",46.9792438,28.8362832,found
+"Dacia -, Кишинёв, Moldova",46.9844613,28.8601544,found
+"Dacia ., Кишинёв, Moldova",47.0047605,28.8419936,found
+"Dacia 1/3, Кишинёв, Moldova",46.9927387,28.8490905,found
+"Dacia 25, Кишинёв, Moldova",46.9867087,28.8583341,found
+"Dacia 58, Кишинёв, Moldova",46.9576797,28.8947004,found
+"Dacia 59, Кишинёв, Moldova",46.9679423,28.888174,found
+"Dacia 62, Кишинёв, Moldova",46.9422182,28.9250266,found
+"Dacia 62F \, Кишинёв, Moldova",46.9435959,28.9212473,found
+"Dacia 71/6, Кишинёв, Moldova",46.9447436,28.92588,found
+"Dacia 73, Кишинёв, Moldova",46.9436343,28.9250868,found
+"Dacia 73/2, Кишинёв, Moldova",46.9439753,28.925648,found
+"Dacia 77, Кишинёв, Moldova",46.9421339,28.9273079,found
+"Dacilor 24, Кишинёв, Moldova",47.045782,28.9022084,found
+"Decebal *, Кишинёв, Moldova",46.993973,28.8592268,found
+"Diminetii  ., Кишинёв, Moldova",47.0024789,28.8647052,found
+"Diminetii ., Кишинёв, Moldova",47.0024789,28.8647052,found
+"Diminetii 18, Кишинёв, Moldova",47.0036965,28.866249,found
+"Dimineții 22, Кишинёв, Moldova",47.00349,28.8656429,found
+"Dimo 4/1, Кишинёв, Moldova",47.03786,28.8607639,found
+"Doctor Tudor Strișcă 19/2, Кишинёв, Moldova",46.9867518,28.835695,found
+"Drumul Viilor 26/1, Кишинёв, Moldova",47.0095799,28.818252,found
+"Drumul Viilor 38/1, Кишинёв, Moldova",47.0030144,28.8060332,found
+"Dumitru Râșcanu 33/4, Кишинёв, Moldova",47.0372624,28.8671684,found
+"Durlesti -, Кишинёв, Moldova",47.0171414,28.8090759,found
+"Durlesti Nicolae Dimo, Кишинёв, Moldova",47.0071404,28.7641587,found
+"Durlești 10, Дурлешты, Moldova",47.0437712,28.748475,found
+"Durlești 8, Дурлешты, Moldova",47.0320749,28.776068,found
+"Europa 29 D, Кишинёв, Moldova",46.9545825,28.9025022,found
+"Florarii 4, Кишинёв, Moldova",47.0288782,28.8687685,found
+"Florilor  ., Кишинёв, Moldova",47.0580102,28.8609941,found
+"Florilor 16/1, Кишинёв, Moldova",47.0548505,28.8586568,found
+"Florilor 2, Кишинёв, Moldova",47.0481016,28.8582079,found
+"Florilor 26/1, Кишинёв, Moldova",47.0571111,28.8599624,found
+"Florilor 28/2, Кишинёв, Moldova",47.0581416,28.8607649,found
+"Frumușica 1, Кишинёв, Moldova",47.0071703,28.8642133,found
+"GRENOBLE 106B, Кишинёв, Moldova",46.9901739,28.8228081,found
+"Gheorghe Asachi 61, Кишинёв, Moldova",46.999207,28.8209918,found
+"Gheorghe Cașu 30/2, Кишинёв, Moldova",47.0048049,28.8331935,found
+"Gheorghe Madan ., Кишинёв, Moldova",47.0533205,28.8463046,found
+"Gheorghe Madan 46/6, Кишинёв, Moldova",47.0567779,28.8478603,found
+"Gheorghe Madan 50/4, Кишинёв, Moldova",47.058896,28.8451686,found
+"Gheorghe Madan 87/4, Кишинёв, Moldova",47.0598899,28.8417017,found
+"Ghica Voda 5, Кишинёв, Moldova",46.9757031,28.8581079,found
+"Ghica Voda 5/2, Кишинёв, Moldova",46.9752902,28.8573532,found
+"Ghioceilor  ., Кишинёв, Moldova",47.0184655,28.796846,found
+"Ghioceilor 2, Кишинёв, Moldova",47.0156253,28.8075966,found
+"Ginta Latina 8, Кишинёв, Moldova",47.0327257,28.8816362,found
+"Ginta Latină 15/1, Кишинёв, Moldova",47.036532,28.8851877,found
+"Ginta Latină 19, Кишинёв, Moldova",47.0380305,28.8935864,found
+"Ginta Latină 19/1, Кишинёв, Moldova",47.0386108,28.8930032,found
+"Ginta Latină 19/4, Кишинёв, Moldova",47.0383885,28.8945379,found
+"Ginta Latină 7, Кишинёв, Moldova",47.0376038,28.8963013,found
+"Gradina Botanica 18 H, Кишинёв, Moldova",46.9786863,28.8783965,found
+"Gradina Botanica 18, Кишинёв, Moldova",46.9774506,28.8777776,found
+"Gradina Botanica 18G, Кишинёв, Moldova",46.9786411,28.8771816,found
+"Gradinilor ., Кишинёв, Moldova",47.0244143,28.8530538,found
+"Grenoble  ., Кишинёв, Moldova",46.9911881,28.8208687,found
+"Grenoble  128/2, Кишинёв, Moldova",46.9798626,28.8373785,found
+"Grenoble 120/8, Кишинёв, Moldova",46.9841849,28.833136,found
+"Grenoble 128/1, Кишинёв, Moldova",46.9798737,28.8382651,found
+"Grenoble 130/1, Кишинёв, Moldova",46.9796542,28.8391904,found
+"Grenoble 130/3, Кишинёв, Moldova",46.9790091,28.8373875,found
+"Grenoble 134, Кишинёв, Moldova",46.9725661,28.8495402,found
+"Grenoble 134/2, Кишинёв, Moldova",46.9736647,28.8484399,found
+"Grenoble 134/4, Кишинёв, Moldova",46.968168,28.8509597,found
+"Grenoble 163/1, Кишинёв, Moldova",46.9837005,28.8361388,found
+"Grenoble 209, Кишинёв, Moldova",46.9751222,28.8479365,found
+"Grenoble 257, Кишинёв, Moldova",46.9732217,28.8500713,found
+"Grenoble 259/10, Кишинёв, Moldova",46.9738401,28.8515111,found
+"Grigore Vieru 20, Кишинёв, Moldova",47.0317159,28.8436298,found
+"Grigore Vieru 21\2, Кишинёв, Moldova",47.0332949,28.8436869,found
+"Grătiești  10, Ставчены, Moldova",47.0890881,28.8687505,found
+"Hancesti 142 B, Кишинёв, Moldova",46.9925004,28.7852815,found
+"Hora 1, Кишинёв, Moldova",46.9826502,28.84041,found
+"Hristo Botev 19/2, Кишинёв, Moldova",46.9874514,28.8482733,found
+"Hristo Botev 21, Кишинёв, Moldova",46.9864345,28.8474245,found
+"Ialoveni  134, Кишинёв, Moldova",47.0035211,28.7734542,found
+"Ialoveni ., Дурлешты, Moldova",46.9726159,28.7649051,found
+"Ialoveni ., Кишинёв, Moldova",46.9965442,28.7892454,found
+"Ialoveni 100/3, Кишинёв, Moldova",47.0035382,28.7782952,found
+"Ialoveni 102/1, Кишинёв, Moldova",47.0028478,28.7758449,found
+"Ialoveni 136 B, Кишинёв, Moldova",47.0035857,28.7724806,found
+"Ialoveni 136, Дурлешты, Moldova",47.0038563,28.7718893,found
+"Ialoveni 136, Кишинёв, Moldova",47.0038563,28.7718893,found
+"Ialoveni 136/B, Кишинёв, Moldova",47.0035857,28.7724806,found
+"Ialoveni 96, Кишинёв, Moldova",47.0007312,28.7799263,found
+"Iazului  38, Кишинёв, Moldova",47.0624684,28.844226,found
+"Iazului 12/1, Кишинёв, Moldova",47.0650262,28.8423513,found
+"Igor Vieru 14/1, Кишинёв, Moldova",47.0506077,28.8940191,found
+"Independentei  28, Кишинёв, Moldova",46.976427,28.8575049,found
+"Independenței 10/4, Кишинёв, Moldova",46.9831185,28.8448386,found
+"Independenței 12/1, Кишинёв, Moldova",46.9827203,28.8465925,found
+"Independenței 36, Кишинёв, Moldova",46.9772779,28.8612132,found
+"Io 13, Кишинёв, Moldova",47.0292175,28.8381301,found
+"Ioana Radu ., Кишинёв, Moldova",47.0285208,28.8051718,found
+"Ioana Radu 27/2, Кишинёв, Moldova",47.0267873,28.7984491,found
+"Ioana Radu 27/8, Кишинёв, Moldova",47.0247282,28.7992891,found
+"Ion Buzdugan 1, Кишинёв, Moldova",47.0377787,28.7632446,found
+"Ion Buzdugan 11, Кишинёв, Moldova",47.0393567,28.7594802,found
+"Ion Buzdugan 13, Кишинёв, Moldova",47.0386476,28.7597872,found
+"Ion Buzdugan 9, Кишинёв, Moldova",47.0395504,28.7599753,found
+"Ion Creanga 43, Кишинёв, Moldova",47.0284653,28.7999114,found
+"Ion Creangă 43, Кишинёв, Moldova",47.0284653,28.7999114,found
+"Ion Dumeniuc 4, Кишинёв, Moldova",47.0566525,28.8868562,found
+"Ion Inculet 97, Кишинёв, Moldova",47.0057983,28.83803,found
+"Ion Nistor 2, Кишинёв, Moldova",47.0081435,28.8333203,found
+"Ion Pelivan 15, Кишинёв, Moldova",47.0298628,28.7898465,found
+"Ion Pelivan 18, Кишинёв, Moldova",47.0329136,28.7919964,found
+"Ion Pelivan 34/1, Кишинёв, Moldova",47.0259521,28.7842559,found
+"Ismail 84, Кишинёв, Moldova",47.0164357,28.8479266,found
+"Ismail 96, Кишинёв, Moldova",47.0185523,28.8513798,found
+"Jubiliara 39, Кишинёв, Moldova",46.9766446,28.833403,found
+"Jubiliara 39/1, Кишинёв, Moldova",46.9762588,28.8334566,found
+"Jubiliară  39/1, Кишинёв, Moldova",46.9762588,28.8334566,found
+"Kiev 16/1, Кишинёв, Moldova",47.0433243,28.8613655,found
+"Lipcani 1, Кишинёв, Moldova",47.0321342,28.7806901,found
+"Liviu Deleanu  10, Кишинёв, Moldova",47.046981,28.7697278,found
+"Liviu Deleanu 10/7, Кишинёв, Moldova",47.0476509,28.7699031,found
+"Liviu Deleanu 5/6, Кишинёв, Moldova",47.0433159,28.7686984,found
+"Liviu Deleanu 5V, Кишинёв, Moldova",47.043793,28.7696687,found
+"Liviu Rebreanu 129/A, Кишинёв, Moldova",47.0007303,28.8960177,found
+"Magda Isanos 14/2, Кишинёв, Moldova",47.0531333,28.8481746,found
+"Malina Mica 20, Кишинёв, Moldova",46.9914266,28.8193312,found
+"Maria Dragan  ., Кишинёв, Moldova",47.0143255,28.8826928,found
+"Maria Drăgan  26, Кишинёв, Moldova",46.9670403,28.9401757,found
+"Maria Drăgan 2/1, Кишинёв, Moldova",47.0303669,28.8834081,found
+"Maria Drăgan 38, Кишинёв, Moldova",46.9659264,28.9404527,found
+"Matei Basarab  ., Кишинёв, Moldova",47.0545576,28.8691599,found
+"Matei Basarab 1/3, Кишинёв, Moldova",47.0566082,28.860377,found
+"Melestiu -, Кишинёв, Moldova",47.0077542,28.8460625,found
+"Melestiu 1/1, Кишинёв, Moldova",47.0067706,28.8540997,found
+"Melestiu 26/6, Кишинёв, Moldova",47.0030412,28.8448972,found
+"Mihai Eminescu 41/1, Кишинёв, Moldova",47.0206885,28.8343823,found
+"Mihail Sadoveanu ., Кишинёв, Moldova",47.0702785,28.8870381,found
+"Mihail Sadoveanu 17, Кишинёв, Moldova",47.0464973,28.8826563,found
+"Mihail Sadoveanu 22/3, Кишинёв, Moldova",47.0464666,28.8863496,found
+"Mihail Sadoveanu 4/2, Кишинёв, Moldova",47.0352661,28.8797957,found
+"Milescu Spataru 57A, Кишинёв, Moldova",47.0376001,28.8978534,found
+"Milescu Spataru 57\c, Кишинёв, Moldova",47.0376001,28.8978534,found
+"Minsk 45, Кишинёв, Moldova",46.9978996,28.8627944,found
+"Mircea Cel Batran 14, Кишинёв, Moldova",47.0451808,28.8914616,found
+"Mircea cel Batran 15b, Кишинёв, Moldova",47.0474383,28.8892742,found
+"Mircea cel Bătrân 13/2, Кишинёв, Moldova",47.0480165,28.8888234,found
+"Mircea cel Bătrân 15, Кишинёв, Moldova",47.0468052,28.8878226,found
+"Mircea cel Bătrân 26/6, Кишинёв, Moldova",47.0490957,28.8939778,found
+"Mircea cel batran 15, Кишинёв, Moldova",47.0468052,28.8878226,found
+"Miron Costin 13/1, Кишинёв, Moldova",47.0503714,28.8664248,found
+"Miron Costin 15/1, Кишинёв, Moldova",47.0513595,28.8680445,found
+"Miron Costin 2, Кишинёв, Moldova",47.0502055,28.8581367,found
+"Miron Costin 22, Кишинёв, Moldova",47.0481724,28.8676663,found
+"Mitropolit Petru Movilă 23/5, Кишинёв, Moldova",47.0309812,28.8208064,found
+"Moara Roșie 5B, Кишинёв, Moldova",47.0348997,28.8366712,found
+"Moscova  --, Кишинёв, Moldova",47.0541357,28.8651138,found
+"Moscova ., Кишинёв, Moldova",47.0541357,28.8651138,found
+"Moscova 1/1, Кишинёв, Moldova",47.0451768,28.8611353,found
+"Muncesti 94, Кишинёв, Moldova",47.0054424,28.8668156,found
+"Muncești 812, Кишинёв, Moldova",46.9356311,28.9519629,found
+"Muncești 94, Кишинёв, Moldova",47.0054424,28.8668156,found
+"NICOLAE TITULESCU  ., Кишинёв, Moldova",46.9922121,28.869601,found
+"Nicolae Costin 44/1, Кишинёв, Moldova",47.0358434,28.7881853,found
+"Nicolae Costin 44/6, Кишинёв, Moldova",47.036102,28.7893259,found
+"Nicolae Costin 48 1, Кишинёв, Moldova",47.0418634,28.7738866,found
+"Nicolae Costin 54, Кишинёв, Moldova",47.0432469,28.7710003,found
+"Nicolae Costin 57, Кишинёв, Moldova",47.0381829,28.7813458,found
+"Nicolae Costin 61/3, Кишинёв, Moldova",47.0406529,28.7743558,found
+"Nicolae Costin 63/2, Кишинёв, Moldova",47.0400422,28.7730821,found
+"Nicolae Dimo -24, Дурлешты, Moldova",47.0138525,28.7521502,found
+"Nicolae Dimo 11/2, Кишинёв, Moldova",47.0405855,28.8664798,found
+"Nicolae Dimo 13/3, Кишинёв, Moldova",47.0416495,28.8663984,found
+"Nicolae Dimo 24, Дурлешты, Moldova",47.0138525,28.7521502,found
+"Nicolae Dimo 24/a, Дурлешты, Moldova",47.0132668,28.7511952,found
+"Nicolae Dimo 80/7, Дурлешты, Moldova",47.007538,28.7634814,found
+"Nicolae Dimo 99, Дурлешты, Moldova",47.0063087,28.7656257,found
+"Nicolae Milescu Spataru 27, Кишинёв, Moldova",47.0376001,28.8978534,found
+"Nicolae Milescu Spătarul 1, Кишинёв, Moldova",47.050133,28.8965813,found
+"Nicolae Milescu Spătarul 25, Кишинёв, Moldova",47.0561759,28.8962187,found
+"Nicolae Milescu Spătarul 57/A, Кишинёв, Moldova",47.0627149,28.8970156,found
+"Nicolae Milescu Spătarul 7, Кишинёв, Moldova",47.0440644,28.8974942,found
+"Nicolae Milescu Spătarul 7/1, Кишинёв, Moldova",47.0446025,28.8970362,found
+"Nicolae Sulac  ., Кишинёв, Moldova",47.022597,28.8312144,found
+"Nicolae Sulac 8A, Кишинёв, Moldova",47.0619044,28.8938945,found
+"Nicolae Testemițanu 19/A, Кишинёв, Moldova",46.9973267,28.8372139,found
+"Nicolae Testemițanu 19/B, Кишинёв, Moldova",46.9969768,28.8373602,found
+"Nicolae Testemițanu 21/2, Кишинёв, Moldova",46.9961469,28.8351043,found
+"Nicolae Testemițanu 3/10, Кишинёв, Moldova",46.9993744,28.839567,found
+"Nicolae Testemițanu 3/17, Кишинёв, Moldova",47.0005654,28.8379155,found
+"Nicolae Testemițanu 37, Кишинёв, Moldova",46.9904884,28.8283048,found
+"Nicolae Testimiteanu  19, Кишинёв, Moldova",46.9969768,28.8373602,found
+"Nicolae Testimiteanu 37, Кишинёв, Moldova",46.9904884,28.8283048,found
+"Nicolae Titulescu  ., Кишинёв, Moldova",46.9922121,28.869601,found
+"Nicolae Titulescu 28, Кишинёв, Moldova",46.9919551,28.869042,found
+"Nicolae Titulescu 36A, Кишинёв, Moldova",46.9906041,28.8715529,found
+"Nicolae Titulescu 6, Кишинёв, Moldova",46.9988392,28.8626197,found
+"Onisifor Ghibu --, Кишинёв, Moldova",47.0240007,28.8255205,found
+"Pandurilor -, Кишинёв, Moldova",46.9981052,28.8688281,found
+"Paris  -, Кишинёв, Moldova",47.0295875,28.7779636,found
+"Petru Rareș 36, Кишинёв, Moldova",47.033994,28.841032,found
+"Petru Zadnipru 16/2, Кишинёв, Moldova",47.0423447,28.895478,found
+"Petru Zadnipru 4/2, Кишинёв, Moldova",47.0436363,28.8862409,found
+"Petru Zadnipru 7/4, Кишинёв, Moldova",47.0460274,28.8878382,found
+"Piața Gării 2, Кишинёв, Moldova",47.011759,28.8594296,found
+"Piața Unirea Principatelor 3, Кишинёв, Moldova",47.0267595,28.7954083,found
+"Pictor Mihai Grecu 7, Кишинёв, Moldova",46.9899094,28.8309937,found
+"Pietrariei 19A, Кишинёв, Moldova",47.0365246,28.8509841,found
+"Pietrarilor 10, Кишинёв, Moldova",47.0032074,28.8029591,found
+"Pietrarilor 10/5, Кишинёв, Moldova",47.003733,28.8041086,found
+"Pietrarilor 8, Кишинёв, Moldova",47.0022575,28.8033905,found
+"Plaiului 7, Кишинёв, Moldova",47.0021508,28.8625972,found
+"Postei 92, Кишинёв, Moldova",47.0463405,28.8344004,found
+"Profesor Ion Dumeniuc 26, Кишинёв, Moldova",47.0547922,28.8954159,found
+"Profesor Ion Dumeniuc 6, Кишинёв, Moldova",47.0560061,28.8881612,found
+"Regina Elisabeta ., Дурлешты, Moldova",47.0054813,28.7621415,found
+"Regina Elisabeta 2, Дурлешты, Moldova",47.005941,28.7610164,found
+"Regina Elisabeta 2/B, Дурлешты, Moldova",47.0056156,28.7610442,found
+"Regina Elisabeta 4, Дурлешты, Moldova",47.0050744,28.7619193,found
+"Renasterii Nationale  35, Кишинёв, Moldova",47.0442616,28.8497609,found
+"Renasterii Nationale 33, Кишинёв, Moldova",47.0443482,28.8493203,found
+"Salcâmilor 22/3, Кишинёв, Moldova",46.9791289,28.8974618,found
+"Salcâmilor 22/4, Кишинёв, Moldova",46.9788391,28.8976363,found
+"Salcâmilor 22/7, Кишинёв, Moldova",46.9785456,28.8971977,found
+"Sarmizegetusa ., Кишинёв, Moldova",46.9884084,28.8687935,found
+"Sarmizegetusa 37/2, Кишинёв, Moldova",46.9862498,28.8762823,found
+"Sarmizegetusa 37/4, Кишинёв, Moldova",46.9873905,28.8766481,found
+"Sarmizegetusa 43/2, Кишинёв, Moldova",46.9846349,28.8772781,found
+"Sarmizegetusa 45, Кишинёв, Moldova",46.9841369,28.8775477,found
+"Sarmizegetusa 53, Кишинёв, Moldova",46.9832929,28.8790012,found
+"Sarmizegetusa 53C, Кишинёв, Moldova",46.9830655,28.8801274,found
+"Sarmizegetusa 77 a, Кишинёв, Moldova",46.9872372,28.8760286,found
+"Sarmizegetusa 94/1, Кишинёв, Moldova",46.9793963,28.8820242,found
+"Socoleni 9, Кишинёв, Moldova",47.0612734,28.8446492,found
+"Sos.Hincesti 140/1, Кишинёв, Moldova",46.9729324,28.7653437,found
+"Sos.Hincesti 142 E, Кишинёв, Moldova",46.9729324,28.7653437,found
+"Sos.Hincesti 142 P, Кишинёв, Moldova",46.9729324,28.7653437,found
+"Sos.Hincesti 142, Кишинёв, Moldova",46.9729324,28.7653437,found
+"Spartacus 36, Кишинёв, Moldova",47.0422238,28.8543314,found
+"Spataru 47, Кишинёв, Moldova",47.0376001,28.8978534,found
+"Str Chișinăului  82, Криково, Moldova",47.063258,29.0089327,found
+"Str Sucevita 41, Кишинёв, Moldova",47.0322399,28.7778762,found
+"Str. Ceucari 14, Кишинёв, Moldova",47.0676835,28.8433663,found
+"Str. Cornești  7, Кишинёв, Moldova",47.0355402,28.8523618,found
+"Str. Gradina Botanica 18, Кишинёв, Moldova",46.9774506,28.8777776,found
+"Str. Ioana Radu 21, Кишинёв, Moldova",47.0280087,28.8019824,found
+"Str. Ioana Radu 27, Кишинёв, Moldova",47.02481,28.8022004,found
+"Str. Ioana Radu 27/4, Кишинёв, Moldova",47.0259565,28.7983845,found
+"Str. Minsk 26/2, Кишинёв, Moldova",46.9987027,28.8609258,found
+"Str. Tudor Strișcă  19, Кишинёв, Moldova",46.9867206,28.8364011,found
+"Str.Bacioii Noi ***, Кишинёв, Moldova",46.9559364,28.9260322,found
+"Str.Nicolae Dimo  **, Дурлешты, Moldova",47.0152396,28.7514441,found
+"Str.Nicolae Dimo **, Дурлешты, Moldova",47.0152396,28.7514441,found
+"Str.Petru Movila --, Кишинёв, Moldova",47.0440375,28.7424175,found
+"Strada Gheorghe Asachi -, Кишинёв, Moldova",47.0035488,28.824214,found
+"Stradela Lipcani 5, Кишинёв, Moldova",47.0317998,28.7808526,found
+"Stradela Studenților 17, Кишинёв, Moldova",47.066555,28.8460081,found
+"Stradela Studenților 6, Кишинёв, Moldova",47.0645199,28.8482053,found
+"Suceava ., Кишинёв, Moldova",47.0310097,28.7895829,found
+"Suceava 110/1, Кишинёв, Moldova",47.0320612,28.7893874,found
+"Suceava 118, Кишинёв, Moldova",47.0324995,28.7877162,found
+"Suceava 119, Кишинёв, Moldova",47.032528,28.7865865,found
+"Suceava 151, Кишинёв, Moldova",47.035099,28.781279,found
+"Sucevița 22/2, Кишинёв, Moldova",47.035032,28.7793372,found
+"Sucevița 36/1, Кишинёв, Moldova",47.0323573,28.7771855,found
+"Teilor 9/3, Кишинёв, Moldova",46.9842136,28.8492233,found
+"Testemitanu 37, Кишинёв, Moldova",46.9904884,28.8283048,found
+"Tiras 8, Кишинёв, Moldova",46.98849,28.8768229,found
+"Traian 1/2, Кишинёв, Moldova",46.9843908,28.8575008,found
+"Traian 21/4, Кишинёв, Moldova",46.9782538,28.8478209,found
+"Trandafirilor 11/5, Кишинёв, Moldova",46.9963492,28.8536516,found
+"Tudor Vladimirescu  ., Кишинёв, Moldova",47.0384991,28.8559174,found
+"Tudor Vladimirescu 1/3, Кишинёв, Moldova",47.0319159,28.8622556,found
+"Tudor Vladimirescu 1/4, Кишинёв, Moldova",47.0315691,28.8616475,found
+"Tudor Vladimirescu 1/5, Кишинёв, Moldova",47.0316366,28.860871,found
+"Tudor Vladimirescu 1\8, Кишинёв, Moldova",47.0302637,28.8624899,found
+"Tudor Vladimirescu 52, Дурлешты, Moldova",47.0358735,28.7616428,found
+"Tudor Vladimirescu 8, Кишинёв, Moldova",47.0340746,28.862966,found
+"Tudor Vladimirescu 9, Кишинёв, Moldova",47.026663,28.8688109,found
+"Tudor Vladimirescu J, Кишинёв, Moldova",47.039119,28.8565731,found
+"Unirii 20, Ставчены, Moldova",47.0953681,28.8686253,found
+"Unirii 20/2, Ставчены, Moldova",47.0953561,28.8701269,found
+"Unirii 20\2, Ставчены, Moldova",47.0953561,28.8701269,found
+"VASILE LUPU ., Кишинёв, Moldova",47.0217654,28.7983867,found
+"Valea Apelor ., Кишинёв, Moldova",46.9596514,28.8370336,found
+"Valea Crucii 24, Кишинёв, Moldova",46.973042,28.8536784,found
+"Valea crucii 4, Кишинёв, Moldova",46.9751597,28.8664908,found
+"Vasile Alecsandri -, Кишинёв, Moldova",47.0256799,28.8285027,found
+"Vasile Alecsandri ., Кишинёв, Moldova",47.0256799,28.8285027,found
+"Vasile Badiu 8/3, Кишинёв, Moldova",47.0531204,28.848653,found
+"Vasile Lupu  ., Кишинёв, Moldova",47.0217654,28.7983867,found
+"Vasile Lupu  59, Кишинёв, Moldova",47.0212269,28.8003537,found
+"Vasile Lupu -28, Кишинёв, Moldova",47.0221197,28.8008688,found
+"Vasile Lupu 28 E, Кишинёв, Moldova",47.0232903,28.8000753,found
+"Vasile Lupu 28, Кишинёв, Moldova",47.0221197,28.8008688,found
+"Vasile Lupu 28/B, Кишинёв, Moldova",47.0225989,28.7994757,found
+"Vasile Lupu 28b, Кишинёв, Moldova",47.0225989,28.7994757,found
+"Vasile Lupu 31, Кишинёв, Moldova",47.0218296,28.8063247,found
+"Vasile lupu 28E, Кишинёв, Moldova",47.0232903,28.8000753,found
+"Visinilor 20a, Кишинёв, Moldova",47.0310639,28.7869637,found
+"Voluntarilor 10, Кишинёв, Moldova",47.0076556,28.891605,found
+"Zelinski 5/7, Кишинёв, Moldova",46.9908706,28.8690581,found
+"bd. Alba-Iulia /, Кишинёв, Moldova",47.036502,28.7735791,found
+"bd. Alba-Iulia 113, Кишинёв, Moldova",47.0417892,28.7628124,found
+"bd. Alba-Iulia 128, Кишинёв, Moldova",47.0359131,28.7747801,found
+"bd. Alba-Iulia 188, Кишинёв, Moldova",47.0359131,28.7747801,found
+"bd. Cuza Voda ---, Кишинёв, Moldova",46.9741414,28.8485594,found
+"bd. Cuza Voda ., Кишинёв, Moldova",46.9741414,28.8485594,found
+"bd. Cuza Voda 23, Кишинёв, Moldova",46.977473,28.8553912,found
+"bd. Cuza Voda 5, Кишинёв, Moldova",46.9794985,28.8617835,found
+"bd. Cuza Voda 5/1, Кишинёв, Moldova",46.98604,28.8684265,found
+"bd. Cuza Vodă -, Кишинёв, Moldova",46.9780516,28.8545209,found
+"bd. Cuza Vodă ., Кишинёв, Moldova",46.9741414,28.8485594,found
+"bd. Cuza Vodă /, Кишинёв, Moldova",46.9741414,28.8485594,found
+"bd. Cuza Vodă 1/2, Кишинёв, Moldova",46.9875498,28.8709902,found
+"bd. Cuza Vodă 17/4, Кишинёв, Moldova",46.978455,28.8607246,found
+"bd. Cuza Vodă 18/1, Кишинёв, Moldova",46.9820009,28.8580098,found
+"bd. Cuza Vodă 19/2, Кишинёв, Moldova",46.9791989,28.8586696,found
+"bd. Cuza Vodă 29, Кишинёв, Moldova",46.9747331,28.8558916,found
+"bd. Cuza Vodă 3, Кишинёв, Moldova",46.9772093,28.8514288,found
+"bd. Cuza Vodă 33, Кишинёв, Moldova",46.9762976,28.853502,found
+"bd. Cuza Vodă 38/2, Кишинёв, Moldova",46.9762291,28.8497424,found
+"bd. Cuza Vodă 40, Кишинёв, Moldova",46.9753487,28.8497058,found
+"bd. Cuza Vodă 5, Кишинёв, Moldova",46.9794985,28.8617835,found
+"bd. Cuza Vodă 7/3, Кишинёв, Moldova",46.9848256,28.8677145,found
+"bd. Dacia *, Кишинёв, Moldova",46.9809842,28.8650354,found
+"bd. Dacia -, Кишинёв, Moldova",46.9784264,28.8684513,found
+"bd. Dacia ---, Кишинёв, Moldova",46.9784264,28.8684513,found
+"bd. Dacia ., Кишинёв, Moldova",46.9784264,28.8684513,found
+"bd. Dacia 22, Кишинёв, Moldova",46.9866733,28.8556126,found
+"bd. Dacia 29, Кишинёв, Moldova",46.9858753,28.8594901,found
+"bd. Dacia 34/1, Кишинёв, Moldova",46.981713,28.8619374,found
+"bd. Dacia 38/4, Кишинёв, Moldova",46.9799982,28.8623552,found
+"bd. Dacia 44, Кишинёв, Moldova",46.9774478,28.8683591,found
+"bd. Dacia 47, Кишинёв, Moldova",46.9794562,28.8681725,found
+"bd. Dacia 49/6, Кишинёв, Moldova",46.9780492,28.8783495,found
+"bd. Dacia 55, Кишинёв, Moldova",46.9764789,28.8723641,found
+"bd. Dacia 56, Кишинёв, Moldova",46.9659249,28.8660104,found
+"bd. Dacia 58, Кишинёв, Moldova",46.9576797,28.8947004,found
+"bd. Dacia 58/12, Кишинёв, Moldova",46.9599978,28.8955621,found
+"bd. Dacia 58/27, Кишинёв, Moldova",46.956756,28.9012508,found
+"bd. Dacia 59 botanica, Кишинёв, Moldova",46.9679423,28.888174,found
+"bd. Dacia 59, Кишинёв, Moldova",46.9679423,28.888174,found
+"bd. Dacia 59/1, Кишинёв, Moldova",46.9673047,28.8869395,found
+"bd. Dacia 60/12, Кишинёв, Moldova",46.942299,28.9222835,found
+"bd. Dacia 60/5, Кишинёв, Moldova",46.9429121,28.9228055,found
+"bd. Dacia 62, Кишинёв, Moldova",46.9422183,28.9250266,found
+"bd. Dacia 62\G, Кишинёв, Moldova",46.943309,28.9210986,found
+"bd. Dacia 69/1, Кишинёв, Moldova",46.9446031,28.9238764,found
+"bd. Dacia 75, Кишинёв, Moldova",46.9428926,28.9266032,found
+"bd. Decebal ., Кишинёв, Moldova",46.998318,28.85979,found
+"bd. Decebal 139/a, Кишинёв, Moldova",46.9868259,28.8591444,found
+"bd. Decebal 23, Кишинёв, Moldova",47.0037921,28.8606888,found
+"bd. Decebal 3, Кишинёв, Moldova",47.0076207,28.8604471,found
+"bd. Decebal 59, Кишинёв, Moldova",47.0004734,28.8606485,found
+"bd. Decebal 6, Кишинёв, Moldova",47.0062675,28.8590073,found
+"bd. Decebal 6/2, Кишинёв, Moldova",47.0058172,28.8582692,found
+"bd. Decebal 6/4, Кишинёв, Moldova",47.0062388,28.8572661,found
+"bd. Decebal 99, Кишинёв, Moldova",46.9910868,28.859216,found
+"bd. Decebal 99/A, Кишинёв, Moldova",46.9917315,28.8604853,found
+"bd. Decebal 99/B, Кишинёв, Moldova",46.991765,28.8600819,found
+"bd. Decebal 99/C, Кишинёв, Moldova",46.9914829,28.8600462,found
+"bd. Decebal, Кишинёв, Moldova",46.998318,28.85979,found
+"bd. Dimitrie Cantemir ., Кишинёв, Moldova",47.0193039,28.8513751,found
+"bd. Dimitrie Cantemir 1, Кишинёв, Moldova",47.0158464,28.8532053,found
+"bd. Dimitrie Cantemir 3, Кишинёв, Moldova",47.0165532,28.8533957,found
+"bd. Iuri Gagarin **, Кишинёв, Moldova",47.0103645,28.8592445,found
+"bd. Iuri Gagarin ., Кишинёв, Moldova",47.0115435,28.8577235,found
+"bd. Iuri Gagarin /, Кишинёв, Moldova",47.0103645,28.8592445,found
+"bd. Iuri Gagarin 1, Кишинёв, Moldova",47.011229,28.8585697,found
+"bd. Iuri Gagarin 5, Кишинёв, Moldova",47.0111719,28.8589192,found
+"bd. Iuri Gagarin 5/3, Кишинёв, Moldova",47.0108312,28.859462,found
+"bd. Mircea cel Batran ,, Кишинёв, Moldova",47.0519253,28.8903106,found
+"bd. Mircea cel Batran -, Кишинёв, Moldova",47.0386246,28.8900374,found
+"bd. Mircea cel Batran ., Кишинёв, Moldova",47.0505525,28.8901978,found
+"bd. Mircea cel Batran 15, Кишинёв, Moldova",47.0468052,28.8878226,found
+"bd. Mircea cel Batran 27/3, Кишинёв, Moldova",47.0527679,28.8867529,found
+"bd. Mircea cel Batran 3, Кишинёв, Moldova",47.0541636,28.886666,found
+"bd. Mircea cel Batran 4/1, Кишинёв, Moldova",47.0396369,28.8914313,found
+"bd. Mircea cel Batran 40, Кишинёв, Moldova",47.056872,28.8923187,found
+"bd. Mircea cel Batran 41/A, Кишинёв, Moldova",47.057588,28.890629,found
+"bd. Mircea cel Batran 42/2, Кишинёв, Moldova",47.0577318,28.8923187,found
+"bd. Mircea cel Batran 45, Кишинёв, Moldova",47.0596642,28.8909432,found
+"bd. Mircea cel Bătrân -, Кишинёв, Moldova",47.0370626,28.8893413,found
+"bd. Mircea cel Bătrân ., Кишинёв, Moldova",47.0386246,28.8900374,found
+"bd. Mircea cel Bătrân 0, Кишинёв, Moldova",47.0386246,28.8900374,found
+"bd. Mircea cel Bătrân 13/2, Кишинёв, Moldova",47.0480165,28.8888234,found
+"bd. Mircea cel Bătrân 14, Кишинёв, Moldova",47.0451808,28.8914616,found
+"bd. Mircea cel Bătrân 15, Кишинёв, Moldova",47.0468052,28.8878226,found
+"bd. Mircea cel Bătrân 17, Кишинёв, Moldova",47.0476619,28.8877551,found
+"bd. Mircea cel Bătrân 2/4, Кишинёв, Moldova",47.0374894,28.8905975,found
+"bd. Mircea cel Bătrân 22/1, Кишинёв, Moldova",47.0477989,28.8929785,found
+"bd. Mircea cel Bătrân 22/5, Кишинёв, Moldova",47.047926,28.8917452,found
+"bd. Mircea cel Bătrân 23/2, Кишинёв, Moldova",47.0386246,28.8900374,found
+"bd. Mircea cel Bătrân 26/6, Кишинёв, Moldova",47.0490957,28.8939778,found
+"bd. Mircea cel Bătrân 27, Кишинёв, Moldova",47.052704,28.8886428,found
+"bd. Mircea cel Bătrân 28/1, Кишинёв, Moldova",47.0501034,28.8921608,found
+"bd. Mircea cel Bătrân 3, Кишинёв, Moldova",47.0541636,28.886666,found
+"bd. Mircea cel Bătrân 34/5, Кишинёв, Moldova",47.0542415,28.8933596,found
+"bd. Mircea cel Bătrân 35/E, Кишинёв, Moldova",47.0549832,28.8888797,found
+"bd. Mircea cel Bătrân 39, Кишинёв, Moldova",47.0558209,28.8902283,found
+"bd. Mircea cel Bătrân 40, Кишинёв, Moldova",47.056872,28.8923187,found
+"bd. Mircea cel Bătrân 41, Кишинёв, Moldova",47.0580803,28.8907679,found
+"bd. Mircea cel Bătrân 41/A, Кишинёв, Moldova",47.057588,28.890629,found
+"bd. Mircea cel Bătrân 41/B, Кишинёв, Moldova",47.0570113,28.88906,found
+"bd. Mircea cel Bătrân 41/F, Кишинёв, Moldova",47.0578339,28.8885862,found
+"bd. Mircea cel Bătrân 41/G, Кишинёв, Moldova",47.0578046,28.8890227,found
+"bd. Mircea cel Bătrân 41/b, Кишинёв, Moldova",47.0570113,28.88906,found
+"bd. Mircea cel Bătrân 42, Кишинёв, Moldova",47.0571594,28.8927118,found
+"bd. Mircea cel Bătrân 42/2, Кишинёв, Moldova",47.0577318,28.8923187,found
+"bd. Mircea cel Bătrân 43/A, Кишинёв, Moldova",47.0592965,28.8905906,found
+"bd. Mircea cel Bătrân 43/B, Кишинёв, Moldova",47.0591736,28.8909023,found
+"bd. Mircea cel Bătrân 43/C, Кишинёв, Moldova",47.0588103,28.8908506,found
+"bd. Mircea cel Bătrân 43/F, Кишинёв, Moldova",47.0592962,28.8901406,found
+"bd. Mircea cel Bătrân 46, Кишинёв, Moldova",47.0585796,28.8924288,found
+"bd. Mircea cel Bătrân 47, Кишинёв, Moldova",47.061167,28.8911566,found
+"bd. Mircea cel Bătrân 9, Кишинёв, Moldova",47.0446728,28.8893248,found
+"bd. Moscova  9/5, Кишинёв, Moldova",47.0502222,28.8624992,found
+"bd. Moscova ., Кишинёв, Moldova",47.0453706,28.8618508,found
+"bd. Moscova /, Кишинёв, Moldova",47.0541357,28.8651138,found
+"bd. Moscova 11, Кишинёв, Moldova",47.0513766,28.8631964,found
+"bd. Moscova 13/2, Кишинёв, Moldova",47.0537737,28.8626313,found
+"bd. Moscova 14/1, Кишинёв, Moldova",47.0519109,28.8647705,found
+"bd. Moscova 17/1, Кишинёв, Moldova",47.0551193,28.8642726,found
+"bd. Moscova 2, Кишинёв, Moldova",47.0452172,28.8621619,found
+"bd. Moscova 20, Кишинёв, Moldova",47.0568696,28.8667886,found
+"bd. Moscova 26, Кишинёв, Moldova",47.0584421,28.8680567,found
+"bd. Moscova 28, Кишинёв, Moldova",47.0587933,28.8683983,found
+"bd. Moscova 3, Кишинёв, Moldova",47.0483361,28.8603004,found
+"bd. Moscova 4/4, Кишинёв, Moldova",47.0465905,28.8634716,found
+"bd. Moscova 7/1, Кишинёв, Moldova",47.0483382,28.861611,found
+"bd. Moscova 9, Кишинёв, Moldova",47.0485473,28.8624073,found
+"bd. Moscova 9/1, Кишинёв, Moldova",47.0491476,28.8626009,found
+"bd. Moscova 9/5, Кишинёв, Moldova",47.0502222,28.8624992,found
+"bd. Renasterii Nationale 0, Кишинёв, Moldova",47.0421346,28.8534645,found
+"bd. Renasterii Nationale 10, Кишинёв, Moldova",47.0359311,28.850247,found
+"bd. Renasterii Nationale 33, Кишинёв, Moldova",47.0443482,28.8493203,found
+"bd. Renasterii Nationale 35, Кишинёв, Moldova",47.0442616,28.8497609,found
+"bd. Renașterii Naționale  35, Кишинёв, Moldova",47.0442616,28.8497609,found
+"bd. Renașterii Naționale ., Кишинёв, Moldova",47.0421346,28.8534645,found
+"bd. Renașterii Naționale 0, Кишинёв, Moldova",47.0414511,28.8537254,found
+"bd. Renașterii Naționale 10, Кишинёв, Moldova",47.0359311,28.850247,found
+"bd. Renașterii Naționale 11, Кишинёв, Moldova",47.0383287,28.8521354,found
+"bd. Renașterii Naționale 14, Кишинёв, Moldova",47.0377189,28.8526754,found
+"bd. Renașterii Naționale 6, Кишинёв, Moldova",47.0355817,28.8496086,found
+"bd. Stefan cel Mare si Sfint -, Кишинёв, Moldova",47.0153708,28.8462266,found
+"bd. Stefan cel Mare si Sfint 132, Кишинёв, Moldova",47.0219861,28.8367,found
+"bd. Stefan cel Mare si Sfint 141/1, Кишинёв, Moldova",47.0312177,28.8214937,found
+"bd. Stefan cel Mare si Sfint 171/3, Кишинёв, Moldova",47.0352614,28.8125018,found
+"bd. Traian ., Кишинёв, Moldova",46.9832804,28.8530915,found
+"bd. Traian 1/2, Кишинёв, Moldova",46.9843908,28.8575008,found
+"bd. Traian 14/4, Кишинёв, Moldova",46.9809461,28.8459209,found
+"bd. Traian 21/4, Кишинёв, Moldova",46.9782538,28.8478209,found
+"bd. Traian 23/1, Кишинёв, Moldova",46.9775823,28.8457844,found
+"bd. Traian 6/1, Кишинёв, Moldova",46.9842637,28.8533802,found
+"bd. Traian 6/4, Кишинёв, Moldova",46.984318,28.8525009,found
+"bd. Ştefan cel Mare şi Sfânt 126, Кишинёв, Moldova",47.0206289,28.8388858,found
+"bd. Ştefan cel Mare şi Sfânt 169, Кишинёв, Moldova",47.0354815,28.815044,found
+"bd. Ştefan cel Mare şi Sfânt 171/3, Кишинёв, Moldova",47.0352614,28.8125018,found
+"bd. Ştefan cel Mare şi Sfânt 6, Кишинёв, Moldova",47.0153847,28.847022,found
+"bd. Ştefan cel Mare şi Sfânt 64, Кишинёв, Moldova",47.0183326,28.8422148,found
+"calea mosilor 4, Кишинёв, Moldova",47.0284004,28.8582156,found
+"dacia ., Кишинёв, Moldova",46.9789693,28.8676331,found
+"dacia 58, Кишинёв, Moldova",46.9627142,28.8888351,found
+"dacia 59 59, Кишинёв, Moldova",46.9975125,28.8444037,found
+"dacia 77, Кишинёв, Moldova",46.9421339,28.9273079,found
+"europa 8, Кишинёв, Moldova",46.9520024,28.8982462,found
+"ialoveni 136, Кишинёв, Moldova",47.0038563,28.7718893,found
+"ioana radu  27, Кишинёв, Moldova",47.0255969,28.7955264,found
+"iuri Gagarin  ., Кишинёв, Moldova",47.0110773,28.8584353,found
+"jubiliara 39/1, Кишинёв, Moldova",46.9762588,28.8334566,found
+"sos Hincesti 142, Кишинёв, Moldova",46.9729324,28.7653437,found
+"sos. Hincesti ., Кишинёв, Moldova",46.9976732,28.8067094,found
+"sos. Hincesti 140/1, Кишинёв, Moldova",46.9980787,28.8078475,found
+"sos. Hincesti 142, Кишинёв, Moldova",46.9980787,28.8078475,found
+"sos. Hincesti 206, Кишинёв, Moldova",46.9729324,28.7653437,found
+"sos. Muncești ., Кишинёв, Moldova",46.9305013,28.9602752,found
+"soseaua Hancesti 142, Кишинёв, Moldova",46.9925255,28.7847413,found
+"str-la 1 Florarii;str-la 1 Florării ., Кишинёв, Moldova",47.0302935,28.8692676,found
+"str-la 2 Ciocârliei 4/3, Кишинёв, Moldova",47.010602,28.8066606,found
+"str-la 4 Valea Apelor 13, Кишинёв, Moldova",46.9599252,28.8386459,found
+"str-la Andrei Doga 13/7, Кишинёв, Moldova",47.0353867,28.8521648,found
+"str-la Bisericii 1, Кишинёв, Moldova",47.0150694,28.7899286,found
+"str-la Bisericii 17, Кишинёв, Moldova",47.0161636,28.7883656,found
+"str-la Codrilor 26, Дурлешты, Moldova",47.0208889,28.7517353,found
+"str-la Ghica Vodă ., Кишинёв, Moldova",46.9747058,28.8577019,found
+"str-la Ghica Vodă 5, Кишинёв, Moldova",46.9748257,28.8572494,found
+"str-la Lipcani 9, Кишинёв, Moldova",47.0315675,28.7805533,found
+"str-la Nicolae Dimo 1, Дурлешты, Moldova",47.0150638,28.7530468,found
+"str-la Studenților ., Кишинёв, Moldova",47.0641639,28.8480354,found
+"str-la Studenților /, Кишинёв, Moldova",47.0641639,28.8480354,found
+"str-la Studenților 11/1, Кишинёв, Moldova",47.0651794,28.8470197,found
+"str-la Studenților 15a, Кишинёв, Moldova",47.0661044,28.8467234,found
+"str-la Studenților 16, Кишинёв, Moldova",47.0670277,28.8470755,found
+"str-la Studenților 18, Кишинёв, Moldova",47.067136,28.8464754,found
+"str-la Teatrului 2/1, Кишинёв, Moldova",47.0264499,28.8309886,found
+"str-la Teatrului 3, Кишинёв, Moldova",47.0267381,28.8305813,found
+"str-la Tudor Vladimirescu 52, Дурлешты, Moldova",47.0358735,28.7616428,found
+"str-la Tudor Vladimirescu 52, Кишинёв, Moldova",47.0358735,28.7616428,found
+"str. 27 Martie 1918 3, Кишинёв, Moldova",47.0402993,28.7970073,found
+"str. 31 August 1989 105, Кишинёв, Moldova",47.0203557,28.8324463,found
+"str. 31 August 1989 2, Криково, Moldova",47.1390553,28.8623769,found
+"str. 31 August 1989 36, Кишинёв, Moldova",47.0145473,28.8417527,found
+"str. Academician Natalia Gheorghiu 30, Кишинёв, Moldova",46.9979262,28.8375562,found
+"str. Academician Sergiu Radautanu ., Кишинёв, Moldova",47.0673434,28.8744096,found
+"str. Academician Sergiu Radautanu 3, Кишинёв, Moldova",47.0617032,28.871774,found
+"str. Academician Sergiu Rădăuțanu ., Кишинёв, Moldova",47.0673434,28.8744096,found
+"str. Academician Sergiu Rădăuțanu 7, Кишинёв, Moldova",47.0620501,28.8726189,found
+"str. Academiei /, Кишинёв, Moldova",46.9986439,28.8167575,found
+"str. Academiei 17, Кишинёв, Moldova",47.0045109,28.8114759,found
+"str. Academiei 6/2, Кишинёв, Moldova",47.0003509,28.8190941,found
+"str. Aerodromului 11, Кишинёв, Moldova",47.0370299,28.8566886,found
+"str. Aeroport 13, Кишинёв, Moldova",46.939859,28.9248395,found
+"str. Albisoara ., Кишинёв, Moldova",47.0245534,28.8534885,found
+"str. Albisoara 10., Кишинёв, Moldova",47.017354,28.85523,found
+"str. Albisoara 18, Кишинёв, Moldova",47.0201405,28.8553013,found
+"str. Albisoara 42/1, Кишинёв, Moldova",47.033926,28.8440842,found
+"str. Albisoara 82, Кишинёв, Moldova",47.0379476,28.830484,found
+"str. Albisoara 82/4, Кишинёв, Moldova",47.0379476,28.830484,found
+"str. Albisoara;str. Albișoara ., Кишинёв, Moldova",47.0411372,28.8298421,found
+"str. Albisoara;str. Albișoara 78/4, Кишинёв, Moldova",47.0411372,28.8298421,found
+"str. Albișoara -, Кишинёв, Moldova",47.0411372,28.8298421,found
+"str. Albișoara ., Кишинёв, Moldova",47.0411372,28.8298421,found
+"str. Albișoara 10, Кишинёв, Moldova",47.017354,28.85523,found
+"str. Albișoara 16, Кишинёв, Moldova",47.0191912,28.855231,found
+"str. Albișoara 18, Кишинёв, Moldova",47.0201405,28.8553013,found
+"str. Albișoara 70, Кишинёв, Moldova",47.0379382,28.8386612,found
+"str. Albișoara 72/5, Кишинёв, Moldova",47.0382348,28.8376223,found
+"str. Albișoara 76/6, Кишинёв, Moldova",47.0374344,28.8325074,found
+"str. Albișoara 78/4, Кишинёв, Moldova",47.0386338,28.8345022,found
+"str. Albișoara 78/6, Кишинёв, Moldova",47.0400639,28.8344217,found
+"str. Albișoara 82/1, Кишинёв, Moldova",47.0385459,28.8314246,found
+"str. Albișoara 82/4, Кишинёв, Moldova",47.0379476,28.830484,found
+"str. Alecu Russo 3/2, Кишинёв, Moldova",47.046063,28.8646899,found
+"str. Alecu Russo 4, Кишинёв, Moldova",47.0397381,28.8872801,found
+"str. Alecu Russo 61, Кишинёв, Moldova",47.038006,28.8866598,found
+"str. Alecu Russo 61/4, Кишинёв, Moldova",47.039738,28.8872801,found
+"str. Alecu Russo 9/2, Кишинёв, Moldova",47.0449196,28.8652363,found
+"str. Alecu Russo 9/6, Кишинёв, Moldova",47.0451037,28.8657446,found
+"str. Alecu Russo 9/7, Кишинёв, Moldova",47.0452585,28.8648285,found
+"str. Alessandro Bernardazzi ., Кишинёв, Moldova",47.0162762,28.8274648,found
+"str. Alessandro Bernardazzi 25, Кишинёв, Moldova",47.0126456,28.8327165,found
+"str. Alessandro Bernardazzi 68a, Кишинёв, Moldova",47.01705,28.8267631,found
+"str. Alexandr Orlov 46, Дурлешты, Moldova",47.0072079,28.7615772,found
+"str. Alexandr Orlov 51/1, Дурлешты, Moldova",47.0072713,28.7621221,found
+"str. Alexandr Pușkin /, Кишинёв, Moldova",47.0293531,28.8430918,found
+"str. Alexandr Pușkin 30, Кишинёв, Moldova",47.0247885,28.8361314,found
+"str. Alexandr Pușkin 49, Кишинёв, Moldova",47.0299475,28.8447384,found
+"str. Alexandr Pușkin 53, Кишинёв, Moldova",47.0243894,28.8349048,found
+"str. Alexandr Pușkin 53., Кишинёв, Moldova",47.017842,28.8256449,found
+"str. Alexandru Cosmescu *, Кишинёв, Moldova",47.0034765,28.8283889,found
+"str. Alexandru Donici 1, Кишинёв, Moldova",47.0302989,28.7989267,found
+"str. Alexandru Hâjdeu  122/1, Кишинёв, Moldova",47.0282292,28.8438782,found
+"str. Alexandru Lăpușneanu 5, Кишинёв, Moldova",47.0315285,28.8171955,found
+"str. Alexandru Marinescu 19/1, Кишинёв, Moldova",47.0305822,28.7818589,found
+"str. Alexandru Marinescu 51, Кишинёв, Moldova",47.0336085,28.770178,found
+"str. Alexandru Negru-Vodă 109/1, Кишинёв, Moldova",46.9666714,28.8651722,found
+"str. Alexandru cel Bun 108, Кишинёв, Moldova",47.0293865,28.8346001,found
+"str. Alexandru cel Bun 5, Дурлешты, Moldova",47.018404,28.7644599,found
+"str. Alexei Șciusev 2, Кишинёв, Moldova",47.026129,28.8177967,found
+"str. Alexei Șciusev 32, Кишинёв, Moldova",47.0157086,28.8344806,found
+"str. Anatol Corobceanu 1/B, Кишинёв, Moldova",47.0275553,28.8243018,found
+"str. Andrei Doga 23, Кишинёв, Moldova",47.0352635,28.8553003,found
+"str. Andrei Doga 26/B, Кишинёв, Moldova",47.0324768,28.8568336,found
+"str. Andrei Doga 28/7, Кишинёв, Moldova",47.0321355,28.8574313,found
+"str. Andrei Doga 32, Кишинёв, Moldova",47.0338419,28.8595159,found
+"str. Andrei Doga 39/2, Кишинёв, Moldova",47.0343767,28.8645711,found
+"str. Andrei Doga 45/1, Кишинёв, Moldova",47.0333688,28.8667259,found
+"str. Arheolog Ion Casian Suruceanu 1, Кишинёв, Moldova",46.9865253,28.8339974,found
+"str. Armenească;str. Armeneasca 110/1, Кишинёв, Moldova",47.0242064,28.8461766,found
+"str. Armenească;str. Armeneasca 47, Кишинёв, Moldova",47.0243654,28.8454944,found
+"str. Atelierilor  14, Дурлешты, Moldova",47.0185216,28.7436719,found
+"str. Atelierilor ., Дурлешты, Moldova",47.0175453,28.7417352,found
+"str. Atelierilor 21, Дурлешты, Moldova",47.0181056,28.7435568,found
+"str. Atelierilor 23, Дурлешты, Moldova",47.0182004,28.7437358,found
+"str. Avram Iancu 17, Кишинёв, Moldova",47.0196623,28.8505534,found
+"str. Avram Iancu 32, Кишинёв, Moldova",47.0207288,28.850124,found
+"str. Așhabad 127/8, Кишинёв, Moldova",46.9903017,28.881654,found
+"str. Bacioii Noi 14, Кишинёв, Moldova",46.9594145,28.9195205,found
+"str. Bacioii Noi 14/C, Кишинёв, Moldova",46.9540603,28.9210132,found
+"str. Bacioii Noi 14D, Кишинёв, Moldova",46.9545448,28.9198613,found
+"str. Belgrad ., Кишинёв, Moldova",46.9863409,28.8639567,found
+"str. Belgrad 19/3, Кишинёв, Moldova",46.9872023,28.8658895,found
+"str. Bisericii ---, Дурлешты, Moldova",47.0160447,28.7874204,found
+"str. Bisericii ., Кишинёв, Moldova",47.0197214,28.7891453,found
+"str. Bisericii 1, Дурлешты, Moldova",47.0172336,28.7864285,found
+"str. Bisericii 1, Кишинёв, Moldova",47.0190955,28.7898647,found
+"str. Bogdan Petriceicu Hașdeu 20, Кишинёв, Moldova",47.0365513,28.8379175,found
+"str. Bogdan Petriceicu Hașdeu 26, Кишинёв, Moldova",47.0368549,28.8374575,found
+"str. Bogdan Voievod  --, Кишинёв, Moldova",47.044247,28.8609918,found
+"str. Bogdan Voievod -, Кишинёв, Moldova",47.043275,28.8551726,found
+"str. Bogdan Voievod ., Кишинёв, Moldova",47.044247,28.8609918,found
+"str. Bogdan Voievod 1, Кишинёв, Moldova",47.0431985,28.8572878,found
+"str. Bogdan Voievod 1/A, Кишинёв, Moldova",47.0431983,28.8574944,found
+"str. Bogdan Voievod 1/C, Кишинёв, Moldova",47.0433845,28.8584633,found
+"str. Bogdan Voievod 1/E, Кишинёв, Moldova",47.04287,28.8585797,found
+"str. Bogdan Voievod 2D, Кишинёв, Moldova",47.0456039,28.8595587,found
+"str. Bogdan Voievod 7, Кишинёв, Moldova",47.0429877,28.8563416,found
+"str. Braniștii 15, Кишинёв, Moldova",47.0411775,28.8687745,found
+"str. Braniștii;str. Branistii ., Кишинёв, Moldova",47.0367652,28.8697135,found
+"str. Bucovinei -, Кишинёв, Moldova",47.0688396,28.8696276,found
+"str. Bucovinei 1, Кишинёв, Moldova",47.0700803,28.8629657,found
+"str. Bucovinei 3/1, Кишинёв, Moldova",47.0700803,28.8629657,found
+"str. Bucovinei 4/A, Кишинёв, Moldova",47.0676091,28.8756223,found
+"str. Bucovinei 5, Кишинёв, Moldova",47.0681635,28.8793262,found
+"str. Bucovinei 5/11, Кишинёв, Moldova",47.0700803,28.8629657,found
+"str. Bucovinei 5/63, Кишинёв, Moldova",47.0700803,28.8629657,found
+"str. Bucovinei 7, Кишинёв, Moldova",47.0682815,28.8772456,found
+"str. București 15, Кишинёв, Moldova",47.0146155,28.8382359,found
+"str. București 26, Кишинёв, Moldova",47.0140126,28.83991,found
+"str. București 71, Кишинёв, Moldova",47.0206838,28.8287952,found
+"str. București 96/1, Кишинёв, Moldova",47.0264595,28.8215884,found
+"str. Bucuriei -, Кишинёв, Moldova",47.0421133,28.8105392,found
+"str. Bucuriei 10, Кишинёв, Moldova",47.0383833,28.8167963,found
+"str. Buiucani 1/C, Кишинёв, Moldova",47.0417542,28.7502091,found
+"str. Buiucani 4, Кишинёв, Moldova",47.0240747,28.8083341,found
+"str. Bulgară ., Кишинёв, Moldova",47.0159998,28.8378811,found
+"str. Burebista -, Кишинёв, Moldova",46.9834845,28.8788394,found
+"str. Burebista ., Кишинёв, Moldova",46.9834845,28.8788394,found
+"str. Burebista /, Кишинёв, Moldova",46.9834845,28.8788394,found
+"str. Burebista 114/2, Кишинёв, Moldova",46.9797294,28.8745372,found
+"str. Burebista 2, Криково, Moldova",47.1245911,28.8645602,found
+"str. Burebista 25, Кишинёв, Moldova",47.0310499,28.7697398,found
+"str. Burebista 40/2, Кишинёв, Moldova",46.9861531,28.8820566,found
+"str. Burebista 66/2, Кишинёв, Moldova",46.9860271,28.879948,found
+"str. Băcioii Noi ., Кишинёв, Moldova",46.9559364,28.9260322,found
+"str. Băcioii Noi /, Кишинёв, Moldova",46.9559364,28.9260322,found
+"str. Băcioii Noi 14, Кишинёв, Moldova",46.9594145,28.9195205,found
+"str. Băcioii Noi 14., Кишинёв, Moldova",46.9540919,28.9227797,found
+"str. Băcioii Noi 14/5, Кишинёв, Moldova",46.954918,28.9212222,found
+"str. Băcioii Noi 14/9, Кишинёв, Moldova",46.9556533,28.9198919,found
+"str. Băcioii Noi 14/B, Кишинёв, Moldova",46.9542346,28.9217536,found
+"str. Băcioii Noi 14/C, Кишинёв, Moldova",46.9540603,28.9210132,found
+"str. Băcioii Noi 14/C., Кишинёв, Moldova",46.9540603,28.9210132,found
+"str. Calea Basarabiei 2, Криково, Moldova",47.126153,28.8643878,found
+"str. Calea Basarabiei 2A, Криково, Moldova",47.126153,28.8643878,found
+"str. Calea Ieșilor  6, Кишинёв, Moldova",47.0387255,28.807335,found
+"str. Calea Ieșilor ., Кишинёв, Moldova",47.0381175,28.8113831,found
+"str. Calea Ieșilor 16/1, Кишинёв, Moldova",47.043512,28.794509,found
+"str. Calea Ieșilor 2/3, Кишинёв, Moldova",47.0384955,28.8086921,found
+"str. Calea Ieșilor 23, Кишинёв, Moldova",47.0409064,28.7972083,found
+"str. Calea Ieșilor 47/2, Кишинёв, Moldova",47.0422975,28.7914746,found
+"str. Calea Ieșilor 5, Кишинёв, Moldova",47.0377119,28.8097426,found
+"str. Calea Ieșilor 51/2, Кишинёв, Moldova",47.0434383,28.7886489,found
+"str. Calea Ieșilor 59/1, Кишинёв, Moldova",47.0449754,28.784243,found
+"str. Calea Ieșilor 6, Кишинёв, Moldova",47.0433126,28.7934948,found
+"str. Calea Ieșilor 63/6, Кишинёв, Moldova",47.0445787,28.7810498,found
+"str. Calea Ieșilor 67/1, Кишинёв, Moldova",47.045834,28.7797655,found
+"str. Calea Ieșilor 6b, Кишинёв, Moldova",47.0394409,28.8066691,found
+"str. Calea Mosilor  4, Кишинёв, Moldova",47.0255028,28.8611059,found
+"str. Calea Mosilor  6, Кишинёв, Moldova",47.0308656,28.8559293,found
+"str. Calea Mosilor ., Кишинёв, Moldova",47.02645,28.8596229,found
+"str. Calea Mosilor 4, Кишинёв, Moldova",47.0255028,28.8611059,found
+"str. Calea Moșilor -, Кишинёв, Moldova",47.025347,28.8607807,found
+"str. Calea Moșilor ., Кишинёв, Moldova",47.0270923,28.8588729,found
+"str. Calea Moșilor 4, Кишинёв, Moldova",47.0255028,28.8611059,found
+"str. Calea Orheiului 103, Кишинёв, Moldova",47.053094,28.8502406,found
+"str. Calea Orheiului 105/2, Кишинёв, Moldova",47.0547134,28.8487022,found
+"str. Calea Orheiului 28/1, Кишинёв, Moldova",47.0444662,28.8483832,found
+"str. Calea Orheiului 28/2, Кишинёв, Moldova",47.0438996,28.8482875,found
+"str. Calea Orheiului 32, Кишинёв, Moldova",47.0449288,28.8488739,found
+"str. Carierei 5d, Кишинёв, Moldova",47.03792,28.8459465,found
+"str. Cartuşa -, Дурлешты, Moldova",47.016114,28.747452,found
+"str. Cartuşa ., Дурлешты, Moldova",47.016114,28.747452,found
+"str. Cartuşa 101, Дурлешты, Moldova",47.0142885,28.7506628,found
+"str. Cartuşa 44/A, Дурлешты, Moldova",47.0161627,28.7470284,found
+"str. Cartuşa 48/1, Дурлешты, Moldova",47.0171326,28.7470744,found
+"str. Cartuşa 93/2, Дурлешты, Moldova",47.0157079,28.7467119,found
+"str. Cartuşa 95, Дурлешты, Moldova",47.0150305,28.7479648,found
+"str. Cartuşa 95/1, Дурлешты, Moldova",47.014742,28.7485238,found
+"str. Cartuşa 95/3, Дурлешты, Moldova",47.0155738,28.7461215,found
+"str. Cartuşa 95/4, Дурлешты, Moldova",47.0149402,28.746555,found
+"str. Cartuşa 95/5, Дурлешты, Moldova",47.0153322,28.7456173,found
+"str. Cartuşa 99, Дурлешты, Moldova",47.0139346,28.7490451,found
+"str. Cartuşa 99/5, Дурлешты, Moldova",47.0138247,28.7495967,found
+"str. Cartuşa 99/6, Дурлешты, Moldova",47.0139346,28.7490451,found
+"str. Cartuşa 99/7, Дурлешты, Moldova",47.0140792,28.7486956,found
+"str. Cartușa ., Дурлешты, Moldova",47.0141414,28.7401963,found
+"str. Cartușa 95, Дурлешты, Moldova",47.0153322,28.7456173,found
+"str. Cartușa 95/2, Дурлешты, Moldova",47.0150957,28.7472968,found
+"str. Cetatea Alba ., Кишинёв, Moldova",47.002222,28.8665788,found
+"str. Cetatea Alba 194/3, Кишинёв, Moldova",46.9857149,28.8868346,found
+"str. Cetatea Alba 3, Кишинёв, Moldova",46.987679,28.883705,found
+"str. Cetatea Alba 97, Кишинёв, Moldova",46.9921306,28.8771229,found
+"str. Cetatea Albă ., Кишинёв, Moldova",46.9920824,28.8769247,found
+"str. Cetatea Albă 11, Кишинёв, Moldova",47.0043562,28.8649229,found
+"str. Cetatea Albă 141, Кишинёв, Moldova",46.9887463,28.8820184,found
+"str. Cetatea Chilia ., Кишинёв, Moldova",46.9946472,28.8723463,found
+"str. Cetatea Chilia 62, Кишинёв, Moldova",46.9905223,28.872495,found
+"str. Ceucari -, Кишинёв, Moldova",47.0567317,28.8484025,found
+"str. Ceucari ., Кишинёв, Moldova",47.0536009,28.8508345,found
+"str. Ceucari 1, Кишинёв, Moldova",47.0671618,28.8429777,found
+"str. Ceucari 1/1, Кишинёв, Moldova",47.0574931,28.8477125,found
+"str. Ceucari 10/1, Кишинёв, Moldova",47.0665939,28.8446904,found
+"str. Ceucari 11, Кишинёв, Moldova",47.0671618,28.8429777,found
+"str. Ceucari 11/1, Кишинёв, Moldova",47.0671618,28.8429777,found
+"str. Ceucari 14, Кишинёв, Moldova",47.0676835,28.8433663,found
+"str. Ceucari 2/4, Кишинёв, Moldova",47.0576143,28.8493424,found
+"str. Ceucari 4, Кишинёв, Moldova",47.0639736,28.8460605,found
+"str. Ceucari 5/1, Кишинёв, Moldova",47.0640638,28.8444613,found
+"str. Ceucari 9/1, Кишинёв, Moldova",47.0661704,28.8430824,found
+"str. Chimiștilor 1, Дурлешты, Moldova",47.0254302,28.7756659,found
+"str. Chimiștilor 9, Дурлешты, Moldova",47.025149,28.7744478,found
+"str. Chişinău 82, Криково, Moldova",47.063258,29.0089327,found
+"str. Ciocirliei ., Кишинёв, Moldova",47.00755,28.806319,found
+"str. Ciocârliei 17, Кишинёв, Moldova",47.0056915,28.8053251,found
+"str. Ciprian Porumbescu ---, Кишинёв, Moldova",47.0241342,28.8050254,found
+"str. Circului 40, Кишинёв, Moldova",47.0395345,28.8479151,found
+"str. Ciuflea ., Кишинёв, Moldova",47.0114241,28.8445001,found
+"str. Ciuflea 1, Кишинёв, Moldova",47.0119737,28.8440925,found
+"str. Codrilor 19, Дурлешты, Moldova",47.0194045,28.7549296,found
+"str. Codrilor 22/1, Дурлешты, Moldova",47.019496,28.7526843,found
+"str. Cojocarilor 25, Кишинёв, Moldova",47.0257679,28.8461135,found
+"str. Colina Puskin ., Кишинёв, Moldova",47.032624,28.8371785,found
+"str. Columna ., Кишинёв, Moldova",47.0249594,28.8384756,found
+"str. Columna 180, Кишинёв, Moldova",47.0411137,28.8156999,found
+"str. Constantin Brâncuşi 146a., Кишинёв, Moldova",46.9880139,28.8661055,found
+"str. Constantin Brâncuşi 148, Кишинёв, Moldova",46.9875475,28.8663907,found
+"str. Constantin Stamati 2/1, Ставчены, Moldova",47.0950111,28.8696074,found
+"str. Constantin Stere ., Кишинёв, Moldova",47.0256632,28.8175511,found
+"str. Constantin Stere 16, Кишинёв, Moldova",47.025289,28.8165111,found
+"str. Constantin Stere 20, Кишинёв, Moldova",47.0253338,28.8157349,found
+"str. Constantin Stere 4, Кишинёв, Moldova",47.0260129,28.8176211,found
+"str. Constantin Vârnav **, Кишинёв, Moldova",46.9947316,28.8347042,found
+"str. Constantin Vârnav 20, Кишинёв, Moldova",46.9921568,28.8359726,found
+"str. Constantin Vârnav 20/1, Кишинёв, Moldova",46.9924389,28.8361733,found
+"str. Constantin Vârnav 32/A, Кишинёв, Moldova",46.9913128,28.8379695,found
+"str. Cornesti -, Кишинёв, Moldova",47.0359842,28.8519125,found
+"str. Cornesti ., Кишинёв, Moldova",47.0359842,28.8519125,found
+"str. Cornesti 11, Кишинёв, Moldova",47.0358717,28.852133,found
+"str. Cornesti 17, Кишинёв, Moldova",47.0359517,28.8513692,found
+"str. Cornesti 7, Кишинёв, Moldova",47.0355402,28.8523618,found
+"str. Cornești 10, Кишинёв, Moldova",47.0359842,28.8519125,found
+"str. Cornești 13, Кишинёв, Moldova",47.0358656,28.8516949,found
+"str. Cornului 13/2, Кишинёв, Moldova",47.0198892,28.7956585,found
+"str. Cornului 5/1, Кишинёв, Moldova",47.0195039,28.7981999,found
+"str. Cornului 9/3, Кишинёв, Moldova",47.0189341,28.7966283,found
+"str. Costiujeni 74, Кишинёв, Moldova",46.9630578,28.8341304,found
+"str. Costiujeni 8/2, Кишинёв, Moldova",46.9786165,28.8355285,found
+"str. Crângului 12, Кишинёв, Moldova",47.035127,28.8645603,found
+"str. Cucorilor /, Кишинёв, Moldova",47.0634276,28.8405855,found
+"str. Cucorilor 82, Кишинёв, Moldova",47.0634276,28.8405855,found
+"str. Cărtusa ., Дурлешты, Moldova",47.0153552,28.7404084,found
+"str. Căușeni 3, Кишинёв, Moldova",46.9964578,28.8739633,found
+"str. Dacia ., Кишинёв, Moldova",47.0772235,28.9752383,found
+"str. Danubius 59, Кишинёв, Moldova",46.9868435,28.8779065,found
+"str. Diminetii ., Кишинёв, Moldova",47.0024789,28.8647052,found
+"str. Diminetii 1, Кишинёв, Moldova",47.002754,28.8647512,found
+"str. Diminetii 20, Кишинёв, Moldova",47.0036713,28.8661002,found
+"str. Diminetii 22, Кишинёв, Moldova",47.00349,28.8656429,found
+"str. Dimineții ,, Кишинёв, Moldova",47.0024789,28.8647052,found
+"str. Dimineții ., Кишинёв, Moldova",47.0024789,28.8647052,found
+"str. Dimineții 1., Кишинёв, Moldova",47.002754,28.8647512,found
+"str. Dimineții 10, Кишинёв, Moldova",47.004006,28.8668806,found
+"str. Dimineții 10a, Кишинёв, Moldova",47.0041393,28.8667591,found
+"str. Dimineții 14, Кишинёв, Moldova",47.0040752,28.8664599,found
+"str. Dimineții 20, Кишинёв, Moldova",47.0036713,28.8661002,found
+"str. Dimineții 20/1, Кишинёв, Moldova",47.0036931,28.8659291,found
+"str. Dimineții 22, Кишинёв, Moldova",47.00349,28.8656429,found
+"str. Dimineții 3, Кишинёв, Moldova",47.0035392,28.8672901,found
+"str. Dimineții 45, Кишинёв, Moldova",47.0026789,28.8651837,found
+"str. Dimineții 6, Кишинёв, Moldova",47.0043672,28.866914,found
+"str. Dimineții 8, Кишинёв, Moldova",47.004345,28.8666343,found
+"str. Doina 158, Кишинёв, Moldova",47.0650902,28.8369806,found
+"str. Doina și Ion Aldea-Teodorovici 12/2, Кишинёв, Moldova",47.031131,28.7942393,found
+"str. Doina și Ion Aldea-Teodorovici 17, Кишинёв, Moldova",47.0313327,28.792676,found
+"str. Doina și Ion Aldea-Teodorovici 8, Кишинёв, Moldova",47.0296333,28.7945708,found
+"str. Drumul Taberei 23, Кишинёв, Moldova",47.0210855,28.7955604,found
+"str. Drumul Viilor *, Кишинёв, Moldova",47.0018341,28.8056689,found
+"str. Drumul Viilor 26/1, Кишинёв, Moldova",47.0095799,28.818252,found
+"str. Drumul Viilor 38/1, Кишинёв, Moldova",47.0030144,28.8060332,found
+"str. Dumitru Rîșcanu; ., Кишинёв, Moldova",47.0351191,28.8621834,found
+"str. Durlesti ., Дурлешты, Moldova",47.0446369,28.7457465,found
+"str. Durlesti 10/A, Дурлешты, Moldova",47.0435011,28.7488146,found
+"str. Durlesti 10/B, Дурлешты, Moldova",47.0434084,28.7483791,found
+"str. Durleşti 10/B, Кишинёв, Moldova",47.0434084,28.7483791,found
+"str. Durleşti 10/D, Кишинёв, Moldova",47.0438068,28.7488814,found
+"str. Durleşti 10/F, Кишинёв, Moldova",47.0441969,28.7486751,found
+"str. Durleşti 12/B, Кишинёв, Moldova",47.044454,28.7480442,found
+"str. Durleşti 20/A, Кишинёв, Moldova",47.045354,28.7456401,found
+"str. Durleşti 20/D, Кишинёв, Moldova",47.0456128,28.7451949,found
+"str. Durleşti 4, Кишинёв, Moldova",47.042114,28.7520717,found
+"str. Durlești ., Дурлешты, Moldova",47.0446369,28.7457465,found
+"str. Durlești ., Кишинёв, Moldova",47.0220111,28.7934118,found
+"str. Durlești 2b, Кишинёв, Moldova",47.0220111,28.7934118,found
+"str. Durlești 3/c, Дурлешты, Moldova",47.0446369,28.7457465,found
+"str. Durlești 8, Дурлешты, Moldova",47.0446369,28.7457465,found
+"str. Eremei Stratan 2a, Дурлешты, Moldova",47.0182826,28.7867239,found
+"str. Eugen Coca 19, Кишинёв, Moldova",47.0280039,28.807931,found
+"str. Eugen Coca 3, Кишинёв, Moldova",47.0245174,28.8088188,found
+"str. Europa ., Кишинёв, Moldova",46.9779632,28.8063393,found
+"str. Fierarilor 30, Бубуечь, Moldova",46.9986721,28.934188,found
+"str. Fiodor Tolbuhin ., Кишинёв, Moldova",47.0600964,28.7952289,found
+"str. Florilor ., Кишинёв, Moldova",47.0535963,28.8577884,found
+"str. Florilor 16/1, Кишинёв, Moldova",47.0548505,28.8586568,found
+"str. Florilor 28/2, Кишинёв, Moldova",47.0581416,28.8607649,found
+"str. Florilor 3, Ставчены, Moldova",47.0885822,28.869774,found
+"str. Florilor 32, Кишинёв, Moldova",47.0594203,28.8609742,found
+"str. Florării 4, Кишинёв, Moldova",47.0288782,28.8687685,found
+"str. Galați 31, Кишинёв, Moldova",46.9910303,28.8057903,found
+"str. George Coșbuc 7, Кишинёв, Moldova",47.0280678,28.8415447,found
+"str. Ghenadie Iablocikin 2/2, Кишинёв, Moldova",47.0391194,28.8086341,found
+"str. Gheorghe Asachi ---, Кишинёв, Moldova",47.0035488,28.824214,found
+"str. Gheorghe Asachi ., Кишинёв, Moldova",47.0035488,28.824214,found
+"str. Gheorghe Asachi 4, Кишинёв, Moldova",47.0061948,28.8256229,found
+"str. Gheorghe Asachi 44, Кишинёв, Moldova",47.002389,28.822684,found
+"str. Gheorghe Asachi 49b, Кишинёв, Moldova",46.999896,28.8219201,found
+"str. Gheorghe Asachi 62, Кишинёв, Moldova",46.9966331,28.8189618,found
+"str. Gheorghe Asachi 71/7, Кишинёв, Moldova",46.9946281,28.8231763,found
+"str. Gheorghe Cașu 2/8, Кишинёв, Moldova",47.0024678,28.8369217,found
+"str. Gheorghe Cașu 30/E, Кишинёв, Moldova",47.004705,28.8343911,found
+"str. Gheorghe Codreanu 5, Кишинёв, Moldova",47.0216011,28.7953783,found
+"str. Gheorghe Codreanu 77, Кишинёв, Moldova",47.0149588,28.7908378,found
+"str. Gheorghe Madan --, Кишинёв, Moldova",47.0533205,28.8463046,found
+"str. Gheorghe Madan ., Кишинёв, Moldova",47.0589199,28.8444562,found
+"str. Gheorghe Madan 2, Кишинёв, Moldova",47.0492147,28.847715,found
+"str. Gheorghe Madan 46/3, Кишинёв, Moldova",47.0557981,28.8475071,found
+"str. Gheorghe Madan 50/3, Кишинёв, Moldova",47.0586395,28.8455096,found
+"str. Gheorghe Madan 50/4, Кишинёв, Moldova",47.058896,28.8451686,found
+"str. Gheorghe Madan 85/6, Кишинёв, Moldova",47.0591667,28.8408266,found
+"str. Gheorghe Madan 87/2, Кишинёв, Moldova",47.0600999,28.842947,found
+"str. Gheorghe Madan 87/5, Кишинёв, Moldova",47.0597563,28.841084,found
+"str. Ghica Vodă ., Кишинёв, Moldova",46.9752902,28.8573532,found
+"str. Ghica Vodă 3/A, Кишинёв, Moldova",46.9756155,28.8576945,found
+"str. Ghica Vodă 5, Кишинёв, Moldova",46.9757031,28.8581079,found
+"str. Ghioceilor 2/1, Кишинёв, Moldova",47.0183789,28.7965794,found
+"str. Ghioceilor 29, Кишинёв, Moldova",47.0188778,28.7944449,found
+"str. Ghioceilor 9, Кишинёв, Moldova",47.0180181,28.7978447,found
+"str. Ginta Latina ., Кишинёв, Moldova",47.0378533,28.8939741,found
+"str. Ginta Latina 1, Кишинёв, Moldova",47.035804,28.8870536,found
+"str. Ginta Latina 12/12, Кишинёв, Moldova",47.0346861,28.8860766,found
+"str. Ginta Latina 12/7, Кишинёв, Moldova",47.0340396,28.884251,found
+"str. Ginta Latina 13/1, Кишинёв, Moldova",47.035804,28.8870536,found
+"str. Ginta Latina 8, Кишинёв, Moldova",47.0327257,28.8816362,found
+"str. Ginta Latină --, Кишинёв, Moldova",47.0356691,28.8879895,found
+"str. Ginta Latină ., Кишинёв, Moldova",47.0345965,28.8850245,found
+"str. Ginta Latină /, Кишинёв, Moldova",47.0356691,28.8879895,found
+"str. Ginta Latină 1/1, Кишинёв, Moldova",47.0347143,28.881433,found
+"str. Ginta Latină 12/4, Кишинёв, Moldova",47.0332066,28.8838885,found
+"str. Ginta Latină 13/1, Кишинёв, Moldova",47.035804,28.8870536,found
+"str. Ginta Latină 16, Кишинёв, Moldova",47.0352184,28.888489,found
+"str. Ginta Latină 19/6, Кишинёв, Moldova",47.0397862,28.893951,found
+"str. Ginta Latină 5, Кишинёв, Moldova",47.034175,28.8821829,found
+"str. Ginta Latină 8, Кишинёв, Moldova",47.0327257,28.8816362,found
+"str. Gradinilor -, Кишинёв, Moldova",47.0244143,28.8530538,found
+"str. Grenoble  130/3, Кишинёв, Moldova",46.9790091,28.8373875,found
+"str. Grenoble  259/2, Кишинёв, Moldova",46.972481,28.8514343,found
+"str. Grenoble *, Кишинёв, Moldova",46.9808444,28.8410401,found
+"str. Grenoble -, Кишинёв, Moldova",46.9721193,28.8512015,found
+"str. Grenoble 1, Кишинёв, Moldova",46.9840814,28.8392021,found
+"str. Grenoble 106a, Кишинёв, Moldova",46.9898643,28.8237307,found
+"str. Grenoble 108, Кишинёв, Moldova",46.9890388,28.8252012,found
+"str. Grenoble 11, Кишинёв, Moldova",46.9912805,28.822481,found
+"str. Grenoble 110, Кишинёв, Moldova",46.9889386,28.8272627,found
+"str. Grenoble 120, Кишинёв, Moldova",46.9834497,28.8347064,found
+"str. Grenoble 120/3, Кишинёв, Moldova",46.9830718,28.8329769,found
+"str. Grenoble 120/9, Кишинёв, Moldova",46.984293,28.8334246,found
+"str. Grenoble 128/2, Кишинёв, Moldova",46.9798626,28.8373785,found
+"str. Grenoble 130, Кишинёв, Moldova",46.9804406,28.8400101,found
+"str. Grenoble 130/3, Кишинёв, Moldova",46.9790091,28.8373875,found
+"str. Grenoble 134/2, Кишинёв, Moldova",46.9736647,28.8484399,found
+"str. Grenoble 134/3, Кишинёв, Moldova",46.9736166,28.8477059,found
+"str. Grenoble 134/4, Кишинёв, Moldova",46.968168,28.8509597,found
+"str. Grenoble 159/4, Кишинёв, Moldova",46.9856261,28.836839,found
+"str. Grenoble 161/4, Кишинёв, Moldova",46.9850651,28.8373338,found
+"str. Grenoble 161/4., Кишинёв, Moldova",46.9850651,28.8373338,found
+"str. Grenoble 163/2, Кишинёв, Moldova",46.983674,28.8377631,found
+"str. Grenoble 163/3, Кишинёв, Moldova",46.9842239,28.8383207,found
+"str. Grenoble 199, Кишинёв, Moldova",46.9796323,28.8448812,found
+"str. Grenoble 209, Кишинёв, Moldova",46.9751222,28.8479365,found
+"str. Grenoble 25, Кишинёв, Moldova",46.9895556,28.8282838,found
+"str. Grenoble 257, Кишинёв, Moldova",46.9732217,28.8500713,found
+"str. Grenoble 259/13, Кишинёв, Moldova",46.9740329,28.8506336,found
+"str. Grenoble 259/9, Кишинёв, Moldova",46.9736822,28.8517408,found
+"str. Grenoble 7, Кишинёв, Moldova",46.991565,28.8219031,found
+"str. Grigore Alexandrescu  15, Кишинёв, Moldova",47.0203316,28.8086171,found
+"str. Grigore Alexandrescu  3A, Кишинёв, Moldova",47.0212228,28.8055705,found
+"str. Grigore Alexandrescu **, Кишинёв, Moldova",47.0207962,28.8061145,found
+"str. Grigore Alexandrescu ., Кишинёв, Moldova",47.0207962,28.8061145,found
+"str. Grigore Alexandrescu 3/A, Кишинёв, Moldova",47.0212283,28.8057046,found
+"str. Grigore Alexandrescu 6, Кишинёв, Moldova",47.0198288,28.8067526,found
+"str. Grigore Ureche 10/A, Дурлешты, Moldova",47.0170499,28.7477808,found
+"str. Grigore Ureche 67, Кишинёв, Moldova",47.0278806,28.8463639,found
+"str. Grădina Botanică ***, Кишинёв, Moldova",46.9776539,28.8804849,found
+"str. Grădina Botanică -, Кишинёв, Moldova",46.9776539,28.8804849,found
+"str. Grădina Botanică ., Кишинёв, Moldova",46.9776539,28.8804849,found
+"str. Grădina Botanică 14/1, Кишинёв, Moldova",46.9793234,28.8793066,found
+"str. Grădina Botanică 18, Кишинёв, Moldova",46.9764503,28.8774334,found
+"str. Grădina Botanică 18/1, Кишинёв, Moldova",46.977355,28.8786586,found
+"str. Grădina Botanică 20/1, Кишинёв, Moldova",46.9774423,28.8763938,found
+"str. Grătiești 10, Ставчены, Moldova",47.0890881,28.8687505,found
+"str. Grătiești 49, Кишинёв, Moldova",47.0612814,28.8475558,found
+"str. Grătiești 61, Кишинёв, Moldova",47.059722,28.8483843,found
+"str. Hristo Botev 13/1, Кишинёв, Moldova",46.9885372,28.8454292,found
+"str. Hristo Botev 27, Кишинёв, Moldova",46.986901,28.8452908,found
+"str. Hristo Botev 3/1, Кишинёв, Moldova",46.9924925,28.8464724,found
+"str. Hristo Botev 6, Кишинёв, Moldova",46.9881356,28.8444556,found
+"str. Hîrtoape 26/A, Дурлешты, Moldova",47.0241592,28.7707951,found
+"str. Ialoveni  --, Кишинёв, Moldova",47.0037853,28.7715007,found
+"str. Ialoveni -, Кишинёв, Moldova",46.9997385,28.7815788,found
+"str. Ialoveni ---, Кишинёв, Moldova",47.0037853,28.7715007,found
+"str. Ialoveni ., Дурлешты, Moldova",47.0037853,28.7715007,found
+"str. Ialoveni ., Кишинёв, Moldova",47.0003077,28.7794375,found
+"str. Ialoveni 0, Дурлешты, Moldova",47.0037853,28.7715007,found
+"str. Ialoveni 100/2, Кишинёв, Moldova",47.0039073,28.778249,found
+"str. Ialoveni 100/3, Кишинёв, Moldova",47.0035382,28.7782952,found
+"str. Ialoveni 100a, Кишинёв, Moldova",47.002683,28.776643,found
+"str. Ialoveni 102, Дурлешты, Moldova",47.0037853,28.7715007,found
+"str. Ialoveni 102, Кишинёв, Moldova",47.0027204,28.7750151,found
+"str. Ialoveni 106, Кишинёв, Moldova",47.0042366,28.7772276,found
+"str. Ialoveni 134, Дурлешты, Moldova",47.0035211,28.7734542,found
+"str. Ialoveni 134, Кишинёв, Moldova",47.0035211,28.7734542,found
+"str. Ialoveni 136, Дурлешты, Moldova",47.0038563,28.7718893,found
+"str. Ialoveni 136, Кишинёв, Moldova",47.0038563,28.7718893,found
+"str. Ialoveni 136/A, Дурлешты, Moldova",47.0040159,28.7725011,found
+"str. Ialoveni 136/A, Кишинёв, Moldova",47.0040159,28.7725011,found
+"str. Ialoveni 136/B, Кишинёв, Moldova",47.0035857,28.7724806,found
+"str. Ialoveni 96., Кишинёв, Moldova",47.0007312,28.7799263,found
+"str. Ialoveni 96/3, Кишинёв, Moldova",47.0010163,28.7786928,found
+"str. Ialoveni 98/1, Кишинёв, Moldova",47.0013294,28.7781318,found
+"str. Iazului ---, Кишинёв, Moldova",47.0673312,28.8408695,found
+"str. Iazului 38, Кишинёв, Moldova",47.0624684,28.844226,found
+"str. Iazului 4, Кишинёв, Moldova",47.059653,28.8462352,found
+"str. Iazului 63, Кишинёв, Moldova",47.0678569,28.840176,found
+"str. Iazului 72, Кишинёв, Moldova",47.0664889,28.8418912,found
+"str. Iazului 74, Кишинёв, Moldova",47.0671253,28.8416359,found
+"str. Iazului 74/1, Кишинёв, Moldova",47.0672771,28.842306,found
+"str. Igor Vieru ---, Кишинёв, Moldova",47.0513762,28.8942793,found
+"str. Igor Vieru 15, Кишинёв, Moldova",47.0516608,28.8932824,found
+"str. Igor Vieru 16/1, Кишинёв, Moldova",47.0505284,28.8947165,found
+"str. Igor Vieru 19/1, Кишинёв, Moldova",47.0520124,28.89592,found
+"str. Igor Vieru 8, Кишинёв, Moldova",47.0500652,28.8876628,found
+"str. Independentei 1/A, Кишинёв, Moldova",46.9863232,28.8467876,found
+"str. Independenței ., Кишинёв, Moldova",46.9779739,28.8634915,found
+"str. Independenței 1/A, Кишинёв, Moldova",46.9863232,28.8467876,found
+"str. Independenței 10/1, Кишинёв, Moldova",46.9839951,28.8466997,found
+"str. Independenței 10/4, Кишинёв, Moldova",46.9831185,28.8448386,found
+"str. Independenței 12/1, Кишинёв, Moldova",46.9827203,28.8465925,found
+"str. Independenței 14/1, Кишинёв, Moldova",46.9830335,28.8480534,found
+"str. Independenței 20/1, Кишинёв, Moldova",46.980136,28.8518735,found
+"str. Independenței 21/1, Кишинёв, Moldova",46.9783524,28.8641487,found
+"str. Independenței 24/2, Кишинёв, Moldova",46.9784363,28.851386,found
+"str. Independenței 36, Кишинёв, Moldova",46.9772779,28.8612132,found
+"str. Independenței 8, Кишинёв, Moldova",46.9841739,28.8453931,found
+"str. Independenței 9/1, Кишинёв, Moldova",46.9797509,28.8544284,found
+"str. Independenței 9/4, Кишинёв, Moldova",46.9809871,28.8552591,found
+"str. Ioan Voda Viteazul 11, Кишинёв, Moldova",46.9818492,28.8425433,found
+"str. Ioana Radu ., Кишинёв, Moldova",47.0272545,28.798684,found
+"str. Ioana Radu 27, Кишинёв, Moldova",47.0259091,28.796159,found
+"str. Ioana Radu 27/2, Кишинёв, Moldova",47.0267873,28.7984491,found
+"str. Ioana Radu 27/6, Кишинёв, Moldova",47.0255545,28.7993489,found
+"str. Ioana Radu 27/7, Кишинёв, Moldova",47.0250258,28.8001764,found
+"str. Ioana Radu 27/8, Кишинёв, Moldova",47.0247282,28.7992891,found
+"str. Ion Buzdugan **, Кишинёв, Moldova",47.0378784,28.7635064,found
+"str. Ion Buzdugan *, Кишинёв, Moldova",47.0378784,28.7635064,found
+"str. Ion Buzdugan -, Кишинёв, Moldova",47.0378784,28.7635064,found
+"str. Ion Buzdugan --, Кишинёв, Moldova",47.0378784,28.7635064,found
+"str. Ion Buzdugan ., Кишинёв, Moldova",47.0378784,28.7635064,found
+"str. Ion Buzdugan 0, Кишинёв, Moldova",47.0378784,28.7635064,found
+"str. Ion Buzdugan 1, Кишинёв, Moldova",47.0377787,28.7632446,found
+"str. Ion Buzdugan 11, Кишинёв, Moldova",47.0393568,28.7594802,found
+"str. Ion Buzdugan 13, Кишинёв, Moldova",47.0386476,28.7597872,found
+"str. Ion Buzdugan 3, Кишинёв, Moldova",47.0369542,28.7633511,found
+"str. Ion Buzdugan 9, Кишинёв, Moldova",47.0395504,28.7599753,found
+"str. Ion Buzdugan, *, Кишинёв, Moldova",47.0378784,28.7635064,found
+"str. Ion Creangă , Кишинёв, Moldova",47.0344913,28.8083474,found
+"str. Ion Creangă ., Кишинёв, Moldova",47.0344913,28.8083474,found
+"str. Ion Creangă 20/4, Кишинёв, Moldova",47.0346813,28.8065831,found
+"str. Ion Creangă 5/2, Кишинёв, Moldova",47.0326323,28.8062456,found
+"str. Ion Creangă 5/4, Кишинёв, Moldova",47.0329287,28.806784,found
+"str. Ion Creangă 64, Кишинёв, Moldova",47.0298305,28.7988862,found
+"str. Ion Creangă 66, Кишинёв, Moldova",47.0297059,28.7983183,found
+"str. Ion Creangă 70, Кишинёв, Moldova",47.0293211,28.7972998,found
+"str. Ion Creangă 78, Кишинёв, Moldova",47.0278497,28.7942613,found
+"str. Ion Creangă 82/4, Кишинёв, Moldova",47.0264737,28.7888443,found
+"str. Ion Dumeniuc -, Кишинёв, Moldova",47.0558309,28.8974471,found
+"str. Ion Dumeniuc ---, Кишинёв, Moldova",47.0558309,28.8974471,found
+"str. Ion Dumeniuc ., Кишинёв, Moldova",47.0558309,28.8974471,found
+"str. Ion Dumeniuc 16, Кишинёв, Moldova",47.1049546,28.834205,found
+"str. Ion Dumeniuc 26, Кишинёв, Moldova",47.1048603,28.8355979,found
+"str. Ion Dumeniuc 4, Кишинёв, Moldova",47.1049536,28.8325971,found
+"str. Ion Dumeniuc 6, Кишинёв, Moldova",47.1049348,28.8328393,found
+"str. Ion Inculet ., Кишинёв, Moldova",47.0065665,28.8390778,found
+"str. Ion Inculeț 105/2, Кишинёв, Moldova",47.0054152,28.8349134,found
+"str. Ion Luca Caragiale ., Кишинёв, Moldova",47.0324825,28.7871556,found
+"str. Ion Luca Caragiale 24, Кишинёв, Moldova",47.0314697,28.7856643,found
+"str. Ion Neculce 14, Кишинёв, Moldova",47.0343199,28.8006389,found
+"str. Ion Nistor ., Кишинёв, Moldova",47.004282,28.830914,found
+"str. Ion Nistor 2, Кишинёв, Moldova",47.0081435,28.8333203,found
+"str. Ion Pelivan 15, Кишинёв, Moldova",47.0298628,28.7898465,found
+"str. Ion Pelivan 34/1, Кишинёв, Moldova",47.0259521,28.7842559,found
+"str. Ion Vasilenco ., Кишинёв, Moldova",47.011746,28.8458292,found
+"str. Ion Vasilenco 38, Кишинёв, Moldova",47.0128007,28.8486809,found
+"str. Ismail  102/4, Кишинёв, Moldova",47.0190943,28.8535097,found
+"str. Ismail 28, Кишинёв, Moldova",47.0118633,28.8401606,found
+"str. Ismail 77, Кишинёв, Moldova",47.0212888,28.8527778,found
+"str. Ismail 88, Кишинёв, Moldova",47.017985,28.8498266,found
+"str. Ismail 92/1, Кишинёв, Moldova",47.0178568,28.8509918,found
+"str. Ismail 98/2, Кишинёв, Moldova",47.0189976,28.8526518,found
+"str. Iurie Babei ., Кишинёв, Moldova",46.9854541,28.8955387,found
+"str. Iurie Babei 2, Кишинёв, Moldova",46.9850486,28.8950842,found
+"str. Ivan Zaikin ., Кишинёв, Moldova",47.0373645,28.8336595,found
+"str. Ivan Zaikin 51, Кишинёв, Moldova",47.0368053,28.832879,found
+"str. Ivan Zaikin 60, Кишинёв, Moldova",47.0376841,28.8345829,found
+"str. Izmail /, Кишинёв, Moldova",47.0222044,28.8573089,found
+"str. Izmail 28, Кишинёв, Moldova",47.0222044,28.8573089,found
+"str. Izmail 88, Кишинёв, Moldova",47.0222044,28.8573089,found
+"str. Izmail;str. Ismail ., Кишинёв, Moldova",47.0222044,28.8573089,found
+"str. Ișnovăț 11, Кишинёв, Moldova",47.0098655,28.8886847,found
+"str. Jubiliara ., Кишинёв, Moldova",46.9778087,28.8338819,found
+"str. Jubiliară  -, Кишинёв, Moldova",46.9778087,28.8338819,found
+"str. Jubiliară  39/1, Кишинёв, Moldova",46.9762588,28.8334566,found
+"str. Jubiliară 39/1, Кишинёв, Moldova",46.9762588,28.8334566,found
+"str. Jubiliară 40, Кишинёв, Moldova",46.9776119,28.8319039,found
+"str. Kiev /, Кишинёв, Moldova",47.0425595,28.8606428,found
+"str. Kiev 16/1, Кишинёв, Moldova",47.0433243,28.8613655,found
+"str. Kiev 6/1, Кишинёв, Moldova",47.0402154,28.8602606,found
+"str. Lech Kaczynski 2/3, Кишинёв, Moldova",47.001199,28.8123216,found
+"str. Lech Kaczynski 6/1, Кишинёв, Moldova",47.0020497,28.8094957,found
+"str. Lev Tolstoi 13 13, Кишинёв, Moldova",47.0110618,28.8405992,found
+"str. Lev Tolstoi 13, Кишинёв, Moldova",47.0114395,28.8407414,found
+"str. Lev Tolstoi 24/1, Кишинёв, Moldova",47.0108141,28.8421841,found
+"str. Lev Tolstoi 24/1., Кишинёв, Moldova",47.0108141,28.8421841,found
+"str. Lev Tolstoi 63, Кишинёв, Moldova",47.0158666,28.8480654,found
+"str. Lev Tolstoi 74, Кишинёв, Moldova",47.0155286,28.8489971,found
+"str. Lipcani ., Кишинёв, Moldova",47.033083,28.779129,found
+"str. Lipcani /, Кишинёв, Moldova",47.033083,28.779129,found
+"str. Liuba Dumitriu 5, Кишинёв, Moldova",47.005284,28.8653036,found
+"str. Livezilor 3, Ставчены, Moldova",47.0902511,28.8647715,found
+"str. Liviu Deleanu -, Кишинёв, Moldova",47.0469334,28.7672685,found
+"str. Liviu Deleanu ---, Кишинёв, Moldova",47.0469334,28.7672685,found
+"str. Liviu Deleanu ., Кишинёв, Moldova",47.0469334,28.7672685,found
+"str. Liviu Deleanu 10/11, Кишинёв, Moldova",47.0475233,28.7706199,found
+"str. Liviu Deleanu 10/4, Кишинёв, Moldova",47.046981,28.7697278,found
+"str. Liviu Deleanu 10/5, Кишинёв, Moldova",47.0465298,28.7699387,found
+"str. Liviu Deleanu 10/7, Кишинёв, Moldova",47.0475875,28.7699903,found
+"str. Liviu Deleanu 14/C, Кишинёв, Moldova",47.0465055,28.7692438,found
+"str. Liviu Deleanu 3/2, Кишинёв, Moldova",47.0423173,28.7685069,found
+"str. Liviu Deleanu 3/3, Кишинёв, Moldova",47.0428126,28.7685831,found
+"str. Liviu Deleanu 5/6, Кишинёв, Moldova",47.0433159,28.7686984,found
+"str. Liviu Deleanu 7/3, Кишинёв, Moldova",47.0454101,28.7687769,found
+"str. Liviu Rebreanu 11, Кишинёв, Moldova",47.0087909,28.8854919,found
+"str. Magda Isanos 15, Кишинёв, Moldova",47.0535865,28.8469335,found
+"str. Maria Drăgan -, Кишинёв, Moldova",47.0131973,28.88366,found
+"str. Maria Drăgan ., Кишинёв, Moldova",47.0256188,28.8835082,found
+"str. Maria Drăgan /, Кишинёв, Moldova",47.0131973,28.88366,found
+"str. Maria Drăgan 14/2, Кишинёв, Moldova",47.024933,28.8824112,found
+"str. Maria Drăgan 18/2, Кишинёв, Moldova",47.023106,28.8815523,found
+"str. Maria Drăgan 2, Кишинёв, Moldova",47.0299086,28.8835048,found
+"str. Maria Drăgan 30/1, Кишинёв, Moldova",47.0194049,28.8822748,found
+"str. Maria Drăgan 30/3, Кишинёв, Moldova",47.0190348,28.8807194,found
+"str. Maria Drăgan 38/2, Кишинёв, Moldova",47.0175615,28.8805754,found
+"str. Matei Basarab 1/1, Кишинёв, Moldova",47.0571713,28.8606928,found
+"str. Matei Basarab 1/3, Кишинёв, Moldova",47.0566082,28.860377,found
+"str. Matei Basarab 10, Кишинёв, Moldova",47.0545042,28.8681474,found
+"str. Matei Basarab 10/2, Кишинёв, Moldova",47.053246,28.8681844,found
+"str. Matei Basarab 5/1, Кишинёв, Moldova",47.0552672,28.8670063,found
+"str. Matei Basarab 7/5, Кишинёв, Moldova",47.056069,28.8713592,found
+"str. Matei Basarab 9/2, Кишинёв, Moldova",47.0555491,28.8718181,found
+"str. Melestiu 0, Кишинёв, Moldova",47.0061341,28.8480651,found
+"str. Melestiu 1/2, Кишинёв, Moldova",47.0068067,28.854059,found
+"str. Melestiu 26/2, Кишинёв, Moldova",47.0026113,28.8437162,found
+"str. Melestiu 26/5, Кишинёв, Moldova",47.0031432,28.8444193,found
+"str. Mesager 5/1, Кишинёв, Moldova",47.0475256,28.8017389,found
+"str. Mihai Eminescu 41/1, Кишинёв, Moldova",47.0206885,28.8343823,found
+"str. Mihai Eminescu 63, Кишинёв, Moldova",47.0245642,28.8403783,found
+"str. Mihai Eminescu 70, Кишинёв, Moldova",47.0239683,28.8403041,found
+"str. Mihai Eminescu 72, Кишинёв, Moldova",47.024356,28.8406639,found
+"str. Mihai Viteazul 10, Кишинёв, Moldova",47.0375815,28.8254395,found
+"str. Mihail Kogalniceanu 81/4, Кишинёв, Moldova",47.0215106,28.8207225,found
+"str. Mihail Kogălniceanu 44, Кишинёв, Moldova",47.0173619,28.8292658,found
+"str. Mihail Kogălniceanu 52, Кишинёв, Moldova",47.0183078,28.8278442,found
+"str. Mihail Kogălniceanu 81/4, Кишинёв, Moldova",47.0215106,28.8207225,found
+"str. Mihail Lomonosov 38/2, Кишинёв, Moldova",47.0001955,28.824543,found
+"str. Mihail Lomonosov 8b, Кишинёв, Moldova",47.0062734,28.8309909,found
+"str. Mihail Odatiuc 34/C, Дурлешты, Moldova",47.0069309,28.760726,found
+"str. Mihail Odatiuc 36, Дурлешты, Moldova",47.0065254,28.7601795,found
+"str. Mihail Odatiuc 36, Кишинёв, Moldova",47.0065254,28.7601795,found
+"str. Mihail Odatiuc 57, Дурлешты, Moldova",47.0069885,28.7611239,found
+"str. Mihail Sadoveanu --, Кишинёв, Moldova",47.0359878,28.8784826,found
+"str. Mihail Sadoveanu ., Кишинёв, Moldova",47.0359878,28.8784826,found
+"str. Mihail Sadoveanu 0, Кишинёв, Moldova",47.0587603,28.8867965,found
+"str. Mihail Sadoveanu 11/2, Кишинёв, Moldova",47.0456415,28.881931,found
+"str. Mihail Sadoveanu 17, Кишинёв, Moldova",47.0464973,28.8826563,found
+"str. Mihail Sadoveanu 22, Кишинёв, Moldova",47.0456467,28.883492,found
+"str. Mihail Sadoveanu 24/5, Кишинёв, Moldova",47.0474728,28.8851416,found
+"str. Milano -, Кишинёв, Moldova",47.0403595,28.7892006,found
+"str. Minsk -, Кишинёв, Moldova",47.0002917,28.8667386,found
+"str. Minsk ., Кишинёв, Moldova",47.0002917,28.8667386,found
+"str. Minsk 26/2, Кишинёв, Moldova",46.9987027,28.8609258,found
+"str. Minsk 28, Кишинёв, Moldova",46.9980982,28.8612133,found
+"str. Minsk 45, Кишинёв, Moldova",46.9978996,28.8627944,found
+"str. Minsk 47, Кишинёв, Moldova",46.9977281,28.8622139,found
+"str. Miorita ., Кишинёв, Moldova",46.9982406,28.8075978,found
+"str. Miorita 1/1, Кишинёв, Moldova",46.997223,28.8093795,found
+"str. Miorita 10, Кишинёв, Moldova",46.9970213,28.8085822,found
+"str. Miorita 12, Кишинёв, Moldova",46.9964781,28.8093378,found
+"str. Mioriţa --, Бубуечь, Moldova",46.9794798,28.9352514,found
+"str. Miorița ---, Кишинёв, Moldova",46.9982406,28.8075978,found
+"str. Miorița ., Кишинёв, Moldova",46.9982406,28.8075978,found
+"str. Miorița 10, Кишинёв, Moldova",46.9968076,28.8088531,found
+"str. Miorița 12, Кишинёв, Moldova",46.9964781,28.8093378,found
+"str. Miorița 26/2, Бубуечь, Moldova",46.9816443,28.9347474,found
+"str. Miorița 3/2, Кишинёв, Moldova",46.995077,28.8142598,found
+"str. Mircea Eliade 22, Кишинёв, Moldova",47.0077038,28.8362432,found
+"str. Mircea cel Batran --, Кишинёв, Moldova",46.9077256,28.9581283,found
+"str. Mircesti 8/1, Кишинёв, Moldova",47.055213,28.8218931,found
+"str. Miron Costin --, Кишинёв, Moldova",47.0498384,28.8672996,found
+"str. Miron Costin ., Кишинёв, Moldova",47.0489373,28.866914,found
+"str. Miron Costin 1/1, Кишинёв, Moldova",47.0510666,28.8574228,found
+"str. Miron Costin 14, Кишинёв, Moldova",47.0486603,28.864885,found
+"str. Miron Costin 19/1, Кишинёв, Moldova",47.0504442,28.8698966,found
+"str. Miron Costin 19/2, Кишинёв, Moldova",47.0511109,28.8694319,found
+"str. Miron Costin 19/4, Кишинёв, Moldova",47.051149,28.8712878,found
+"str. Miron Costin 20, Кишинёв, Moldova",47.0482935,28.8669764,found
+"str. Mitropolit Bănulescu-Bodoni /, Кишинёв, Moldova",47.0302416,28.836465,found
+"str. Mitropolit Bănulescu-Bodoni 43, Кишинёв, Moldova",47.0264899,28.8319626,found
+"str. Mitropolit Dosoftei 100, Кишинёв, Moldova",47.0277288,28.8331951,found
+"str. Mitropolit Gavriil Banulescu-Bodoni ., Кишинёв, Moldova",47.0301755,28.8375714,found
+"str. Mitropolit Varlaam 46, Кишинёв, Moldova",47.0175864,28.847765,found
+"str. Moara Rosie 5/A, Кишинёв, Moldova",47.0346904,28.836566,found
+"str. Moara Rosie 7 F, Кишинёв, Moldova",47.0356374,28.8370665,found
+"str. Moara Roșie 20, Кишинёв, Moldova",47.0362818,28.836609,found
+"str. Moara Roșie 5, Кишинёв, Moldova",47.034466,28.8381671,found
+"str. Moara Roșie 5/A, Кишинёв, Moldova",47.0346904,28.836566,found
+"str. Movileni 26, Кишинёв, Moldova",47.0030776,28.8929606,found
+"str. Muncesti  ., Кишинёв, Moldova",46.9155169,28.8341681,found
+"str. Muncesti ., Кишинёв, Moldova",46.9111381,28.9596888,found
+"str. Muncesti 174, Кишинёв, Moldova",46.9111381,28.9596888,found
+"str. Muncesti 806, Кишинёв, Moldova",46.9121798,28.8974986,found
+"str. Muncesti 94, Кишинёв, Moldova",46.9121798,28.8974986,found
+"str. Mușatinilor  12, Кишинёв, Moldova",47.0415279,28.7598595,found
+"str. Mușatinilor ., Кишинёв, Moldova",47.039626,28.7624248,found
+"str. Măcieşilor;str. Maciesilor ., Кишинёв, Moldova",46.9936644,28.808625,found
+"str. Mălina Mică 70/2, Кишинёв, Moldova",46.9956219,28.827545,found
+"str. Nadejda Russo -, Кишинёв, Moldova",47.0422659,28.8560898,found
+"str. Nadejda Russo 14, Кишинёв, Moldova",47.0428769,28.8555272,found
+"str. Nadejda Russo 17, Кишинёв, Moldova",47.0428327,28.8545521,found
+"str. Nicolae Costin 44/1, Кишинёв, Moldova",47.0358434,28.7881853,found
+"str. Nicolae Costin 52, Кишинёв, Moldova",47.0430386,28.7714462,found
+"str. Nicolae Costin 57, Кишинёв, Moldova",47.0381829,28.7813458,found
+"str. Nicolae Costin 61, Кишинёв, Moldova",47.0398824,28.7769404,found
+"str. Nicolae Costin 62, Кишинёв, Moldova",47.044317,28.7708008,found
+"str. Nicolae Costin 63/2, Кишинёв, Moldova",47.0400422,28.7730821,found
+"str. Nicolae Costin 65/3, Кишинёв, Moldova",47.0416416,28.7705364,found
+"str. Nicolae Dimo **, Дурлешты, Moldova",47.0152396,28.7514441,found
+"str. Nicolae Dimo *, Дурлешты, Moldova",47.0152396,28.7514441,found
+"str. Nicolae Dimo --, Дурлешты, Moldova",47.0152396,28.7514441,found
+"str. Nicolae Dimo ., Дурлешты, Moldova",47.0162235,28.7476527,found
+"str. Nicolae Dimo ., Кишинёв, Moldova",47.0409034,28.8640632,found
+"str. Nicolae Dimo /, Кишинёв, Moldova",47.0515297,28.8718992,found
+"str. Nicolae Dimo 11/2, Кишинёв, Moldova",47.0405855,28.8664798,found
+"str. Nicolae Dimo 11/3, Кишинёв, Moldova",47.0407886,28.865895,found
+"str. Nicolae Dimo 118, Дурлешты, Moldova",47.0058291,28.7643806,found
+"str. Nicolae Dimo 126/6, Дурлешты, Moldova",47.0051264,28.7644223,found
+"str. Nicolae Dimo 13, Кишинёв, Moldova",47.0415268,28.8669998,found
+"str. Nicolae Dimo 13/1, Кишинёв, Moldova",47.0414108,28.8675999,found
+"str. Nicolae Dimo 13/4, Кишинёв, Moldova",47.0417612,28.8657988,found
+"str. Nicolae Dimo 13a, Кишинёв, Moldova",47.0413324,28.8659338,found
+"str. Nicolae Dimo 14, Кишинёв, Moldova",47.039429,28.8671622,found
+"str. Nicolae Dimo 17/1, Кишинёв, Moldova",47.0425434,28.8680854,found
+"str. Nicolae Dimo 2, Дурлешты, Moldova",47.0131317,28.7554996,found
+"str. Nicolae Dimo 22, Дурлешты, Moldova",47.0150943,28.7520249,found
+"str. Nicolae Dimo 24, Дурлешты, Moldova",47.0138525,28.7521502,found
+"str. Nicolae Dimo 24/1, Дурлешты, Moldova",47.0134869,28.752488,found
+"str. Nicolae Dimo 24/B, Дурлешты, Moldova",47.0132735,28.7519437,found
+"str. Nicolae Dimo 24/a, Дурлешты, Moldova",47.0132668,28.7511952,found
+"str. Nicolae Dimo 24a, Дурлешты, Moldova",47.0132668,28.7511952,found
+"str. Nicolae Dimo 25, Дурлешты, Moldova",47.0095362,28.7623886,found
+"str. Nicolae Dimo 26, Дурлешты, Moldova",47.0120542,28.7579303,found
+"str. Nicolae Dimo 26/7, Дурлешты, Moldova",47.0120869,28.7578304,found
+"str. Nicolae Dimo 29/3, Кишинёв, Moldova",47.057681,28.8718578,found
+"str. Nicolae Dimo 31/1, Кишинёв, Moldova",47.0584506,28.8729628,found
+"str. Nicolae Dimo 36, Дурлешты, Moldova",47.0115012,28.7594592,found
+"str. Nicolae Dimo 4/1, Кишинёв, Moldova",47.03786,28.8607639,found
+"str. Nicolae Dimo 8, Дурлешты, Moldova",47.0136864,28.7545516,found
+"str. Nicolae Dimo 88, Дурлешты, Moldova",47.0070822,28.7635245,found
+"str. Nicolae Dimo 88/1, Дурлешты, Moldova",47.0068966,28.7637318,found
+"str. Nicolae Dimo 99, Дурлешты, Moldova",47.0052741,28.7643556,found
+"str. Nicolae Milescu Spatarul ., Кишинёв, Moldova",47.0683481,28.8974532,found
+"str. Nicolae Milescu Spatarul 27, Кишинёв, Moldova",47.0552899,28.8973179,found
+"str. Nicolae Milescu Spatarul 57, Кишинёв, Moldova",47.061931,28.8971101,found
+"str. Nicolae Milescu Spatarul 57C, Кишинёв, Moldova",47.062712,28.895966,found
+"str. Nicolae Milescu Spatarul 57D, Кишинёв, Moldova",47.0629779,28.8963712,found
+"str. Nicolae Milescu Spatarul 63, Кишинёв, Moldova",47.0636676,28.8970205,found
+"str. Nicolae Milescu Spatarul 9/2, Кишинёв, Moldova",47.0464969,28.8956363,found
+"str. Nicolae Milescu Spatarul; 53, Кишинёв, Moldova",47.0731159,28.8967366,found
+"str. Nicolae Milescu Spatarul;str. Nicolae Milescu Spătarul 27, Кишинёв, Moldova",47.0731159,28.8967366,found
+"str. Nicolae Milescu Spătaru 3, Кишинёв, Moldova",47.0376001,28.8978534,found
+"str. Nicolae Milescu Spătarul -, Кишинёв, Moldova",47.0539771,28.8977364,found
+"str. Nicolae Milescu Spătarul 1, Кишинёв, Moldova",47.05255,28.8966357,found
+"str. Nicolae Milescu Spătarul 1/2, Кишинёв, Moldova",47.0398269,28.8964712,found
+"str. Nicolae Milescu Spătarul 23, Кишинёв, Moldova",47.0549536,28.8968283,found
+"str. Nicolae Milescu Spătarul 27, Кишинёв, Moldova",47.0552899,28.8973179,found
+"str. Nicolae Milescu Spătarul 27/1, Кишинёв, Moldova",47.0555642,28.8973097,found
+"str. Nicolae Milescu Spătarul 3, Кишинёв, Moldova",47.0454994,28.8957531,found
+"str. Nicolae Milescu Spătarul 7, Кишинёв, Moldova",47.0440644,28.8974942,found
+"str. Nicolae Milescu Spătarul 75, Кишинёв, Moldova",47.0706495,28.8954366,found
+"str. Nicolae Milescu Spătarul 9, Кишинёв, Moldova",47.0455832,28.8974621,found
+"str. Nicolae Milescu Spătarul 9/2, Кишинёв, Moldova",47.0464968,28.8956363,found
+"str. Nicolae Milescu Spătarul 9/4, Кишинёв, Moldova",47.0465337,28.8974448,found
+"str. Nicolae Sulac ., Кишинёв, Moldova",47.0619044,28.8938945,found
+"str. Nicolae Sulac 14, Кишинёв, Moldova",47.0608803,28.8961249,found
+"str. Nicolae Sulac 4, Кишинёв, Moldova",47.0609488,28.8927995,found
+"str. Nicolae Sulac 57, Кишинёв, Moldova",47.0619044,28.8938945,found
+"str. Nicolae Sulac 8, Кишинёв, Moldova",47.0604104,28.8941635,found
+"str. Nicolae Sulac 8A, Кишинёв, Moldova",47.0619044,28.8938945,found
+"str. Nicolae Testemitanu -, Кишинёв, Moldova",46.9941715,28.8311759,found
+"str. Nicolae Testemitanu ., Дурлешты, Moldova",47.0189063,28.7505467,found
+"str. Nicolae Testemitanu ., Кишинёв, Moldova",46.9985465,28.8356087,found
+"str. Nicolae Testemitanu 12, Кишинёв, Moldova",46.9998004,28.8391099,found
+"str. Nicolae Testemitanu 19, Кишинёв, Moldova",47.0012173,28.838645,found
+"str. Nicolae Testemitanu 19/B, Кишинёв, Moldova",46.9969768,28.8373602,found
+"str. Nicolae Testemitanu 23/1, Кишинёв, Moldova",46.9957628,28.8346672,found
+"str. Nicolae Testemitanu 3, Кишинёв, Moldova",47.0050764,28.8373139,found
+"str. Nicolae Testemitanu 3/10, Кишинёв, Moldova",46.9993744,28.839567,found
+"str. Nicolae Testemitanu 3/19, Кишинёв, Moldova",47.0012173,28.838645,found
+"str. Nicolae Testemitanu 3/3, Кишинёв, Moldova",47.00091,28.8389865,found
+"str. Nicolae Testemitanu 61, Дурлешты, Moldova",47.0197216,28.7441731,found
+"str. Nicolae Testemitanu; ., Кишинёв, Moldova",46.9960544,28.8385766,found
+"str. Nicolae Testemitanu; 17/1, Кишинёв, Moldova",46.9911514,28.827839,found
+"str. Nicolae Testemitanu;str. Nicolae Testemițanu ., Кишинёв, Moldova",46.9911514,28.827839,found
+"str. Nicolae Testemițanu ., Кишинёв, Moldova",46.9911514,28.827839,found
+"str. Nicolae Testemițanu 12a, Кишинёв, Moldova",47.0035094,28.8376427,found
+"str. Nicolae Testemițanu 17/17, Кишинёв, Moldova",46.9972361,28.8380961,found
+"str. Nicolae Testemițanu 19, Кишинёв, Moldova",46.9970875,28.834828,found
+"str. Nicolae Testemițanu 21/1, Кишинёв, Moldova",46.9963221,28.8347948,found
+"str. Nicolae Testemițanu 29/2, Кишинёв, Moldova",46.9907672,28.8374196,found
+"str. Nicolae Testemițanu 3/10, Кишинёв, Moldova",46.9993744,28.839567,found
+"str. Nicolae Testemițanu 3/18, Кишинёв, Moldova",47.0007703,28.8377083,found
+"str. Nicolae Testemițanu 3/3, Кишинёв, Moldova",47.00091,28.8389865,found
+"str. Nicolae Testemițanu 3/6, Кишинёв, Moldova",47.0002216,28.8395251,found
+"str. Nicolae Testemițanu 3/7, Кишинёв, Moldova",47.0000916,28.8399385,found
+"str. Nicolae Testemițanu 37, Кишинёв, Moldova",46.9904884,28.8283048,found
+"str. Nicolae Titulescu ., Кишинёв, Moldova",47.0001616,28.8615758,found
+"str. Nicolae Titulescu /, Кишинёв, Moldova",47.0001616,28.8615758,found
+"str. Nicolae Titulescu 10, Кишинёв, Moldova",46.997479,28.8639877,found
+"str. Nicolae Titulescu 20, Кишинёв, Moldova",46.9942956,28.8671448,found
+"str. Nicolae Titulescu 32, Кишинёв, Moldova",46.9913742,28.8701218,found
+"str. Nicolae Titulescu 36/A, Кишинёв, Moldova",46.9905944,28.8715357,found
+"str. Nicolae Titulescu 47/3, Кишинёв, Moldova",46.9939046,28.8694531,found
+"str. Nicolae Titulescu 53/2, Кишинёв, Moldova",46.9918384,28.8712125,found
+"str. Nicolae Titulescu 6, Кишинёв, Moldova",46.9988392,28.8626197,found
+"str. Nicolai Costin ---, Кишинёв, Moldova",47.0369307,28.7846362,found
+"str. Nicolai Costin ., Кишинёв, Moldova",47.0369307,28.7846362,found
+"str. Nicolai Costin 44/4, Кишинёв, Moldova",47.0362326,28.7880176,found
+"str. Nicolai Costin 64, Кишинёв, Moldova",47.0438169,28.7712299,found
+"str. Nicolai Costin 65/3, Кишинёв, Moldova",47.0416416,28.7705364,found
+"str. Nikolai Zelinski 12, Кишинёв, Moldova",46.9927753,28.8615461,found
+"str. Nikolai Zelinski 12/3, Кишинёв, Moldova",46.993568,28.8608239,found
+"str. Nikolai Zelinski 35, Кишинёв, Moldova",46.992863,28.8500599,found
+"str. Nikolai Zelinski 4, Кишинёв, Moldova",46.9938268,28.8661593,found
+"str. Nikolai Zelinski 5/6, Кишинёв, Moldova",46.9909624,28.8680976,found
+"str. Nucarilor 1, Ставчены, Moldova",47.0962167,28.8711426,found
+"str. Onisifor Ghibu *, Кишинёв, Moldova",47.0373039,28.7778728,found
+"str. Onisifor Ghibu ., Кишинёв, Moldova",47.0373039,28.7778728,found
+"str. Onisifor Ghibu 10, Кишинёв, Moldova",47.0343561,28.7742796,found
+"str. Onisifor Ghibu 2, Кишинёв, Moldova",47.038038,28.7780547,found
+"str. Onisifor Ghibu 2/3, Кишинёв, Moldova",47.0386854,28.7759567,found
+"str. Onisifor Ghibu 3, Кишинёв, Moldova",47.0373612,28.778558,found
+"str. Onisifor Ghibu 3/A, Кишинёв, Moldova",47.0378432,28.7789825,found
+"str. Pandurilor 42, Кишинёв, Moldova",46.9977704,28.8675014,found
+"str. Pandurilor 68, Кишинёв, Moldova",46.9962369,28.8636227,found
+"str. Paris , Кишинёв, Moldova",47.0278111,28.7784855,found
+"str. Paris ., Кишинёв, Moldova",47.0278111,28.7784855,found
+"str. Paris 34/4, Кишинёв, Moldova",47.0313545,28.7809995,found
+"str. Paris 38/1, Кишинёв, Moldova",47.029521,28.7789837,found
+"str. Paris 47, Кишинёв, Moldova",47.0305127,28.7811068,found
+"str. Pavel Boțu ., Кишинёв, Moldova",47.0063584,28.8348681,found
+"str. Pavel Boțu 9, Кишинёв, Moldova",47.006246,28.8348148,found
+"str. Petrarilor ., Кишинёв, Moldova",46.9992856,28.80464,found
+"str. Petricani ., Кишинёв, Moldova",47.0496739,28.8229272,found
+"str. Petru Movilă 23, Кишинёв, Moldova",46.9217932,28.894667,found
+"str. Petru Rares 36, Кишинёв, Moldova",47.033994,28.841032,found
+"str. Petru Rareș 36, Кишинёв, Moldova",47.033994,28.841032,found
+"str. Petru Rareș 55/1, Кишинёв, Moldova",47.035419,28.8398575,found
+"str. Petru Rareș 55/2, Кишинёв, Moldova",47.0356594,28.8397201,found
+"str. Petru Zadnipru ., Кишинёв, Moldova",47.0440532,28.8857279,found
+"str. Petru Zadnipru /, Кишинёв, Moldova",47.0440532,28.8857279,found
+"str. Petru Zadnipru 15/1, Кишинёв, Moldova",47.0440725,28.8941203,found
+"str. Petru Zadnipru 16/2, Кишинёв, Moldova",47.0423447,28.895478,found
+"str. Petru Zadnipru 19/1, Кишинёв, Moldova",47.044071,28.8948627,found
+"str. Petru Zadnipru 4/1, Кишинёв, Moldova",47.0425228,28.8857856,found
+"str. Petru Zadnipru 4/2, Кишинёв, Moldova",47.0436363,28.8862409,found
+"str. Petru Zadnipru 7/3, Кишинёв, Moldova",47.0450823,28.8885748,found
+"str. Petru Zadnipru 7/4, Кишинёв, Moldova",47.0460274,28.8878382,found
+"str. Pictor Mihai Grecu 7, Кишинёв, Moldova",46.9899094,28.8309937,found
+"str. Pietrariei 56, Кишинёв, Moldova",47.0400128,28.8555595,found
+"str. Pietrarilor ., Кишинёв, Moldova",47.0028295,28.802667,found
+"str. Pietrarilor /, Кишинёв, Moldova",47.0028295,28.802667,found
+"str. Pietrarilor 10/5, Кишинёв, Moldova",47.003733,28.8041086,found
+"str. Pietrarilor 12, Кишинёв, Moldova",47.0041652,28.8033151,found
+"str. Pietrarilor 16/1, Кишинёв, Moldova",47.0047527,28.8034902,found
+"str. Pietrarilor 16/A, Кишинёв, Moldova",47.0047681,28.8026343,found
+"str. Pietrarilor 27, Бубуечь, Moldova",46.9988731,28.9356722,found
+"str. Podul Înalt 12/1, Кишинёв, Moldova",47.0251571,28.8752619,found
+"str. Postei  92, Кишинёв, Moldova",47.0463405,28.8344004,found
+"str. Postei -, Кишинёв, Moldova",47.0440169,28.8396361,found
+"str. Postei --, Кишинёв, Moldova",47.045536,28.8478323,found
+"str. Postei ---, Кишинёв, Moldova",47.0440169,28.8396361,found
+"str. Postei ., Кишинёв, Moldova",47.0440169,28.8396361,found
+"str. Poștei ---, Кишинёв, Moldova",47.0452164,28.8361636,found
+"str. Poștei 2, Кишинёв, Moldova",47.0457058,28.847542,found
+"str. Poștei 53, Кишинёв, Moldova",47.0446168,28.8358839,found
+"str. Protoiereu Mihail Berezovschi 26, Кишинёв, Moldova",46.9887739,28.8294661,found
+"str. Regele Carol 1, Дурлешты, Moldova",47.0073082,28.7628271,found
+"str. Regele Carol 2, Дурлешты, Moldova",47.0055065,28.7595564,found
+"str. Regina Elisabeta **, Дурлешты, Moldova",47.0054813,28.7621415,found
+"str. Regina Elisabeta *, Дурлешты, Moldova",47.0054813,28.7621415,found
+"str. Regina Elisabeta -, Дурлешты, Moldova",47.0054813,28.7621415,found
+"str. Regina Elisabeta 3, Дурлешты, Moldova",47.0054813,28.7621415,found
+"str. Regina Elisabeta =, Дурлешты, Moldova",47.0054813,28.7621415,found
+"str. Salcâmilor ., Кишинёв, Moldova",46.9765252,28.8974556,found
+"str. Salcâmilor 22, Кишинёв, Moldova",46.9785419,28.8967439,found
+"str. Sarmizegetusa ., Кишинёв, Moldova",46.9816437,28.8803862,found
+"str. Sarmizegetusa 23, Кишинёв, Moldova",46.9905969,28.8702738,found
+"str. Sarmizegetusa 37/3, Кишинёв, Moldova",46.9867781,28.8761752,found
+"str. Sarmizegetusa 53A, Кишинёв, Moldova",46.9828187,28.8792046,found
+"str. Sarmizegetusa 53E, Кишинёв, Moldova",46.9825638,28.8795472,found
+"str. Sarmizegetusa 94/1, Кишинёв, Moldova",46.9793963,28.8820242,found
+"str. Sarmizegetusa 94/1., Кишинёв, Moldova",46.9793963,28.8820242,found
+"str. Schinoasa Vale 3, Кишинёв, Moldova",46.988838,28.810077,found
+"str. Schinoasa-Vale 1, Кишинёв, Moldova",46.9819904,28.8202931,found
+"str. Schinoasa-Vale 12/59, Кишинёв, Moldova",46.9886658,28.8108054,found
+"str. Schinoasa-Vale 1a, Кишинёв, Moldova",46.9895375,28.81125,found
+"str. Schinoasa-Vale 3, Кишинёв, Moldova",46.988838,28.810077,found
+"str. Serghei Lazo 46, Кишинёв, Moldova",47.0304957,28.8270196,found
+"str. Serghei Rahmaninov 36, Кишинёв, Moldova",47.0334266,28.7967309,found
+"str. Sfintul Gheorghe 29, Кишинёв, Moldova",47.022081,28.8498618,found
+"str. Sfânta Vineri 16, Кишинёв, Moldova",46.9964163,28.7806175,found
+"str. Socoleni ., Кишинёв, Moldova",47.0611624,28.8415991,found
+"str. Socoleni /, Кишинёв, Moldova",47.0611624,28.8415991,found
+"str. Socoleni 23, Кишинёв, Moldova",47.0599838,28.8385875,found
+"str. Socoleni 2A, Кишинёв, Moldova",47.0623684,28.8483916,found
+"str. Socoleni 9, Кишинёв, Moldova",47.0612734,28.8446492,found
+"str. Spartacus ., Кишинёв, Moldova",47.0409891,28.8565489,found
+"str. Spartacus 36, Кишинёв, Moldova",47.0422238,28.8543314,found
+"str. Spartacus 36/1, Кишинёв, Moldova",47.0425098,28.85445,found
+"str. Studentilor ., Кишинёв, Moldova",47.0640812,28.8669795,found
+"str. Suceava 110, Кишинёв, Moldova",47.0316684,28.7893797,found
+"str. Suceava 110/1, Кишинёв, Moldova",47.0320612,28.7893874,found
+"str. Suceava 118, Кишинёв, Moldova",47.0324995,28.7877162,found
+"str. Sucevita ., Кишинёв, Moldova",47.0326913,28.7780187,found
+"str. Sucevita 41, Кишинёв, Moldova",47.0322398,28.7778762,found
+"str. Sucevita;str. Sucevița ., Кишинёв, Moldova",47.0362633,28.7818692,found
+"str. Sucevița *, Кишинёв, Moldova",47.0362633,28.7818692,found
+"str. Sucevița 22/1, Кишинёв, Moldova",47.0348868,28.7799378,found
+"str. Sucevița 31, Кишинёв, Moldova",47.0325286,28.7790868,found
+"str. Tecuci ., Кишинёв, Moldova",47.0099344,28.8532169,found
+"str. Tecuci 3/1, Кишинёв, Moldova",47.0104301,28.8532697,found
+"str. Teilor ., Кишинёв, Moldova",46.9866301,28.8500193,found
+"str. Teilor /, Кишинёв, Moldova",46.9866301,28.8500193,found
+"str. Teilor 9/3, Кишинёв, Moldova",46.9842136,28.8492233,found
+"str. Tighina 50, Кишинёв, Moldova",47.019676,28.8474496,found
+"str. Tiraspol 2, Кишинёв, Moldova",47.0132593,28.8569054,found
+"str. Titulescu -, Кишинёв, Moldova",47.0001616,28.8615758,found
+"str. Trandafirilor ., Кишинёв, Moldova",46.999064,28.8541834,found
+"str. Trandafirilor 19, Бубуечь, Moldova",46.9801429,28.9454627,found
+"str. Trandafirilor 31/5, Кишинёв, Moldova",46.9969944,28.8493911,found
+"str. Trandafirilor 31/7, Кишинёв, Moldova",46.9967144,28.8488403,found
+"str. Trandafirilor 37/1, Кишинёв, Moldova",46.9956561,28.8470041,found
+"str. Trandafirilor 37/2, Кишинёв, Moldova",46.9952297,28.847472,found
+"str. Transnistria 22, Кишинёв, Moldova",47.0112614,28.8934655,found
+"str. Tudor Strișcă ., Кишинёв, Moldova",46.9878544,28.8364245,found
+"str. Tudor Strișcă 19/2, Кишинёв, Moldova",46.9867518,28.835695,found
+"str. Tudor Strișcă 19/6, Кишинёв, Moldova",46.9871948,28.836262,found
+"str. Tudor Strișcă 8/1, Кишинёв, Moldova",46.9870115,28.84145,found
+"str. Tudor Strișcă 8/7, Кишинёв, Moldova",46.9873456,28.8408937,found
+"str. Tudor Vladimirescu -1/8, Кишинёв, Moldova",47.0303927,28.863067,found
+"str. Tudor Vladimirescu ., Дурлешты, Moldova",47.0386004,28.7559683,found
+"str. Tudor Vladimirescu ., Кишинёв, Moldova",47.0256436,28.7785909,found
+"str. Tudor Vladimirescu 1, Кишинёв, Moldova",47.0349384,28.8617741,found
+"str. Tudor Vladimirescu 1/10, Кишинёв, Moldova",47.0300756,28.8614152,found
+"str. Tudor Vladimirescu 1/11, Кишинёв, Moldova",47.0296984,28.8615288,found
+"str. Tudor Vladimirescu 1/4, Кишинёв, Moldova",47.0315691,28.8616475,found
+"str. Tudor Vladimirescu 1/8, Кишинёв, Moldova",47.0303927,28.863067,found
+"str. Tudor Vladimirescu 10/1, Кишинёв, Moldova",47.0347318,28.862413,found
+"str. Tudor Vladimirescu 12/2, Кишинёв, Moldova",47.0351775,28.862827,found
+"str. Tudor Vladimirescu 18, Кишинёв, Moldova",47.0367788,28.8613445,found
+"str. Tudor Vladimirescu 1a, Кишинёв, Moldova",47.026051,28.8651524,found
+"str. Tudor Vladimirescu 4, Кишинёв, Moldova",47.0306799,28.8638056,found
+"str. Tudor Vladimirescu 5, Дурлешты, Moldova",47.0245505,28.7826502,found
+"str. Tudor Vladimirescu 71, Дурлешты, Moldova",47.0288166,28.7701561,found
+"str. Tudor Vladimirescu 75/1, Дурлешты, Moldova",47.0300827,28.7691613,found
+"str. Tudor Vladimirescu 8, Кишинёв, Moldova",47.0340746,28.862966,found
+"str. Unirii 20, Ставчены, Moldova",47.0953681,28.8686253,found
+"str. Unirii 20/2, Ставчены, Moldova",47.0953561,28.8701269,found
+"str. Universității 25, Кишинёв, Moldova",47.0157673,28.8230279,found
+"str. Vadul lui Voda -, Кишинёв, Moldova",47.0367838,28.900767,found
+"str. Vadul lui Voda ., Кишинёв, Moldova",47.0244476,28.8673554,found
+"str. Vadul lui Voda 30, Кишинёв, Moldova",47.026681,28.871584,found
+"str. Vadul lui Voda;str. Vadul lui Vodă 30/1, Кишинёв, Moldova",47.0367838,28.900767,found
+"str. Vadul lui Voda;str. Vadul lui Vodă 62, Кишинёв, Moldova",47.0367838,28.900767,found
+"str. Vadul lui Vodă 30, Кишинёв, Moldova",47.026681,28.871584,found
+"str. Vadul lui Vodă 34, Кишинёв, Moldova",47.0269705,28.8722286,found
+"str. Valea Apelor 17/A, Кишинёв, Moldova",46.9585002,28.8372118,found
+"str. Valea Crucii ., Кишинёв, Moldova",46.9720267,28.8531604,found
+"str. Valea Crucii /, Кишинёв, Moldova",46.9720267,28.8531604,found
+"str. Valea Crucii 22, Кишинёв, Moldova",46.973629,28.8551393,found
+"str. Valea Crucii 24, Кишинёв, Moldova",46.973042,28.8536784,found
+"str. Valea Trandafirilor ., Кишинёв, Moldova",47.0002573,28.857017,found
+"str. Valea Trandafirilor 16, Кишинёв, Moldova",47.0080567,28.8475017,found
+"str. Valea Trandafirilor 2/1, Кишинёв, Moldova",47.009501,28.8480615,found
+"str. Valea Trandafirilor 6/1., Кишинёв, Moldova",47.0086037,28.8484122,found
+"str. Valea Trandafirilor 6/2, Кишинёв, Moldova",47.0082833,28.8468204,found
+"str. Vasile Alecsandri 11, Кишинёв, Moldova",47.0084759,28.8271332,found
+"str. Vasile Alecsandri 17, Кишинёв, Moldova",47.0093727,28.8273542,found
+"str. Vasile Alecsandri 27, Кишинёв, Moldova",47.0107432,28.8276943,found
+"str. Vasile Alecsandri 85, Кишинёв, Moldova",47.0165507,28.8315198,found
+"str. Vasile Badiu ., Кишинёв, Moldova",47.0518093,28.8441392,found
+"str. Vasile Cheltuială 9/2, Кишинёв, Moldova",47.0111174,28.8178555,found
+"str. Vasile Lupu  ., Кишинёв, Moldova",47.0222153,28.8090383,found
+"str. Vasile Lupu  61/2, Кишинёв, Moldova",47.0213121,28.7985791,found
+"str. Vasile Lupu **, Кишинёв, Moldova",47.0222153,28.8090383,found
+"str. Vasile Lupu *, Кишинёв, Moldova",47.0222153,28.8090383,found
+"str. Vasile Lupu -, Кишинёв, Moldova",47.0222153,28.8090383,found
+"str. Vasile Lupu ---, Кишинёв, Moldova",47.0222153,28.8090383,found
+"str. Vasile Lupu ., Кишинёв, Moldova",47.0222153,28.8090383,found
+"str. Vasile Lupu /, Кишинёв, Moldova",47.0222153,28.8090383,found
+"str. Vasile Lupu 28, Кишинёв, Moldova",47.0221197,28.8008688,found
+"str. Vasile Lupu 28/C, Кишинёв, Moldova",47.0230215,28.7992403,found
+"str. Vasile Lupu 28/E, Кишинёв, Moldova",47.0232903,28.8000753,found
+"str. Vasile Lupu 28a, Кишинёв, Moldova",47.0225368,28.7991623,found
+"str. Vasile Lupu 28f, Кишинёв, Moldova",47.0229701,28.80025,found
+"str. Vasile Lupu 31, Кишинёв, Moldova",47.0218296,28.8063247,found
+"str. Vasile Lupu 33, Кишинёв, Moldova",47.0217634,28.8054739,found
+"str. Vasile Lupu 42s, Кишинёв, Moldova",47.0238519,28.7956267,found
+"str. Vasile Lupu 61, Кишинёв, Moldova",47.0216319,28.7998613,found
+"str. Vasile Lupu 61/4, Кишинёв, Moldova",47.0217187,28.7978504,found
+"str. Vasile Varzaru ., Кишинёв, Moldova",47.0275381,28.8810714,found
+"str. Vasile Vărzaru 5/2, Кишинёв, Moldova",47.0284921,28.8815182,found
+"str. Vasile Vărzaru 9, Кишинёв, Moldova",47.0264205,28.8821532,found
+"str. Vissarion Belinski ., Кишинёв, Moldova",47.0329391,28.7982747,found
+"str. Vissarion Belinski 61, Кишинёв, Moldova",47.0296173,28.8014674,found
+"str. Vissarion Belinski 71, Кишинёв, Moldova",47.0320433,28.7990547,found
+"str. Vladimir Korolenko 59/1, Кишинёв, Moldova",46.9956691,28.8266127,found
+"str. Vlaicu Pârcălab ., Кишинёв, Moldova",47.0206682,28.8323654,found
+"str. Voluntarilor -, Кишинёв, Moldova",47.0120008,28.8876685,found
+"str. Voluntarilor ., Кишинёв, Moldova",46.9985549,28.8986245,found
+"str. Voluntarilor 10, Кишинёв, Moldova",47.0076556,28.891605,found
+"str. Voluntarilor 16, Кишинёв, Moldova",47.0037071,28.8944517,found
+"str. Vorniceni 1, Кишинёв, Moldova",47.0084043,28.8581175,found
+"str. Zidarilor ., Бубуечь, Moldova",46.9977205,28.9359285,found
+"str. ialoveni  134, Дурлешты, Moldova",47.0035211,28.7734542,found
+"str. ialoveni  96, Кишинёв, Moldova",47.0007312,28.7799263,found
+"str. Ştefan Vodă 11a, Дурлешты, Moldova",47.0253277,28.7716228,found
+"str. Ştefan Vodă 15a, Дурлешты, Moldova",47.0252665,28.7706833,found
+"str. Ştefan cel Mare și Sfînt 10, Криково, Moldova",47.0868965,29.0837861,found
+"str. Ștefan Neaga 67, Кишинёв, Moldova",47.033554,28.80205,found
+"str.Bacioi Noi --, Кишинёв, Moldova",46.9496669,28.9130241,found
+"str.Cartusa ==, Дурлешты, Moldova",47.016114,28.747452,found
+"str.Drumul Viilor 43 43, Кишинёв, Moldova",47.0085407,28.8173794,found
+"str.Durlești 20/D 20, Дурлешты, Moldova",47.0446369,28.7457465,found
+"str.Ghica Vodă 5 5, Кишинёв, Moldova",46.9752902,28.8573532,found
+"str.Mircea cel Batran --, Кишинёв, Moldova",47.0901116,29.0707003,found
+"str.Regina Elisabeta *, Дурлешты, Moldova",47.0054813,28.7621415,found
+"str.Testemitanu  —, Кишинёв, Moldova",47.0042184,28.836723,found
+"str.Vasile Lupu  --, Кишинёв, Moldova",47.0222153,28.8090383,found
+"str.sucevita  36/1, Кишинёв, Moldova",47.0323573,28.7771855,found
+"strada Bisericii 17, Кишинёв, Moldova",47.0163035,28.7908799,found
+"strada Bisericii 19, Кишинёв, Moldova",47.0161988,28.7908212,found
+"strada Calea Mosilor  4, Кишинёв, Moldova",47.0284004,28.8582156,found
+"strada Calea Mosilor 4, Кишинёв, Moldova",47.0284004,28.8582156,found
+"vasile alecsandri 129, Кишинёв, Moldova",47.0231464,28.8409439,found
+"zaikin 51, Кишинёв, Moldova",47.0368053,28.832879,found
+"şos. Munceşti ., Кишинёв, Moldova",46.933959,28.9558292,found
+"şos. Munceşti /, Кишинёв, Moldova",46.9333336,28.9557419,found
+"şos. Munceşti 105, Кишинёв, Moldova",47.0011806,28.8712538,found
+"şos. Munceşti 166, Кишинёв, Moldova",47.001852,28.8695932,found
+"şos. Munceşti 326, Кишинёв, Moldova",46.9913252,28.8825127,found
+"şos. Munceşti 404, Кишинёв, Moldova",46.9814633,28.8974018,found
+"şos. Munceşti 788, Кишинёв, Moldova",46.9414127,28.9366207,found
+"şos. Munceşti 788., Кишинёв, Moldova",46.9414127,28.9366207,found
+"şos. Munceşti 806/2, Кишинёв, Moldova",46.9364163,28.9496795,found
+"şos. Munceşti 90, Кишинёв, Moldova",47.0056609,28.8661085,found
+"şos. Munceşti 94, Кишинёв, Moldova",47.0054424,28.8668156,found
+"Șciusev ***, Кишинёв, Moldova",47.0225937,28.8238152,found
+"Șoseaua Muncești 798, Кишинёв, Moldova",46.9388872,28.9462909,found
+"Șoseaua Muncești 806/2, Кишинёв, Moldova",46.9364163,28.9496795,found
+"șos. Balcani ., Кишинёв, Moldova",47.0449348,28.7639716,found
+"șos. Balcani 2, Кишинёв, Moldova",47.0587178,28.7812028,found
+"șos. Balcani 4/1, Кишинёв, Moldova",47.0446956,28.7643966,found
+"șos. Balcani 4/3, Кишинёв, Moldova",47.0436335,28.7651301,found
+"șos. Balcani 6, Кишинёв, Moldova",47.0450135,28.7650585,found
+"șos. Hâncești **, Кишинёв, Moldova",46.9908272,28.7832132,found
+"șos. Hâncești *, Кишинёв, Moldova",46.9967639,28.8027341,found
+"șos. Hâncești -, Кишинёв, Moldova",46.9967639,28.8027341,found
+"șos. Hâncești --, Кишинёв, Moldova",46.9908272,28.7832132,found
+"șos. Hâncești ., Кишинёв, Moldova",46.9967639,28.8027341,found
+"șos. Hâncești 140, Кишинёв, Moldova",46.9941569,28.7872944,found
+"șos. Hâncești 140/1, Кишинёв, Moldova",46.9941569,28.7872944,found
+"șos. Hâncești 141, Кишинёв, Moldova",46.9937389,28.7919072,found
+"șos. Hâncești 142, Кишинёв, Moldova",46.9930088,28.785891,found
+"șos. Hâncești 182, Кишинёв, Moldova",46.9848405,28.7749532,found
+"șos. Hâncești 22a, Кишинёв, Moldova",47.0060386,28.8226485,found
+"șos. Hâncești 34/1, Кишинёв, Moldova",47.0047916,28.820405,found
+"șos. Hâncești 55, Кишинёв, Moldova",47.0007259,28.8134409,found
+"Каля Ешилор  61/2, Кишинёв, Moldova",47.0460065,28.7811749,found
+"Картуша 97/3, Дурлешты, Moldova",47.0172367,28.7518093,found
+"Ул Минск 1, Кишинёв, Moldova",47.0011519,28.8698043,found
+"Шоссе Хынчештское  142, Кишинёв, Moldova",46.9925255,28.7847413,found
+"бд. Дечебал ., Кишинёв, Moldova",46.9871849,28.8586677,found
+"бул. Траян 1/2, Кишинёв, Moldova",46.9843908,28.8575008,found
+"бул. Траян 22, Кишинёв, Moldova",46.9792921,28.8458052,found
+"бул. Траян 23/1, Кишинёв, Moldova",46.9775823,28.8457844,found
+"пер. Гика Водэ 5, Кишинёв, Moldova",46.9748257,28.8572494,found
+"пр-т Алба Юлия 113, Кишинёв, Moldova",47.0417892,28.7628124,found
+"пр-т Алба Юлия 128, Кишинёв, Moldova",47.0359131,28.7747801,found
+"пр-т Алба-Юлия ., Кишинёв, Moldova",47.036502,28.7735791,found
+"пр-т Алба-Юлия 103, Кишинёв, Moldova",47.036502,28.7735791,found
+"пр-т Алба-Юлия 128, Кишинёв, Moldova",47.0359131,28.7747801,found
+"пр-т Дачия 25, Кишинёв, Moldova",46.9867087,28.8583341,found
+"пр-т Дачия 46, Кишинёв, Moldova",46.9765681,28.8698279,found
+"пр-т Дачия 59, Кишинёв, Moldova",46.9679423,28.888174,found
+"пр-т Дачия 60/12, Кишинёв, Moldova",46.942299,28.9222835,found
+"пр-т Куза Водэ 44, Кишинёв, Moldova",46.9746366,28.8482419,found
+"пр-т Куза Водэ 5/1, Кишинёв, Moldova",46.98604,28.8684265,found
+"пр-т Мирча чел Бэтрын 10, Кишинёв, Moldova",47.0418932,28.8910055,found
+"пр-т Мирча чел Бэтрын 15, Кишинёв, Moldova",47.0468052,28.8878226,found
+"пр-т Мирча чел Бэтрын 41/A, Кишинёв, Moldova",47.0571052,28.8906477,found
+"пр-т Мирча чел Бэтрын 42, Кишинёв, Moldova",47.0571594,28.8927118,found
+"пр-т Мирча чел Бэтрын 45, Кишинёв, Moldova",47.0596642,28.8909432,found
+"пр-т Штефан чел Маре ши Сфынт 132, Кишинёв, Moldova",47.0169209,28.8439097,found
+"пр. Дачия ., Кишинёв, Moldova",46.9809842,28.8650354,found
+"пр. Дачия 65, Кишинёв, Moldova",46.9461329,28.9231494,found
+"ул. 31 Августа 1989 105, Кишинёв, Moldova",47.0229142,28.8299748,found
+"ул. Албишоара 18, Кишинёв, Moldova",47.0201405,28.8553013,found
+"ул. Албишоара 72/5, Кишинёв, Moldova",47.0382348,28.8376223,found
+"ул. Албишоара 76/7, Кишинёв, Moldova",47.0371162,28.8317556,found
+"ул. Албишоара 78/4, Кишинёв, Moldova",47.0386338,28.8345022,found
+"ул. Албишоара 82/1, Кишинёв, Moldova",47.0385459,28.8314246,found
+"ул. Албишоара 82/8, Кишинёв, Moldova",47.0385015,28.8300618,found
+"ул. Александру Маринеску 19/1, Кишинёв, Moldova",47.0305822,28.7818589,found
+"ул. Алеку Руссо ., Кишинёв, Moldova",47.0374383,28.8881352,found
+"ул. Алеку Руссо /, Кишинёв, Moldova",47.0374383,28.8881352,found
+"ул. Алеку Руссо 3/1, Кишинёв, Moldova",47.0442697,28.8636633,found
+"ул. Алеку Руссо 3/2, Кишинёв, Moldova",47.0432047,28.8677406,found
+"ул. Алеку Руссо 9/7, Кишинёв, Moldova",47.0414614,28.875838,found
+"ул. Ателиерилор 1, Дурлешты, Moldova",47.0154007,28.7433501,found
+"ул. Ателиерилор 23, Дурлешты, Moldova",47.0182004,28.7437358,found
+"ул. Ашхабад 127/6, Кишинёв, Moldova",46.9905126,28.8821551,found
+"ул. Богдан Воевод ., Кишинёв, Moldova",47.0441706,28.859725,found
+"ул. Буковина ., Кишинёв, Moldova",47.068088,28.8879997,found
+"ул. Буковина 1, Кишинёв, Moldova",47.0637576,28.8756778,found
+"ул. Буковина 5/M, Кишинёв, Moldova",47.0686101,28.8754818,found
+"ул. Букурешть ., Кишинёв, Moldova",47.0188858,28.8326511,found
+"ул. Буребиста 114/2, Кишинёв, Moldova",46.9797294,28.8745372,found
+"ул. Буребиста 36/2, Кишинёв, Moldova",46.9875321,28.8821826,found
+"ул. Вадул луй Водэ 30, Кишинёв, Moldova",47.0948789,29.0662857,found
+"ул. Валя Трандафирилор 20, Кишинёв, Moldova",47.0074709,28.846911,found
+"ул. Валя Трандафирилор 6/1, Кишинёв, Moldova",47.0086037,28.8484122,found
+"ул. Василе Александри ., Кишинёв, Moldova",47.0088439,28.82739,found
+"ул. Василе Лупу 28, Кишинёв, Moldova",47.0221197,28.8008688,found
+"ул. Василе Лупу 28a, Кишинёв, Moldova",47.0225368,28.7991623,found
+"ул. Владимир Короленко 59/1, Кишинёв, Moldova",46.9956691,28.8266127,found
+"ул. Вовинцень ., Кишинёв, Moldova",47.0205772,28.7934246,found
+"ул. Волунтарилор 4, Кишинёв, Moldova",47.0103056,28.8891744,found
+"ул. Ворничень 3, Кишинёв, Moldova",47.0082543,28.8585395,found
+"ул. Георге Кашу ., Кишинёв, Moldova",47.002709,28.8314248,found
+"ул. Георге Мадан 46/3, Кишинёв, Moldova",47.0557981,28.8475071,found
+"ул. Георге Мадан 87/3, Кишинёв, Moldova",47.0600014,28.8423159,found
+"ул. Гика Водэ 5, Кишинёв, Moldova",46.9757031,28.8581079,found
+"ул. Гренобле ., Кишинёв, Moldova",46.9790038,28.8441651,found
+"ул. Гренобле /, Кишинёв, Moldova",46.9737326,28.8486336,found
+"ул. Гренобле 120/3, Кишинёв, Moldova",46.9830718,28.8329769,found
+"ул. Гренобле 120/4, Кишинёв, Moldova",46.9834421,28.8322029,found
+"ул. Гренобле 128/1, Кишинёв, Moldova",46.9798737,28.8382651,found
+"ул. Гренобле 134, Кишинёв, Moldova",46.9725661,28.8495402,found
+"ул. Гренобле 159/4, Кишинёв, Moldova",46.9856261,28.836839,found
+"ул. Гренобле 205/2, Кишинёв, Moldova",46.9763539,28.8477002,found
+"ул. Грэдина Ботаникэ 18/1, Кишинёв, Moldova",46.977355,28.8786586,found
+"ул. Грэдина Ботаникэ 20/1, Кишинёв, Moldova",46.9774423,28.8763938,found
+"ул. Грэдинилор 25, Кишинёв, Moldova",47.0797601,28.7404893,found
+"ул. Грэтиешть 54, Кишинёв, Moldova",47.0610617,28.8479551,found
+"ул. Джинта Латинэ 5, Кишинёв, Moldova",47.034175,28.8821829,found
+"ул. Джордже Кошбук 7, Кишинёв, Moldova",46.9601666,28.710669,found
+"ул. Дойна 150/2, Кишинёв, Moldova",47.0645883,28.837258,found
+"ул. Друмул Виилор 38/1, Кишинёв, Moldova",47.0030144,28.8060332,found
+"ул. Думитру Рышкану 14/, Кишинёв, Moldova",47.0359225,28.8612207,found
+"ул. Игорь Виеру 19/1, Кишинёв, Moldova",47.0520124,28.89592,found
+"ул. Измаил 92/1, Кишинёв, Moldova",47.0222044,28.8573089,found
+"ул. Индепенденцей ., Кишинёв, Moldova",46.9809871,28.8552591,found
+"ул. Индепенденцей 5/A, Кишинёв, Moldova",46.9834231,28.8488504,found
+"ул. Индепенденцей 54, Кишинёв, Moldova",46.978121,28.8666394,found
+"ул. Индепенденцей 9/1, Кишинёв, Moldova",46.9797509,28.8544284,found
+"ул. Иоана Раду -, Кишинёв, Moldova",47.0260816,28.7943604,found
+"ул. Иоана Раду 27/1, Кишинёв, Moldova",47.0265378,28.7977801,found
+"ул. Иоана Раду 27/3, Кишинёв, Moldova",47.0262621,28.7992851,found
+"ул. Иоана Раду 27/4, Кишинёв, Moldova",47.0259565,28.7983845,found
+"ул. Иоана Раду 27/8, Кишинёв, Moldova",47.0247282,28.7992891,found
+"ул. Иоана Раду 29/2, Кишинёв, Moldova",47.0262165,28.7961395,found
+"ул. Ион Буздуган ., Кишинёв, Moldova",47.0378784,28.7635064,found
+"ул. Ион Буздуган 11, Кишинёв, Moldova",47.0378784,28.7635064,found
+"ул. Ион Буздуган 13, Кишинёв, Moldova",47.0386476,28.7597872,found
+"ул. Ион Буздуган 3, Кишинёв, Moldova",47.0369542,28.7633511,found
+"ул. Ион Думенюк 20, Кишинёв, Moldova",47.0554396,28.894417,found
+"ул. Ион Нистор 2, Кишинёв, Moldova",47.0022024,28.8285977,found
+"ул. Каля Басарабией 2 a, Криково, Moldova",47.126153,28.8643878,found
+"ул. Каля Ешилор ., Кишинёв, Moldova",47.0402307,28.8021218,found
+"ул. Каля Ешилор 4, Кишинёв, Moldova",47.0437251,28.7959449,found
+"ул. Каля Ешилор 5, Кишинёв, Moldova",47.0438398,28.7948292,found
+"ул. Каля Ешилор 6 C, Кишинёв, Moldova",47.0393396,28.8073301,found
+"ул. Каля Ешилор 6, Кишинёв, Moldova",47.0433126,28.7934948,found
+"ул. Каля Ешилор 6/C, Кишинёв, Moldova",47.0393396,28.8073301,found
+"ул. Каля Ешилор 63/6, Кишинёв, Moldova",47.0445787,28.7810498,found
+"ул. Каля Мошилор ., Кишинёв, Moldova",47.0251801,28.8614085,found
+"ул. Каля Мошилор 4, Кишинёв, Moldova",47.0255028,28.8611059,found
+"ул. Каля Орхеюлуй 105/2, Кишинёв, Moldova",47.0547134,28.8487022,found
+"ул. Каля Орхеюлуй 113/1, Кишинёв, Moldova",47.0568698,28.8506053,found
+"ул. Картуша ., Дурлешты, Moldova",47.0153552,28.7404084,found
+"ул. Картуша 95, Дурлешты, Moldova",47.0153322,28.7456173,found
+"ул. Картуша 95/5, Дурлешты, Moldova",47.0153322,28.7456173,found
+"ул. Картуша 99/3, Дурлешты, Moldova",47.0172367,28.7518093,found
+"ул. Кахул 8, Кишинёв, Moldova",47.0281045,28.8494082,found
+"ул. Корнулуй 23, Кишинёв, Moldova",47.020273,28.7949966,found
+"ул. Лакулуй 35, Кишинёв, Moldova",47.0120933,28.8231596,found
+"ул. Ливиу Деляну 10/11, Кишинёв, Moldova",47.0475233,28.7706199,found
+"ул. Ливиу Деляну 10/13, Кишинёв, Moldova",47.0468716,28.7709132,found
+"ул. Ливиу Деляну 10/2, Кишинёв, Moldova",47.0469117,28.7692056,found
+"ул. Ливиу Деляну 10/3, Кишинёв, Moldova",47.0474389,28.7694841,found
+"ул. Ливиу Деляну 24, Кишинёв, Moldova",47.0470378,28.7679379,found
+"ул. Мария Дрэган 20/2, Кишинёв, Moldova",47.022685,28.8816085,found
+"ул. Мария Дрэган 30/1, Кишинёв, Moldova",47.0194049,28.8822748,found
+"ул. Мария Дрэган 38, Кишинёв, Moldova",47.0165399,28.881878,found
+"ул. Матей Басараб ., Кишинёв, Moldova",47.0549227,28.8651157,found
+"ул. Минск 2, Кишинёв, Moldova",47.0018306,28.8686943,found
+"ул. Минск 26/2, Кишинёв, Moldova",46.9987027,28.8609258,found
+"ул. Миорица 10, Кишинёв, Moldova",46.9968076,28.8088531,found
+"ул. Миорица 26/1, Бубуечь, Moldova",46.9794798,28.9352514,found
+"ул. Митрополит Дософтей 100, Кишинёв, Moldova",47.0381213,28.8157929,found
+"ул. Михаил Садовяну 4, Кишинёв, Moldova",47.0521956,28.884329,found
+"ул. Михаил Садовяну 4/1, Кишинёв, Moldova",47.0366174,28.8794967,found
+"ул. Николае Димо ---, Дурлешты, Moldova",47.0152396,28.7514441,found
+"ул. Николае Димо ., Дурлешты, Moldova",47.0152396,28.7514441,found
+"ул. Николае Димо 101, Дурлешты, Moldova",47.0152396,28.7514441,found
+"ул. Николае Димо 24, Дурлешты, Moldova",47.0138525,28.7521502,found
+"ул. Николае Димо 88, Дурлешты, Moldova",47.0070822,28.7635245,found
+"ул. Николае Тестемицану 19, Кишинёв, Moldova",46.9969768,28.8373602,found
+"ул. Николае Тестемицану 19/1, Кишинёв, Moldova",46.9970875,28.834828,found
+"ул. Николае Тестемицану 19/9, Кишинёв, Moldova",46.9963504,28.837126,found
+"ул. Николае Тестемицану 21/3, Кишинёв, Moldova",46.9959728,28.8354427,found
+"ул. Николае Тестемицану 23/1, Кишинёв, Moldova",46.9957628,28.8346672,found
+"ул. Николае Тестемицану 3/1, Кишинёв, Moldova",47.0043303,28.8378653,found
+"ул. Николае Тестемицану 3/3, Кишинёв, Moldova",46.9985465,28.8356087,found
+"ул. Николае Тестемицану 3/9, Кишинёв, Moldova",46.9994746,28.8399678,found
+"ул. Николае Тестемицану 37, Кишинёв, Moldova",46.9904884,28.8283048,found
+"ул. Николае Титулеску 28, Кишинёв, Moldova",46.9919551,28.869042,found
+"ул. Николае Титулеску 53/2, Кишинёв, Moldova",46.9918384,28.8712125,found
+"ул. Пан Халиппа --, Кишинёв, Moldova",47.009685,28.836078,found
+"ул. Пандурилор ., Кишинёв, Moldova",46.9994261,28.8726266,found
+"ул. Пандурилор 68, Кишинёв, Moldova",46.9962369,28.8636227,found
+"ул. Парис ., Кишинёв, Moldova",47.0295875,28.7779636,found
+"ул. Петру Заднипру 18/1, Кишинёв, Moldova",47.0423368,28.8963209,found
+"ул. Поштей 92, Кишинёв, Moldova",47.0463405,28.8344004,found
+"ул. Пьетрарилор 10/5, Кишинёв, Moldova",47.003733,28.8041086,found
+"ул. Сармизеджетуса ., Кишинёв, Moldova",46.9942017,28.8646206,found
+"ул. Сармизеджетуса 23, Кишинёв, Moldova",46.9905969,28.8702738,found
+"ул. Спрынченоая 3/L, Кишинёв, Moldova",46.9998233,28.811659,found
+"ул. Студенческая ., Кишинёв, Moldova",47.0611806,28.8581317,found
+"ул. Студенческая 19, Кишинёв, Moldova",47.0622109,28.8782712,found
+"ул. Сучава 110, Кишинёв, Moldova",47.0316684,28.7893797,found
+"ул. Сфатул Цэрий 59, Кишинёв, Moldova",47.0302119,28.8290205,found
+"ул. Текуч 3/1, Кишинёв, Moldova",47.0104301,28.8532697,found
+"ул. Тигина 26, Кишинёв, Moldova",47.0156022,28.8416402,found
+"ул. Трандафирилор ., Кишинёв, Moldova",46.9986343,28.8516217,found
+"ул. Трандафирилор 13/2, Кишинёв, Moldova",46.9974667,28.8545132,found
+"ул. Тудор Владимиреску 1, Кишинёв, Moldova",47.0349384,28.8617741,found
+"ул. Тудор Владимиреску 1/8, Кишинёв, Moldova",47.0303927,28.863067,found
+"ул. Тудор Владимиреску 8, Кишинёв, Moldova",47.0340746,28.862966,found
+"ул. Тудор Владимиреску 8/1, Кишинёв, Moldova",47.0338292,28.8628748,found
+"ул. Тудор Стришкэ 2, Кишинёв, Moldova",46.9862693,28.8434713,found
+"ул. Тудор Стришкэ 8/1, Кишинёв, Moldova",46.9870115,28.84145,found
+"ул. Унирий 20, Ставчены, Moldova",47.0953681,28.8686253,found
+"ул. Флорилор 2, Кишинёв, Moldova",47.0481016,28.8582079,found
+"ул. Флорилор 26/, Кишинёв, Moldova",47.0566358,28.8594524,found
+"ул. Флорилор 28/2, Кишинёв, Moldova",47.0581416,28.8607649,found
+"ул. Флорилор 28/3, Кишинёв, Moldova",47.0575816,28.8598961,found
+"ул. Христо Ботев 19/7, Кишинёв, Moldova",46.9892956,28.8507999,found
+"ул. Христо Ботев 21, Кишинёв, Moldova",46.9864345,28.8474245,found
+"ул. Четатя Албэ 20, Кишинёв, Moldova",47.0025694,28.8658172,found
+"ул. Чеукарь 14, Кишинёв, Moldova",47.0676835,28.8433663,found
+"ул. Чеукарь 2/4, Кишинёв, Moldova",47.0576143,28.8493424,found
+"ул. Чеукарь 84, Кишинёв, Moldova",47.0657566,28.8440221,found
+"ул. Чиркулуй 61, Кишинёв, Moldova",47.0400193,28.8468398,found
+"ул. Штефан Няга 20, Кишинёв, Moldova",47.0241609,28.8066346,found
+"ул. Штефан Няга 67, Кишинёв, Moldova",47.033554,28.80205,found
+"ул. Язулуй ., Кишинёв, Moldova",47.0673312,28.8408695,found
+"ул. Язулуй 38, Кишинёв, Moldova",47.0624684,28.844226,found
+"ул. Язулуй 74, Кишинёв, Moldova",47.0671253,28.8416359,found
+"ул. Яловень 104, Кишинёв, Moldova",46.9141065,28.8682054,found
+"ул. Яловень 136, Кишинёв, Moldova",46.9141065,28.8682054,found
+"ул. Яловень 38/1, Кишинёв, Moldova",46.9141065,28.8682054,found
+"/ /, Дурлешты, Moldova",,,not_found
+"Bacioi Noi 14D, Кишинёв, Moldova",,,not_found
+"Botanica str. Nikolai Zelinski, Кишинёв, Moldova",,,not_found
+"Bulevardul Mircea cel Bătrîn 22/3, Кишинёв, Moldova",,,not_found
+"Cetatea Albă nr 11/G Noua, Кишинёв, Moldova",,,not_found
+"Costiujeni 14/5 14/5, Кишинёв, Moldova",,,not_found
+"Dumitru Riscanu  4, Кишинёв, Moldova",,,not_found
+"Grăiești  10, Ставчены, Moldova",,,not_found
+"Ialoveni 100/3 100/3, Кишинёв, Moldova",,,not_found
+"Ialoveni 96/3 3, Кишинёв, Moldova",,,not_found
+"Jubiliara 39/1 39/1, Кишинёв, Moldova",,,not_found
+"M. Lomonosov 43, Кишинёв, Moldova",,,not_found
+"MOSCOVEI ', Кишинёв, Moldova",,,not_found
+"Nicolae Dimo 13A, Кишинёв, Moldova",,,not_found
+"Nicolae Zelinski --, Кишинёв, Moldova",,,not_found
+"Nicolai Zelinski 10, Кишинёв, Moldova",,,not_found
+"Nicolai Zelinski 15/3, Кишинёв, Moldova",,,not_found
+"Nicolai Zelinski 35, Кишинёв, Moldova",,,not_found
+"Panteleimon Halipa 6E, Кишинёв, Moldova",,,not_found
+"Piața Unirii Principatelor 3, Кишинёв, Moldova",,,not_found
+"Regina Elizaveta 2, Дурлешты, Moldova",,,not_found
+"Regina Elizaveta 2C, Дурлешты, Moldova",,,not_found
+"Spricenoaia 3E, Кишинёв, Moldova",,,not_found
+"bd. Alba-Iulia 12, Кишинёв, Moldova",,,not_found
+"bd. Alba-Iulia 192/2, Кишинёв, Moldova",,,not_found
+"bd. Alba-Iulia 5/1, Кишинёв, Moldova",,,not_found
+"bd. Alba-Iulia 91/1, Кишинёв, Moldova",,,not_found
+"bd. C. Negruzzi 2/3, Кишинёв, Moldova",,,not_found
+"bd. C. Negruzzi 4/2, Кишинёв, Moldova",,,not_found
+"bd. C. Negruzzi 6, Кишинёв, Moldova",,,not_found
+"renasterii nationale/spartacus 36, Кишинёв, Moldova",,,not_found
+"str. Chişinău 62, Криково, Moldova",,,not_found
+"str. Chişinău 68, Криково, Moldova",,,not_found
+"str. Chişinău 81, Криково, Moldova",,,not_found
+"str. Chişinău 84, Криково, Moldova",,,not_found
+"str. Constantin Virnav ---, Кишинёв, Moldova",,,not_found
+"str. Dumitru Rîșcanu 33/1, Кишинёв, Moldova",,,not_found
+"str. Dumitru Rîșcanu 33/4, Кишинёв, Moldova",,,not_found
+"str. George Topirceanu 27, Кишинёв, Moldova",,,not_found
+"str. Leh Kaczynski ., Кишинёв, Moldova",,,not_found
+"str. Mitropolitul Petru Movila 23/5, Кишинёв, Moldova",,,not_found
+"str. Mitropolitul Petru Movila;str. Mitropolitul Petru Movilă 23, Кишинёв, Moldova",,,not_found
+"str. Mitropolitul Petru Movilă *, Кишинёв, Moldova",,,not_found
+"str. Mitropolitul Petru Movilă 23/8, Кишинёв, Moldova",,,not_found
+"str. Mitropolitul Petru Movilă 41, Кишинёв, Moldova",,,not_found
+"str. Nikolai Zelinski ., Кишинёв, Moldova",,,not_found
+"str. Nikolai Zelinski /, Кишинёв, Moldova",,,not_found
+"str. Nikolai Zelinski 15/6, Кишинёв, Moldova",,,not_found
+"str. Nikolai Zelinski 20, Кишинёв, Moldova",,,not_found
+"str. Nikolai Zelinski 32/2, Кишинёв, Moldova",,,not_found
+"str. Nikolai Zelinski 34/4, Кишинёв, Moldova",,,not_found
+"str. Pan Halippa 6, Кишинёв, Moldova",,,not_found
+"str. Regina Elizabeta *, Дурлешты, Moldova",,,not_found
+"str. Sprîncenoaia 3/G, Кишинёв, Moldova",,,not_found
+"str. Sprîncenoaia 3/K, Кишинёв, Moldova",,,not_found
+"str. Vasile Alescandri 5, Криково, Moldova",,,not_found
+"str.Constantin Brâncuși 146A 146A, Кишинёв, Moldova",,,not_found
+"Московский пр-т ., Кишинёв, Moldova",,,not_found
+"Московский пр-т 11, Кишинёв, Moldova",,,not_found
+"Московский пр-т 12/2, Кишинёв, Moldova",,,not_found
+"Московский пр-т 13/5, Кишинёв, Moldova",,,not_found
+"Московский пр-т 20, Кишинёв, Moldova",,,not_found
+"бул. Москова 13/4, Кишинёв, Moldova",,,not_found
+"бул. Москова 9/5, Кишинёв, Moldova",,,not_found
+"бул. Юрий Гагарин 5, Кишинёв, Moldova",,,not_found
+"пр-т Алба Юлия 77/5, Кишинёв, Moldova",,,not_found
+"пр-т Алба Юлия 87, Кишинёв, Moldova",,,not_found
+"пр-т Алба-Юлия 17/A, Кишинёв, Moldova",,,not_found
+"пр-т Алба-Юлия 194/3, Кишинёв, Moldova",,,not_found
+"пр-т Алба-Юлия 76/22, Кишинёв, Moldova",,,not_found
+"пр-т Григория Виеру 21/2, Кишинёв, Moldova",,,not_found
+"пр-т Мирча чел Бэтрын 41/F, Кишинёв, Moldova",,,not_found
+"пр-т Мирча чел Бэтрын 43/F, Кишинёв, Moldova",,,not_found
+"пр-т Штефан чел Маре ши Сфынт 3, Кишинёв, Moldova",,,not_found
+"ул. Александр Бернардацци 79, Кишинёв, Moldova",,,not_found
+"ул. Александру Хыждеу 20, Кишинёв, Moldova",,,not_found
+"ул. Александру чел Бун 49/2, Кишинёв, Moldova",,,not_found
+"ул. Алексей Щусев ., Кишинёв, Moldova",,,not_found
+"ул. Андрей Дога ., Кишинёв, Moldova",,,not_found
+"ул. Виссарион Белинский 71, Кишинёв, Moldova",,,not_found
+"ул. Георге Асаки 49b, Кишинёв, Moldova",,,not_found
+"ул. Дойна ши Ион Алдя-Теодорович 17, Кишинёв, Moldova",,,not_found
+"ул. Константин Брынкушь 148, Кишинёв, Moldova",,,not_found
+"ул. Лев Толстой ., Кишинёв, Moldova",,,not_found
+"ул. Лев Толстой 24/1, Кишинёв, Moldova",,,not_found
+"ул. Лев Толстой 63/1, Кишинёв, Moldova",,,not_found
+"ул. Мирон Костин 15/1, Кишинёв, Moldova",,,not_found
+"ул. Мирон Костин 22, Кишинёв, Moldova",,,not_found
+"ул. Надежда Руссо 14, Кишинёв, Moldova",,,not_found
+"ул. Николае Костин 44/7, Кишинёв, Moldova",,,not_found
+"ул. Николае Милеску-Спэтарул 43, Кишинёв, Moldova",,,not_found
+"ул. Николае Милеску-Спэтарул 57, Кишинёв, Moldova",,,not_found
+"ул. Николае Милеску-Спэтарул 63, Кишинёв, Moldova",,,not_found
+"ул. Николай Димо 13/4, Кишинёв, Moldova",,,not_found
+"ул. Николай Зелински ., Кишинёв, Moldova",,,not_found
+"ул. Николай Зелински 1, Кишинёв, Moldova",,,not_found
+"ул. Николай Зелински 12, Кишинёв, Moldova",,,not_found
+"ул. Николай Зелински 15/3, Кишинёв, Moldova",,,not_found
+"ул. Николай Зелински 30/3, Кишинёв, Moldova",,,not_found
+"ул. Николай Зелински 5/4, Кишинёв, Moldova",,,not_found
+"ул. Пан Халиппа 2, Кишинёв, Moldova",,,not_found
+"ул. Пан Халиппа 6/D, Кишинёв, Moldova",,,not_found
+"ш. Мунчешть 404, Кишинёв, Moldova",,,not_found
+"ш. Мунчешть 406, Кишинёв, Moldova",,,not_found
+"ш. Мунчешть 788, Кишинёв, Moldova",,,not_found
+"ш. Хынчешть 142, Кишинёв, Moldova",,,not_found
+"ш. Хынчешть 55/5, Кишинёв, Moldova",,,not_found

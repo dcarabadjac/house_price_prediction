@@ -146,6 +146,9 @@ def load_geocode_cache(cache_path: str | Path | None) -> dict:
         return {}
 
     cache_df = pd.read_csv(cache_path)
+    if "status" in cache_df.columns:
+        cache_df = cache_df[cache_df["status"].fillna("found") == "found"]
+
     return {
         row["address"]: (row["latitude"], row["longitude"])
         for _, row in cache_df.dropna(subset=["latitude", "longitude"]).iterrows()
@@ -153,16 +156,67 @@ def load_geocode_cache(cache_path: str | Path | None) -> dict:
     }
 
 
-def save_geocode_cache(cache: dict, cache_path: str | Path | None) -> None:
+def load_failed_geocode_cache(cache_path: str | Path | None) -> set[str]:
+    if not cache_path or not Path(cache_path).exists():
+        return set()
+
+    cache_df = pd.read_csv(cache_path)
+    if "status" not in cache_df.columns:
+        return set()
+
+    failed = cache_df[cache_df["status"].fillna("found") == "not_found"]
+    return set(failed["address"].dropna())
+
+
+def load_unavailable_geocode_cache(cache_path: str | Path | None) -> set[str]:
+    if not cache_path or not Path(cache_path).exists():
+        return set()
+
+    cache_df = pd.read_csv(cache_path)
+    if "status" not in cache_df.columns:
+        return set()
+
+    unavailable = cache_df[cache_df["status"].fillna("found") == "geocoder_unavailable"]
+    return set(unavailable["address"].dropna())
+
+
+def save_geocode_cache(
+    cache: dict,
+    cache_path: str | Path | None,
+    failed_addresses: set[str] | None = None,
+    unavailable_addresses: set[str] | None = None,
+) -> None:
     if not cache_path:
         return
 
     path = Path(cache_path)
     path.parent.mkdir(parents=True, exist_ok=True)
     rows = [
-        {"address": address, "latitude": lat, "longitude": lon}
+        {"address": address, "latitude": lat, "longitude": lon, "status": "found"}
         for address, (lat, lon) in sorted(cache.items())
     ]
+    if failed_addresses:
+        rows.extend(
+            {
+                "address": address,
+                "latitude": None,
+                "longitude": None,
+                "status": "not_found",
+            }
+            for address in sorted(failed_addresses)
+            if address not in cache
+        )
+    if unavailable_addresses:
+        rows.extend(
+            {
+                "address": address,
+                "latitude": None,
+                "longitude": None,
+                "status": "geocoder_unavailable",
+            }
+            for address in sorted(unavailable_addresses)
+            if address not in cache and (not failed_addresses or address not in failed_addresses)
+        )
     pd.DataFrame(rows).to_csv(path, index=False)
 
 
@@ -172,9 +226,19 @@ def add_lat_lon(
     enable_live_geocoding: bool = False,
 ) -> pd.DataFrame:
     cache = load_geocode_cache(cache_path)
-    failed_addresses = set()
+    failed_addresses = load_failed_geocode_cache(cache_path)
+    unavailable_addresses = load_unavailable_geocode_cache(cache_path)
     geolocator = None
     live_geocoding_available = enable_live_geocoding
+
+    def remember_failure(address: str) -> None:
+        failed_addresses.add(address)
+        unavailable_addresses.discard(address)
+        save_geocode_cache(cache, cache_path, failed_addresses, unavailable_addresses)
+
+    def remember_unavailable(address: str) -> None:
+        unavailable_addresses.add(address)
+        save_geocode_cache(cache, cache_path, failed_addresses, unavailable_addresses)
 
     def get_location(row):
         nonlocal geolocator, live_geocoding_available
@@ -189,6 +253,8 @@ def add_lat_lon(
         if address in failed_addresses:
             return None, None
         if not live_geocoding_available:
+            if enable_live_geocoding:
+                remember_unavailable(address)
             return None, None
 
         if geolocator is None:
@@ -197,6 +263,7 @@ def add_lat_lon(
             except ModuleNotFoundError:
                 logging.debug("Missing geopy; cannot geocode uncached address: %s", address)
                 live_geocoding_available = False
+                remember_unavailable(address)
                 return None, None
 
             geolocator = Nominatim(user_agent="my_geocoder", timeout=5)
@@ -208,7 +275,7 @@ def add_lat_lon(
             except Exception as exc:
                 logging.warning("Live geocoding unavailable; continuing with cached coordinates only.")
                 live_geocoding_available = False
-                failed_addresses.add(address)
+                remember_unavailable(address)
                 return None, None
             if location and is_plausible_location(row, location.latitude, location.longitude):
                 logging.debug(
@@ -219,6 +286,9 @@ def add_lat_lon(
                     location.longitude,
                 )
                 cache[address] = (location.latitude, location.longitude)
+                failed_addresses.discard(address)
+                unavailable_addresses.discard(address)
+                save_geocode_cache(cache, cache_path, failed_addresses, unavailable_addresses)
                 return location.latitude, location.longitude
             if location:
                 logging.debug(
@@ -230,7 +300,7 @@ def add_lat_lon(
                 )
 
         logging.debug("Could not find location for %s", address)
-        failed_addresses.add(address)
+        remember_failure(address)
         return None, None
 
     locations = [
@@ -243,7 +313,7 @@ def add_lat_lon(
         )
     ]
     data[['latitude', 'longitude']] = pd.DataFrame(locations, index=data.index)
-    save_geocode_cache(cache, cache_path)
+    save_geocode_cache(cache, cache_path, failed_addresses, unavailable_addresses)
     return data
 
 
