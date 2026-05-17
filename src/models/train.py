@@ -11,14 +11,12 @@ def train_model(model, X_train, y_train):
 def run_training(config, model_name=None):
     # load processed data
     df = pd.read_csv(config["data"]["processed_path"])
+    missing_target = df["price_per_sqm"].isna()
+    if missing_target.any():
+        print(f"Skipping {missing_target.sum()} rows with missing target price.")
+        df = df[~missing_target]
 
-    #move to cleaning
-    bathrooms_mapping = {'0': 0, '1': 1, '2': 2, '3': 3, '4 и более': 4}
-    df = df.dropna()
-    df['bathroom'] = df['bathroom'].map(bathrooms_mapping)
-    df = pd.get_dummies(df, columns=['city', 'sector'], drop_first=True, dtype=int)
-
-    X = df.drop(columns=["price_per_sqm", "street", "region"])
+    X = df.drop(columns=["price_per_sqm", "latitude", "longitude", "distance_to_sector_center"])
     y = df["price_per_sqm"]
 
     X_train, X_test, y_train, y_test = train_test_split(

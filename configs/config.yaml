@@ -7,9 +7,14 @@ scraping:
 data:
   raw_prefix: "data/raw/apartments_raw"
   raw_path: "data/raw/apartments_raw_1-100.csv"
-  interim_path: "data/interim/apartments_clean_20-50.csv"
-  processed_path: "data/processed/apartments_data_20-50.csv"
+  raw_paths:
+    # You can add more files here, for example:
+    # - "data/raw/apartments_raw_2026-03-22_p1-2.csv"
+    - "data/raw/apartments_raw_page_*.csv"
+  interim_path: "data/interim/apartments_clean_1-66.csv"
+  processed_path: "data/processed/apartments_data_1-66.csv"
   geocode_cache_path: "data/interim/geocode_cache.csv"
+  enable_live_geocoding: true
 
 train:
   test_size: 0.2

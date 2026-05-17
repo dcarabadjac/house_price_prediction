@@ -15,7 +15,18 @@ def load_raw_data(paths: str | Path | Iterable[str | Path]) -> pd.DataFrame:
     if isinstance(paths, (str, Path)):
         paths = [paths]
 
-    dfs = [pd.read_csv(path) for path in paths]
+    resolved_paths = []
+    for path in paths:
+        path = Path(path)
+        if any(char in str(path) for char in "*?[]"):
+            resolved_paths.extend(sorted(Path().glob(str(path))))
+        else:
+            resolved_paths.append(path)
+
+    if not resolved_paths:
+        raise FileNotFoundError("No raw data files matched the configured paths.")
+
+    dfs = [pd.read_csv(path) for path in resolved_paths]
     return pd.concat(dfs, ignore_index=True)
 
 def drop_bad_columns(df: pd.DataFrame) -> pd.DataFrame:
@@ -52,10 +63,11 @@ def clean_price(price: str | float | None) -> int | None:
         return None
 
     price = str(price)
-    if "€" not in price:
+    price_match = re.search(r"(\d[\d\s\xa0]*)\s*€", price)
+    if not price_match:
         return None
 
-    digits = re.sub(r"\D", "", price)
+    digits = re.sub(r"\D", "", price_match.group(1))
     return int(digits) if digits else None
 
 def clean_total_floors(total_floors: str | int | None) -> int | None:
@@ -110,7 +122,8 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
 
 def run_cleaning(config) -> pd.DataFrame:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s: %(message)s")
-    raw_data = load_raw_data(config["data"]["raw_path"])
+    raw_paths = config["data"].get("raw_paths", config["data"]["raw_path"])
+    raw_data = load_raw_data(raw_paths)
     clean = clean_data(raw_data)
     clean = filtering(clean)
     return clean

@@ -2,6 +2,12 @@ import logging
 from pathlib import Path
 import pandas as pd
 import math
+import re
+import time
+from tqdm import tqdm
+
+logging.getLogger("geopy").setLevel(logging.ERROR)
+logging.getLogger("urllib3").setLevel(logging.ERROR)
 
 centers = {'Буюканы': (47.039, 28.803),
             'Центр': (47.024, 28.832),
@@ -11,11 +17,30 @@ centers = {'Буюканы': (47.039, 28.803),
             'Скулянка': (47.038, 28.803),
             'Чокана': (47.036, 28.889),
             'Дурлешты': (47.019, 28.763),
-            'Крикова': (47.138, 28.862),
+            'Криково': (47.138, 28.862),
             'Ставчены': (47.096, 28.867),
             'Бубуечь': (46.984, 28.931),
             'Телецентр':(47.003, 28.817)
         }
+
+city_names = {
+    "Кишинёв": "Chișinău",
+    "Дурлешты": "Durlești",
+    "Криково": "Cricova",
+    "Ставчены": "Stăuceni",
+    "Бубуечь": "Bubuieci",
+}
+
+sector_names = {
+    "Ботаника": "Botanica",
+    "Буюканы": "Buiucani",
+    "Рышкановка": "Râșcani",
+    "Скулянка": "Sculeni",
+    "Старая Почта": "Poșta Veche",
+    "Телецентр": "Telecentru",
+    "Центр": "Centru",
+    "Чокана": "Ciocana",
+}
 
 def haversine(lat1, lon1, lat2, lon2):
     R = 6371000  # Earth radius in meters
@@ -28,6 +53,94 @@ def haversine(lat1, lon1, lat2, lon2):
     return R * c
 
 
+def is_center_coordinate(lat, lon) -> bool:
+    return any(
+        math.isclose(float(lat), center_lat, abs_tol=1e-9)
+        and math.isclose(float(lon), center_lon, abs_tol=1e-9)
+        for center_lat, center_lon in centers.values()
+    )
+
+
+def normalize_street(street: str | float | None) -> str | None:
+    if pd.isna(street):
+        return None
+
+    street = str(street).split(";")[0].strip()
+    street = re.sub(r"\s+", " ", street)
+    street = street.strip(" ,")
+
+    if not street or re.fullmatch(r"[-./*\\]+", street):
+        return None
+
+    replacements = [
+        (r"^(ул\.?|улица)\s+", "str. "),
+        (r"^(пр-т|проспект|пр\.)\s+", "bd. "),
+        (r"^(бул\.?|бульвар)\s+", "bd. "),
+        (r"^(шос\.?|шоссе)\s+", "șos. "),
+        (r"^str\.", "str. "),
+        (r"^bd\.", "bd. "),
+        (r"^bulevardul\s+", "bd. "),
+        (r"^strada\s+", "str. "),
+    ]
+    for pattern, replacement in replacements:
+        street = re.sub(pattern, replacement, street, flags=re.IGNORECASE)
+
+    street = street.replace("Chişinău", "Chișinăului")
+    street = street.replace("Nicolai", "Nicolae")
+    street = street.replace("Nikolai", "Nicolae")
+    street = street.replace("Testimiteanu", "Testemițanu")
+    street = street.replace("Miorita", "Miorița")
+    street = street.replace("Albisoara", "Albișoara")
+    street = street.replace("Durlesti", "Durlești")
+    street = street.replace("Алба-Юлия", "Alba-Iulia")
+    street = street.replace("Алба Юлия", "Alba-Iulia")
+    street = street.replace("Язулуй", "Iazului")
+    street = street.replace("Дачия", "Dacia")
+    street = street.replace("Штефан Няга", "Ștefan Neaga")
+    street = street.replace("Николае Димо", "Nicolae Dimo")
+
+    street = re.sub(r"\s+", " ", street)
+    street = street.strip(" ,.-/*\\")
+    return street or None
+
+
+def geocode_query_candidates(row) -> list[str]:
+    street = normalize_street(row["street"])
+    if not street:
+        return []
+
+    city = city_names.get(row["city"], row["city"])
+    sector = sector_names.get(row["sector"], row["sector"])
+
+    candidates = [
+        f"{street}, {city}, Moldova",
+    ]
+    if city == "Chișinău" and pd.notna(sector):
+        candidates.append(f"{street}, {sector}, Chișinău, Moldova")
+    candidates.append(f"{street}, Moldova")
+
+    seen = set()
+    unique_candidates = []
+    for candidate in candidates:
+        if candidate not in seen:
+            seen.add(candidate)
+            unique_candidates.append(candidate)
+    return unique_candidates
+
+
+def expected_center(row) -> tuple[float, float] | None:
+    if row["city"] == "Кишинёв":
+        return centers.get(row["sector"])
+    return centers.get(row["city"])
+
+
+def is_plausible_location(row, lat: float, lon: float, max_distance_m: int = 30000) -> bool:
+    center = expected_center(row)
+    if not center:
+        return True
+    return haversine(lat, lon, center[0], center[1]) <= max_distance_m
+
+
 def load_geocode_cache(cache_path: str | Path | None) -> dict:
     if not cache_path or not Path(cache_path).exists():
         return {}
@@ -36,6 +149,7 @@ def load_geocode_cache(cache_path: str | Path | None) -> dict:
     return {
         row["address"]: (row["latitude"], row["longitude"])
         for _, row in cache_df.dropna(subset=["latitude", "longitude"]).iterrows()
+        if not is_center_coordinate(row["latitude"], row["longitude"])
     }
 
 
@@ -52,53 +166,83 @@ def save_geocode_cache(cache: dict, cache_path: str | Path | None) -> None:
     pd.DataFrame(rows).to_csv(path, index=False)
 
 
-def add_lat_lon(data: pd.DataFrame, cache_path: str | Path | None = None) -> pd.DataFrame:
+def add_lat_lon(
+    data: pd.DataFrame,
+    cache_path: str | Path | None = None,
+    enable_live_geocoding: bool = False,
+) -> pd.DataFrame:
     cache = load_geocode_cache(cache_path)
-    geocode = None
+    failed_addresses = set()
+    geolocator = None
+    live_geocoding_available = enable_live_geocoding
 
     def get_location(row):
-        nonlocal geocode
+        nonlocal geolocator, live_geocoding_available
 
         if pd.isna(row['street']) or pd.isna(row['city']):
-            print(f"Missing street or city for row: {row.name}")
+            logging.debug("Missing street or city for row: %s", row.name)
             return None, None
         address = f"{row['street']}, {row['city']}, Moldova"
 
         if address in cache:
             return cache[address]
+        if address in failed_addresses:
+            return None, None
+        if not live_geocoding_available:
+            return None, None
 
-        if geocode is None:
+        if geolocator is None:
             try:
-                from geopy.extra.rate_limiter import RateLimiter
                 from geopy.geocoders import Nominatim
-            except ModuleNotFoundError as exc:
-                if row['city'] == 'Кишинёв':
-                    center_coords = centers.get(row['sector'])
-                else:
-                    center_coords = centers.get(row['city'])
-
-                if center_coords:
-                    print(f"Using center coordinates for uncached address: {address}")
-                    cache[address] = center_coords
-                    return center_coords
-
-                print(f"Missing geopy and no center coordinates for uncached address: {address}")
+            except ModuleNotFoundError:
+                logging.debug("Missing geopy; cannot geocode uncached address: %s", address)
+                live_geocoding_available = False
                 return None, None
 
-            geolocator = Nominatim(user_agent="my_geocoder")
-            geocode = RateLimiter(geolocator.geocode, min_delay_seconds=1)
+            geolocator = Nominatim(user_agent="my_geocoder", timeout=5)
 
-        location = geocode(address)
-        if location:
-            print(f"Found location for {address}: {location.latitude}, {location.longitude}")
-            cache[address] = (location.latitude, location.longitude)
-            return location.latitude, location.longitude
-        print(f"Could not find location for {address}") 
+        for query in geocode_query_candidates(row):
+            try:
+                location = geolocator.geocode(query, limit=1)
+                time.sleep(1)
+            except Exception as exc:
+                logging.warning("Live geocoding unavailable; continuing with cached coordinates only.")
+                live_geocoding_available = False
+                failed_addresses.add(address)
+                return None, None
+            if location and is_plausible_location(row, location.latitude, location.longitude):
+                logging.debug(
+                    "Found location for %s via %s: %s, %s",
+                    address,
+                    query,
+                    location.latitude,
+                    location.longitude,
+                )
+                cache[address] = (location.latitude, location.longitude)
+                return location.latitude, location.longitude
+            if location:
+                logging.debug(
+                    "Rejected implausible location for %s via %s: %s, %s",
+                    address,
+                    query,
+                    location.latitude,
+                    location.longitude,
+                )
+
+        logging.debug("Could not find location for %s", address)
+        failed_addresses.add(address)
         return None, None
 
-    data[['latitude', 'longitude']] = data.apply(
-        lambda row: pd.Series(get_location(row)), axis=1
-    )
+    locations = [
+        get_location(row)
+        for _, row in tqdm(
+            data.iterrows(),
+            total=len(data),
+            desc="Geocoding addresses",
+            unit="row",
+        )
+    ]
+    data[['latitude', 'longitude']] = pd.DataFrame(locations, index=data.index)
     save_geocode_cache(cache, cache_path)
     return data
 
@@ -106,23 +250,67 @@ def add_lat_lon(data: pd.DataFrame, cache_path: str | Path | None = None) -> pd.
 def add_center_distance(data: pd.DataFrame) -> pd.DataFrame:
     def calculate_distance(row):
         if pd.isna(row['latitude']) or pd.isna(row['longitude']):
-            print(f"Missing latitude or longitude for row: {row.name}")
+            logging.debug("Missing latitude or longitude for row: %s", row.name)
             return None
         if row['city'] == 'Кишинёв':
             center_coords = centers.get(row['sector'])
         else:
             center_coords = centers.get(row['city'])
         if not center_coords:
-            print(f"No center coordinates found for sector: {row['sector']}")
+            logging.debug("No center coordinates found for row %s", row.name)
             return None
-        distance = haversine(row['latitude'], row['longitude'], center_coords[0], center_coords[1])
-        print(f"Calculated distance for row {row.name}: {distance} meters")
-        return distance
+        return haversine(row['latitude'], row['longitude'], center_coords[0], center_coords[1])
 
-    data['distance_to_sector_center'] = data.apply(calculate_distance, axis=1)
+    data['distance_to_sector_center'] = [
+        calculate_distance(row)
+        for _, row in tqdm(
+            data.iterrows(),
+            total=len(data),
+            desc="Computing center distances",
+            unit="row",
+        )
+    ]
     return data
 
-def build_features(df_cleaned: pd.DataFrame, geocode_cache_path: str | Path | None = None) -> pd.DataFrame:
+
+def prepare_model_features(data: pd.DataFrame) -> pd.DataFrame:
+    data = data.copy()
+    bathrooms_mapping = {'0': 0, '1': 1, '2': 2, '3': 3, '4 и более': 4}
+    geo_columns = ["latitude", "longitude", "distance_to_sector_center"]
+
+    data["geocode_missing"] = data[geo_columns].isna().any(axis=1).astype(int)
+    for column in geo_columns:
+        data[f"{column}_for_model"] = data[column].fillna(data[column].median())
+
+    data["bathroom_missing"] = data["bathroom"].isna().astype(int)
+    bathroom_values = data["bathroom"].astype(str).str.strip().map(bathrooms_mapping)
+    data["bathroom"] = bathroom_values.fillna(bathroom_values.median())
+
+    data["apartment_condition_missing"] = data["apartment_condition"].isna().astype(int)
+    data["apartment_condition"] = data["apartment_condition"].fillna(data["apartment_condition"].median())
+
+    data["rooms_missing"] = data["rooms"].isna().astype(int)
+    data["rooms"] = data["rooms"].fillna(data["rooms"].median())
+
+    data["floor_ratio_missing"] = data["floor_ratio"].isna().astype(int)
+    data["floor_ratio"] = data["floor_ratio"].fillna(data["floor_ratio"].median())
+
+    data = pd.get_dummies(data, columns=['city', 'sector'], drop_first=True, dtype=int)
+    data = data.drop(columns=["street", "region"])
+
+    numeric_columns = data.select_dtypes(include="number").columns.drop(
+        ["price_per_sqm", *geo_columns],
+        errors="ignore",
+    )
+    data[numeric_columns] = data[numeric_columns].fillna(data[numeric_columns].median())
+    return data
+
+
+def build_features(
+    df_cleaned: pd.DataFrame,
+    geocode_cache_path: str | Path | None = None,
+    enable_live_geocoding: bool = False,
+) -> pd.DataFrame:
     data = df_cleaned.copy()
     rooms_map = {
                     '1-комнатная квартира': 1, 
@@ -156,12 +344,17 @@ def build_features(df_cleaned: pd.DataFrame, geocode_cache_path: str | Path | No
     data = pd.get_dummies(data, columns=['building_type', 'housing_stock', 'author', 'parcing_space'], drop_first=True, dtype=int)
     data = data.drop(columns=["developer", "layout"]) #too many NaN values
 
-    data = add_lat_lon(data, geocode_cache_path)
+    data = add_lat_lon(data, geocode_cache_path, enable_live_geocoding)
     data = add_center_distance(data)
+    data = prepare_model_features(data)
     return data
     
 def run_featuring(config) -> pd.DataFrame:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s: %(message)s")
     df_cleaned = pd.read_csv(config["data"]["interim_path"])
-    data = build_features(df_cleaned, config["data"].get("geocode_cache_path"))
+    data = build_features(
+        df_cleaned,
+        config["data"].get("geocode_cache_path"),
+        config["data"].get("enable_live_geocoding", False),
+    )
     return data
