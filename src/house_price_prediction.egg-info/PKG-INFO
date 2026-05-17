@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: house-price-prediction
+Version: 0.1.0
+Summary: Predict the price of apartments in Chisinau based on various features
+Author: Denis Carabadjac
+Requires-Python: >=3.7

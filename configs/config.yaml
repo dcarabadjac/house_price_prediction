@@ -1,0 +1,16 @@
+scraping:
+  base_url: "https://999.md/ru/list/real-estate/apartments-and-rooms"
+  delay: 5
+  first_page: 61
+  pages: 80
+
+data:
+  raw_prefix: "data/raw/apartments_raw"
+  raw_path: "data/raw/apartments_raw_1-100.csv"
+  interim_path: "data/interim/apartments_clean_20-50.csv"
+  processed_path: "data/processed/apartments_data_20-50.csv"
+  geocode_cache_path: "data/interim/geocode_cache.csv"
+
+train:
+  test_size: 0.2
+  n_estimators: 100
