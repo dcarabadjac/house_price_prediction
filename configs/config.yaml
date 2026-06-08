@@ -15,6 +15,8 @@ data:
   processed_path: "data/processed/apartments_data_1-66.csv"
   geocode_cache_path: "data/interim/geocode_cache.csv"
   enable_live_geocoding: true
+  max_geocode_distance_m: 12000
+  max_price_per_sqm: 6000
 
 train:
   test_size: 0.2

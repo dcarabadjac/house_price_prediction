@@ -117,7 +117,6 @@ def geocode_query_candidates(row) -> list[str]:
     ]
     if city == "Chișinău" and pd.notna(sector):
         candidates.append(f"{street}, {sector}, Chișinău, Moldova")
-    candidates.append(f"{street}, Moldova")
 
     seen = set()
     unique_candidates = []
@@ -134,7 +133,7 @@ def expected_center(row) -> tuple[float, float] | None:
     return centers.get(row["city"])
 
 
-def is_plausible_location(row, lat: float, lon: float, max_distance_m: int = 30000) -> bool:
+def is_plausible_location(row, lat: float, lon: float, max_distance_m: int = 12000) -> bool:
     center = expected_center(row)
     if not center:
         return True
@@ -164,7 +163,7 @@ def load_failed_geocode_cache(cache_path: str | Path | None) -> set[str]:
     if "status" not in cache_df.columns:
         return set()
 
-    failed = cache_df[cache_df["status"].fillna("found") == "not_found"]
+    failed = cache_df[cache_df["status"].fillna("found").isin(["not_found", "geocode_rejected"])]
     return set(failed["address"].dropna())
 
 
@@ -224,6 +223,7 @@ def add_lat_lon(
     data: pd.DataFrame,
     cache_path: str | Path | None = None,
     enable_live_geocoding: bool = False,
+    max_geocode_distance_m: int = 12000,
 ) -> pd.DataFrame:
     cache = load_geocode_cache(cache_path)
     failed_addresses = load_failed_geocode_cache(cache_path)
@@ -277,7 +277,12 @@ def add_lat_lon(
                 live_geocoding_available = False
                 remember_unavailable(address)
                 return None, None
-            if location and is_plausible_location(row, location.latitude, location.longitude):
+            if location and is_plausible_location(
+                row,
+                location.latitude,
+                location.longitude,
+                max_geocode_distance_m,
+            ):
                 logging.debug(
                     "Found location for %s via %s: %s, %s",
                     address,
@@ -380,6 +385,8 @@ def build_features(
     df_cleaned: pd.DataFrame,
     geocode_cache_path: str | Path | None = None,
     enable_live_geocoding: bool = False,
+    max_price_per_sqm: int | float | None = None,
+    max_geocode_distance_m: int = 12000,
 ) -> pd.DataFrame:
     data = df_cleaned.copy()
     rooms_map = {
@@ -401,6 +408,11 @@ def build_features(
 
         
     data["price_per_sqm"] = data["price"] / data["area"]
+    if max_price_per_sqm is not None:
+        data = data[
+            data["price_per_sqm"].isna()
+            | (data["price_per_sqm"] <= max_price_per_sqm)
+        ]
     data = data.drop(columns=["price"])
 
     data["rooms"] = data['rooms'].str.extract(r'(\d+)').astype(float)
@@ -414,7 +426,12 @@ def build_features(
     data = pd.get_dummies(data, columns=['building_type', 'housing_stock', 'author', 'parcing_space'], drop_first=True, dtype=int)
     data = data.drop(columns=["developer", "layout"]) #too many NaN values
 
-    data = add_lat_lon(data, geocode_cache_path, enable_live_geocoding)
+    data = add_lat_lon(
+        data,
+        geocode_cache_path,
+        enable_live_geocoding,
+        max_geocode_distance_m,
+    )
     data = add_center_distance(data)
     data = prepare_model_features(data)
     return data
@@ -426,5 +443,7 @@ def run_featuring(config) -> pd.DataFrame:
         df_cleaned,
         config["data"].get("geocode_cache_path"),
         config["data"].get("enable_live_geocoding", False),
+        config["data"].get("max_price_per_sqm"),
+        config["data"].get("max_geocode_distance_m", 12000),
     )
     return data

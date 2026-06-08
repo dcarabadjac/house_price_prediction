@@ -23,6 +23,14 @@ def load_datasets() -> tuple[pd.DataFrame, pd.DataFrame]:
 
     interim = interim.copy()
     interim["price_per_sqm"] = interim["price"] / interim["area"]
+    max_price_per_sqm = config["data"].get("max_price_per_sqm")
+    if max_price_per_sqm is not None:
+        interim = interim[
+            interim["price_per_sqm"].isna()
+            | (interim["price_per_sqm"] <= max_price_per_sqm)
+        ]
+    interim = interim.reset_index(drop=True)
+    processed = processed.reset_index(drop=True)
 
     geo_columns = ["latitude", "longitude", "distance_to_sector_center", "geocode_missing"]
     for column in geo_columns:
@@ -191,7 +199,21 @@ def quality_tab(df: pd.DataFrame) -> None:
     st.dataframe(duplicates[duplicate_columns + ["price_per_sqm"]], use_container_width=True, hide_index=True)
 
 
-def train_dashboard_model(df: pd.DataFrame, model_name: str):
+def get_model_feature_columns(df: pd.DataFrame) -> list[str]:
+    excluded_columns = {
+        "price_per_sqm",
+        "latitude",
+        "longitude",
+        "distance_to_sector_center",
+    }
+    return [
+        column
+        for column in df.select_dtypes(include="number").columns
+        if column not in excluded_columns
+    ]
+
+
+def train_dashboard_model(df: pd.DataFrame, model_name: str, feature_columns: list[str]):
     models = {
         "Gradient Boosting": GradientBoostingRegressor(random_state=42),
         "Random Forest": RandomForestRegressor(n_estimators=200, random_state=42),
@@ -199,7 +221,7 @@ def train_dashboard_model(df: pd.DataFrame, model_name: str):
     }
 
     data = df.dropna(subset=["price_per_sqm"])
-    X = data.drop(columns=["price_per_sqm", "latitude", "longitude", "distance_to_sector_center"])
+    X = data[feature_columns]
     y = data["price_per_sqm"]
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
@@ -223,7 +245,36 @@ def train_dashboard_model(df: pd.DataFrame, model_name: str):
 
 def model_tab(processed: pd.DataFrame) -> None:
     model_name = st.selectbox("Model", ["Gradient Boosting", "Random Forest", "Linear Regression"])
-    model, results, metrics = train_dashboard_model(processed, model_name)
+    available_features = get_model_feature_columns(processed)
+
+    preset = st.radio(
+        "Feature preset",
+        ["All features", "No geocode-imputed features", "Manual"],
+        horizontal=True,
+    )
+    if preset == "All features":
+        default_features = available_features
+    elif preset == "No geocode-imputed features":
+        default_features = [
+            feature
+            for feature in available_features
+            if not feature.endswith("_for_model") and feature != "geocode_missing"
+        ]
+    else:
+        default_features = available_features
+
+    feature_columns = st.multiselect(
+        "Features",
+        available_features,
+        default=default_features,
+    )
+    st.caption(f"Using {len(feature_columns)} of {len(available_features)} available features.")
+
+    if not feature_columns:
+        st.warning("Select at least one feature to train a model.")
+        return
+
+    model, results, metrics = train_dashboard_model(processed, model_name, feature_columns)
 
     col1, col2, col3 = st.columns(3)
     col1.metric("MAE", f"{metrics['MAE']:,.2f}")
@@ -258,11 +309,84 @@ def model_tab(processed: pd.DataFrame) -> None:
         st.plotly_chart(fig, use_container_width=True)
 
     st.subheader("Largest errors")
+    worst_count = st.slider("Rows to highlight", min_value=10, max_value=200, value=50, step=10)
+    worst = results.nlargest(worst_count, "absolute_error").copy()
     st.dataframe(
-        results.nlargest(50, "absolute_error")[["actual", "predicted", "error", "absolute_error"]],
+        worst[["actual", "predicted", "error", "absolute_error"]],
         use_container_width=True,
         hide_index=True,
     )
+
+    st.subheader("Largest Error Feature Check")
+    diagnostic_feature = st.selectbox(
+        "Compare price per sqm against feature",
+        feature_columns,
+        index=feature_columns.index("area") if "area" in feature_columns else 0,
+    )
+    diagnostic_data = results.copy()
+    diagnostic_data["largest_error"] = "Other test rows"
+    diagnostic_data.loc[worst.index, "largest_error"] = "Largest errors"
+
+    col1, col2 = st.columns(2)
+    with col1:
+        fig = px.scatter(
+            diagnostic_data,
+            x=diagnostic_feature,
+            y="actual",
+            color="largest_error",
+            hover_data=["actual", "predicted", "error", "absolute_error"],
+            title=f"Actual price per sqm vs {diagnostic_feature}",
+            opacity=0.75,
+        )
+        st.plotly_chart(fig, use_container_width=True)
+    with col2:
+        fig = px.scatter(
+            diagnostic_data,
+            x=diagnostic_feature,
+            y="absolute_error",
+            color="largest_error",
+            hover_data=["actual", "predicted", "error", "absolute_error"],
+            title=f"Absolute error vs {diagnostic_feature}",
+            opacity=0.75,
+        )
+        st.plotly_chart(fig, use_container_width=True)
+
+    st.subheader("Largest Error Feature Distribution")
+    distribution_feature = st.selectbox(
+        "Distribution by feature value",
+        feature_columns,
+        index=feature_columns.index(diagnostic_feature) if diagnostic_feature in feature_columns else 0,
+    )
+    distribution_data = diagnostic_data[[distribution_feature, "largest_error"]].copy()
+
+    unique_values = distribution_data[distribution_feature].nunique(dropna=False)
+    if unique_values <= 20:
+        counts = (
+            distribution_data
+            .groupby([distribution_feature, "largest_error"], dropna=False)
+            .size()
+            .reset_index(name="count")
+        )
+        fig = px.bar(
+            counts,
+            x=distribution_feature,
+            y="count",
+            color="largest_error",
+            barmode="group",
+            title=f"Distribution of largest errors by {distribution_feature}",
+        )
+    else:
+        fig = px.histogram(
+            distribution_data,
+            x=distribution_feature,
+            color="largest_error",
+            nbins=40,
+            barmode="overlay",
+            histnorm="probability density",
+            title=f"Distribution of largest errors by {distribution_feature}",
+            opacity=0.65,
+        )
+    st.plotly_chart(fig, use_container_width=True)
 
 
 def main() -> None:
