@@ -1,7 +1,6 @@
 import logging
-from selenium.webdriver.support.ui import WebDriverWait
 from bs4 import BeautifulSoup
-from selenium.webdriver.common.by import By
+import re
 
 def extract_features(soup):
     features = {}
@@ -71,13 +70,21 @@ def parse_listing_card(card):
         href = card.get("href", "")
         link = "https://999.md" + href if href else ""
 
-        title_el = card.select_one("h4")
+        title_el = (
+            card.select_one("h4")
+            or card.select_one('[class*="title"]')
+            or card.select_one('[class*="content"]')
+        )
         title = title_el.get_text(strip=True) if title_el else ""
 
-        price_el = card.select_one(".styles_price__text__VPLPL")
+        price_el = (
+            card.select_one(".styles_price__text__VPLPL")
+            or card.select_one('[class*="price"]')
+        )
         price = price_el.get_text(strip=True) if price_el else ""
 
-        data_id = href.split("?")[0].split("/")[-1] if href else link
+        match = re.search(r"/(\d+)(?:\?|$)", href)
+        data_id = match.group(1) if match else href.split("?")[0].split("/")[-1] if href else link
 
         return {
             "id": data_id,

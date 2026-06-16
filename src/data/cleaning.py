@@ -105,10 +105,27 @@ def clean_area(area: str | None) -> int | None:
     digits = re.sub(r"\D", "", str(area))
     return int(digits) if digits else None
 
+def drop_duplicate_ids(df: pd.DataFrame) -> pd.DataFrame:
+    if "id" not in df.columns:
+        return df
+
+    cleaned_ids = df["id"].astype(str).str.strip()
+    valid_ids = cleaned_ids.ne("") & cleaned_ids.ne("nan")
+    duplicate_mask = pd.Series(False, index=df.index)
+    duplicate_mask.loc[valid_ids] = cleaned_ids.loc[valid_ids].duplicated()
+    duplicate_count = int(duplicate_mask.sum())
+    if duplicate_count:
+        logging.info("Удаляю %s дубликатов по id", duplicate_count)
+
+    deduplicated = df.loc[~duplicate_mask]
+    return deduplicated.reset_index(drop=True)
+
 def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     df_cleaned = df.copy()
     if "Тип" in df_cleaned:
         df_cleaned = df_cleaned[df_cleaned["Тип"] == "Продам"]
+
+    df_cleaned = drop_duplicate_ids(df_cleaned)
 
     df_cleaned["total_floors"] = df_cleaned["Количество этажей"].apply(clean_total_floors)
     df_cleaned["floor"] = df_cleaned["Этаж"].apply(clean_floor)

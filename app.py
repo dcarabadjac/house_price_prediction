@@ -2,12 +2,14 @@ from pathlib import Path
 
 import pandas as pd
 import plotly.express as px
+import plotly.graph_objects as go
 import streamlit as st
 from sklearn.ensemble import GradientBoostingRegressor, RandomForestRegressor
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
 
+from src.data.featuring import centers as sector_centers
 from src.utils.config import load_config
 
 
@@ -174,6 +176,28 @@ def map_tab(df: pd.DataFrame) -> None:
         height=720,
         title="Listings map",
     )
+    centers_df = pd.DataFrame(
+        [
+            {"sector_center": name, "latitude": lat, "longitude": lon}
+            for name, (lat, lon) in sector_centers.items()
+        ]
+    )
+    fig.add_trace(
+        go.Scattermapbox(
+            lat=centers_df["latitude"],
+            lon=centers_df["longitude"],
+            mode="markers+text",
+            text=centers_df["sector_center"],
+            textposition="top right",
+            marker={
+                "size": 11,
+                "color": "#c1121f",
+                "symbol": "star",
+            },
+            name="Sector centers",
+            hovertemplate="<b>%{text}</b><br>Lat: %{lat:.3f}<br>Lon: %{lon:.3f}<extra></extra>",
+        )
+    )
     fig.update_layout(mapbox_style="open-street-map", margin={"r": 0, "t": 40, "l": 0, "b": 0})
     st.plotly_chart(fig, use_container_width=True)
 
@@ -213,6 +237,28 @@ def get_model_feature_columns(df: pd.DataFrame) -> list[str]:
     ]
 
 
+def prepare_dashboard_training_data(
+    df: pd.DataFrame,
+    feature_columns: list[str],
+) -> tuple[pd.DataFrame, pd.Series, list[str], list[str]]:
+    data = df.dropna(subset=["price_per_sqm"]).copy()
+    X = data[feature_columns].copy()
+    y = data["price_per_sqm"]
+
+    dropped_columns = [
+        column for column in X.columns
+        if X[column].isna().all()
+    ]
+    if dropped_columns:
+        X = X.drop(columns=dropped_columns)
+
+    if X.empty:
+        raise ValueError("No usable feature columns remain after filtering empty columns.")
+
+    X = X.fillna(X.median(numeric_only=True))
+    return X, y, list(X.columns), dropped_columns
+
+
 def train_dashboard_model(df: pd.DataFrame, model_name: str, feature_columns: list[str]):
     models = {
         "Gradient Boosting": GradientBoostingRegressor(random_state=42),
@@ -220,9 +266,7 @@ def train_dashboard_model(df: pd.DataFrame, model_name: str, feature_columns: li
         "Linear Regression": LinearRegression(),
     }
 
-    data = df.dropna(subset=["price_per_sqm"])
-    X = data[feature_columns]
-    y = data["price_per_sqm"]
+    X, y, used_feature_columns, dropped_columns = prepare_dashboard_training_data(df, feature_columns)
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
     model = models[model_name]
@@ -240,7 +284,11 @@ def train_dashboard_model(df: pd.DataFrame, model_name: str, feature_columns: li
         "RMSE": mean_squared_error(y_test, preds, squared=False),
         "R2": r2_score(y_test, preds),
     }
-    return model, results, metrics
+    diagnostics = {
+        "used_feature_columns": used_feature_columns,
+        "dropped_columns": dropped_columns,
+    }
+    return model, results, metrics, diagnostics
 
 
 def model_tab(processed: pd.DataFrame) -> None:
@@ -274,7 +322,13 @@ def model_tab(processed: pd.DataFrame) -> None:
         st.warning("Select at least one feature to train a model.")
         return
 
-    model, results, metrics = train_dashboard_model(processed, model_name, feature_columns)
+    model, results, metrics, diagnostics = train_dashboard_model(processed, model_name, feature_columns)
+
+    if diagnostics["dropped_columns"]:
+        st.info(
+            "Skipped fully empty features: "
+            + ", ".join(diagnostics["dropped_columns"])
+        )
 
     col1, col2, col3 = st.columns(3)
     col1.metric("MAE", f"{metrics['MAE']:,.2f}")
@@ -320,8 +374,8 @@ def model_tab(processed: pd.DataFrame) -> None:
     st.subheader("Largest Error Feature Check")
     diagnostic_feature = st.selectbox(
         "Compare price per sqm against feature",
-        feature_columns,
-        index=feature_columns.index("area") if "area" in feature_columns else 0,
+        diagnostics["used_feature_columns"],
+        index=diagnostics["used_feature_columns"].index("area") if "area" in diagnostics["used_feature_columns"] else 0,
     )
     diagnostic_data = results.copy()
     diagnostic_data["largest_error"] = "Other test rows"
@@ -354,8 +408,8 @@ def model_tab(processed: pd.DataFrame) -> None:
     st.subheader("Largest Error Feature Distribution")
     distribution_feature = st.selectbox(
         "Distribution by feature value",
-        feature_columns,
-        index=feature_columns.index(diagnostic_feature) if diagnostic_feature in feature_columns else 0,
+        diagnostics["used_feature_columns"],
+        index=diagnostics["used_feature_columns"].index(diagnostic_feature) if diagnostic_feature in diagnostics["used_feature_columns"] else 0,
     )
     distribution_data = diagnostic_data[[distribution_feature, "largest_error"]].copy()
 
