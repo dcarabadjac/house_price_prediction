@@ -4,6 +4,7 @@ import pandas as pd
 import math
 import re
 import time
+from sklearn.cluster import KMeans
 from tqdm import tqdm
 
 logging.getLogger("geopy").setLevel(logging.ERROR)
@@ -348,6 +349,28 @@ def add_center_distance(data: pd.DataFrame) -> pd.DataFrame:
     return data
 
 
+def add_geo_clusters(data: pd.DataFrame, n_clusters: int = 12) -> pd.DataFrame:
+    data = data.copy()
+    data["geo_cluster"] = "missing"
+
+    valid_mask = data["latitude"].notna() & data["longitude"].notna()
+    valid_count = int(valid_mask.sum())
+    if valid_count == 0:
+        logging.info("Skipping geo clusters because no coordinates are available.")
+        return data
+
+    cluster_count = min(n_clusters, valid_count)
+    if cluster_count < 1:
+        return data
+
+    coordinates = data.loc[valid_mask, ["latitude", "longitude"]]
+    kmeans = KMeans(n_clusters=cluster_count, random_state=42, n_init=10)
+    labels = kmeans.fit_predict(coordinates)
+    data.loc[valid_mask, "geo_cluster"] = [f"cluster_{label:02d}" for label in labels]
+    logging.info("Assigned geo clusters using %s clusters.", cluster_count)
+    return data
+
+
 def prepare_model_features(data: pd.DataFrame) -> pd.DataFrame:
     data = data.copy()
     bathrooms_mapping = {'0': 0, '1': 1, '2': 2, '3': 3, '4 и более': 4}
@@ -370,7 +393,9 @@ def prepare_model_features(data: pd.DataFrame) -> pd.DataFrame:
     data["floor_ratio_missing"] = data["floor_ratio"].isna().astype(int)
     data["floor_ratio"] = data["floor_ratio"].fillna(data["floor_ratio"].median())
 
-    data = pd.get_dummies(data, columns=['city', 'sector'], drop_first=True, dtype=int)
+    data["geo_cluster_was_missing"] = (data["geo_cluster"] == "missing").astype(int)
+
+    data = pd.get_dummies(data, columns=['city', 'sector', 'geo_cluster'], drop_first=True, dtype=int)
     data = data.drop(columns=["street", "region"])
 
     numeric_columns = data.select_dtypes(include="number").columns.drop(
@@ -387,6 +412,7 @@ def build_features(
     enable_live_geocoding: bool = False,
     max_price_per_sqm: int | float | None = None,
     max_geocode_distance_m: int = 12000,
+    geo_cluster_count: int = 12,
 ) -> pd.DataFrame:
     data = df_cleaned.copy()
     rooms_map = {
@@ -433,6 +459,7 @@ def build_features(
         max_geocode_distance_m,
     )
     data = add_center_distance(data)
+    data = add_geo_clusters(data, geo_cluster_count)
     data = prepare_model_features(data)
     return data
     
@@ -445,5 +472,6 @@ def run_featuring(config) -> pd.DataFrame:
         config["data"].get("enable_live_geocoding", False),
         config["data"].get("max_price_per_sqm"),
         config["data"].get("max_geocode_distance_m", 12000),
+        config["data"].get("geo_cluster_count", 12),
     )
     return data

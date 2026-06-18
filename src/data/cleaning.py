@@ -30,7 +30,7 @@ def load_raw_data(paths: str | Path | Iterable[str | Path]) -> pd.DataFrame:
     return pd.concat(dfs, ignore_index=True)
 
 def drop_bad_columns(df: pd.DataFrame) -> pd.DataFrame:
-    cols_to_drop = ["Высота потолков", "Жилая площадь", "link", "Тип", 
+    cols_to_drop = ["Высота потолков", "Жилая площадь", "Тип", 
                     "Площадь кухни", "id", "title", "Общая площадь",
                     "Количество этажей", "id", "title", "Общая площадь",
                     "Этаж", "Адрес"]
@@ -120,12 +120,26 @@ def drop_duplicate_ids(df: pd.DataFrame) -> pd.DataFrame:
     deduplicated = df.loc[~duplicate_mask]
     return deduplicated.reset_index(drop=True)
 
+def drop_potential_duplicates(df: pd.DataFrame) -> pd.DataFrame:
+    duplicate_columns = ["price", "Общая площадь", "Адрес", "Количество комнат"]
+    available_columns = [column for column in duplicate_columns if column in df.columns]
+    if len(available_columns) < len(duplicate_columns):
+        return df
+
+    duplicate_mask = df.duplicated(subset=duplicate_columns, keep="first")
+    duplicate_count = int(duplicate_mask.sum())
+    if duplicate_count:
+        logging.info("Удаляю %s потенциальных дублей по признакам объявления", duplicate_count)
+
+    return df.loc[~duplicate_mask].reset_index(drop=True)
+
 def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     df_cleaned = df.copy()
     if "Тип" in df_cleaned:
         df_cleaned = df_cleaned[df_cleaned["Тип"] == "Продам"]
 
     df_cleaned = drop_duplicate_ids(df_cleaned)
+    df_cleaned = drop_potential_duplicates(df_cleaned)
 
     df_cleaned["total_floors"] = df_cleaned["Количество этажей"].apply(clean_total_floors)
     df_cleaned["floor"] = df_cleaned["Этаж"].apply(clean_floor)
